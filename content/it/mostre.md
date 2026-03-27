@@ -1,4 +1,4 @@
-# Mostre
+
 
 Esposizioni personali, collettive e premi ottenuti nel corso della carriera artistica.
 

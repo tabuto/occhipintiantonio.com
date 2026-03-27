@@ -1,4 +1,4 @@
-# Exhibitions
+
 
 Solo shows, group exhibitions and awards received throughout his artistic career.
 

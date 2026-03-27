@@ -1,4 +1,4 @@
-# Contact
+
 
 For information about artworks, purchase enquiries or collaborations, please contact Antonio Occhipinti through the following channels.
 
