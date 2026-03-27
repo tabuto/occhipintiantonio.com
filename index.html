@@ -146,7 +146,7 @@
           @click="activeCategory = cat"
           :class="activeCategory === cat ? 'tab-active' : 'tab-inactive'"
           class="px-5 py-1.5 text-xs tracking-widest uppercase border-b-2 transition-colors duration-200 focus:outline-none"
-          x-text="cat"
+          x-text="translateCat(cat)"
         ></button>
       </template>
     </div>
@@ -185,7 +185,7 @@
           </div>
           <div class="mt-4 space-y-1">
             <h2 class="font-serif text-xl leading-snug" x-text="art.title"></h2>
-            <p class="text-xs tracking-widest uppercase text-powder" x-text="art.category"></p>
+            <p class="text-xs tracking-widest uppercase text-powder" x-text="translateCat(art.category)"></p>
             <p class="text-xs text-ink/40 font-light" x-text="art.details"></p>
           </div>
         </article>
@@ -230,7 +230,8 @@
     <!-- Metadata block (REQ-08) -->
     <div class="mt-5 text-center max-w-lg px-4">
       <h3 class="font-serif text-white text-xl leading-snug" x-text="$store.lb.art?.title"></h3>
-      <p class="mt-1 text-white/50 text-xs tracking-widest uppercase" x-text="$store.lb.art?.category"></p>
+      <p class="mt-1 text-white/50 text-xs tracking-widest uppercase"
+         x-data x-text="$store.i18n.cat($store.lb.art?.category ?? '')"></p>
       <p class="mt-1 text-white/40 text-xs font-light" x-text="$store.lb.art?.details"></p>
     </div>
   </div>
@@ -338,6 +339,18 @@
           localStorage.setItem('lang', l)
           window.dispatchEvent(new CustomEvent('lang-changed', { detail: l }))
         },
+        // Category name translations (canonical IT key → EN label)
+        _catMap: {
+          'Marine':     'Seascapes',
+          'Paesaggi':   'Landscapes',
+          'Ritratti':   'Portraits',
+          'Figure':     'Figures',
+          'Arte Sacra': 'Sacred Art',
+          'Nudi':       'Nudes',
+        },
+        cat(name) {
+          return this.lang === 'en' ? (this._catMap[name] ?? name) : name
+        },
       })
     })
 
@@ -401,6 +414,11 @@
         activeCategory: 'Tutte',
         loading:        true,
         error:          null,
+
+        // Returns the display label for a category in the current language
+        translateCat(cat) {
+          return this.$store.i18n.cat(cat)
+        },
 
         async load() {
           try {
