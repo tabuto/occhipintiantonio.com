@@ -1,65 +1,65 @@
 [
   {
-    "title": "Tramonto sul Lago",
-    "category": "Paesaggi",
-    "image": "/img/art/tramonto-sul-lago-1.jpg",
-    "thumb": "/img/art/thumb_tramonto-sul-lago-1.jpg",
-    "details": "2023, Acquerello su carta 300g"
+    "title": "Marina di Scicli",
+    "category": "Marine",
+    "image": "/img/art/marina-scicli-1.jpg",
+    "thumb": "/img/art/thumb_marina-scicli-1.jpg",
+    "details": "Acquerello su carta 300g"
   },
   {
-    "title": "Nebbia Mattutina",
-    "category": "Paesaggi",
-    "image": "/img/art/nebbia-mattutina-2.jpg",
-    "thumb": "/img/art/thumb_nebbia-mattutina-2.jpg",
-    "details": "2023, Acquerello su carta 300g"
+    "title": "Barche al Porto",
+    "category": "Marine",
+    "image": "/img/art/barche-porto-2.jpg",
+    "thumb": "/img/art/thumb_barche-porto-2.jpg",
+    "details": "Acquerello su carta 300g"
   },
   {
-    "title": "Colline d'Autunno",
+    "title": "Colline Siciliane",
     "category": "Paesaggi",
-    "image": "/img/art/colline-autunno-3.jpg",
-    "thumb": "/img/art/thumb_colline-autunno-3.jpg",
-    "details": "2022, Acquerello su carta 200g"
+    "image": "/img/art/colline-siciliane-3.jpg",
+    "thumb": "/img/art/thumb_colline-siciliane-3.jpg",
+    "details": "Acquerello su carta 300g"
   },
   {
-    "title": "Ritratto di Anna",
+    "title": "Paesaggio Mediterraneo",
+    "category": "Paesaggi",
+    "image": "/img/art/paesaggio-mediterraneo-4.jpg",
+    "thumb": "/img/art/thumb_paesaggio-mediterraneo-4.jpg",
+    "details": "Acquerello su carta 200g"
+  },
+  {
+    "title": "Ritratto Femminile",
     "category": "Ritratti",
-    "image": "/img/art/ritratto-anna-4.jpg",
-    "thumb": "/img/art/thumb_ritratto-anna-4.jpg",
-    "details": "2024, Acquerello su carta 300g"
+    "image": "/img/art/ritratto-femminile-5.jpg",
+    "thumb": "/img/art/thumb_ritratto-femminile-5.jpg",
+    "details": "Acquerello su carta 300g"
   },
   {
-    "title": "Sguardo Lontano",
+    "title": "Figura in Luce",
+    "category": "Figure",
+    "image": "/img/art/figura-in-luce-6.jpg",
+    "thumb": "/img/art/thumb_figura-in-luce-6.jpg",
+    "details": "Acquerello su carta 300g"
+  },
+  {
+    "title": "Madonna con Bambino",
+    "category": "Arte Sacra",
+    "image": "/img/art/madonna-bambino-7.jpg",
+    "thumb": "/img/art/thumb_madonna-bambino-7.jpg",
+    "details": "Acquerello su carta 640g"
+  },
+  {
+    "title": "Nudo di Schiena",
+    "category": "Nudi",
+    "image": "/img/art/nudo-schiena-8.jpg",
+    "thumb": "/img/art/thumb_nudo-schiena-8.jpg",
+    "details": "Acquerello su carta 300g"
+  },
+  {
+    "title": "Sguardo",
     "category": "Ritratti",
-    "image": "/img/art/sguardo-lontano-5.jpg",
-    "thumb": "/img/art/thumb_sguardo-lontano-5.jpg",
-    "details": "2023, Acquerello su carta 300g"
-  },
-  {
-    "title": "Flusso Blu",
-    "category": "Astratti",
-    "image": "/img/art/flusso-blu-6.jpg",
-    "thumb": "/img/art/thumb_flusso-blu-6.jpg",
-    "details": "2024, Acquerello su carta 640g"
-  },
-  {
-    "title": "Geometrie dell'Alba",
-    "category": "Astratti",
-    "image": "/img/art/geometrie-alba-7.jpg",
-    "thumb": "/img/art/thumb_geometrie-alba-7.jpg",
-    "details": "2024, Acquerello su carta 640g"
-  },
-  {
-    "title": "Porto Antico",
-    "category": "Paesaggi",
-    "image": "/img/art/porto-antico-8.jpg",
-    "thumb": "/img/art/thumb_porto-antico-8.jpg",
-    "details": "2022, Acquerello su carta 300g"
-  },
-  {
-    "title": "Studio in Ocra",
-    "category": "Astratti",
-    "image": "/img/art/studio-ocra-9.jpg",
-    "thumb": "/img/art/thumb_studio-ocra-9.jpg",
-    "details": "2023, Acquerello su carta 200g"
+    "image": "/img/art/sguardo-9.jpg",
+    "thumb": "/img/art/thumb_sguardo-9.jpg",
+    "details": "Acquerello su carta 300g"
   }
 ]

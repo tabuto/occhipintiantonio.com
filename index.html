@@ -4,7 +4,27 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Antonio Occhipinti — Portfolio</title>
-  <meta name="description" content="Portfolio di Antonio Occhipinti: acquerelli originali, paesaggi, ritratti e astratti." />
+
+  <!-- SEO -->
+  <meta name="description" content="Portfolio di Antonio Occhipinti: acquerelli originali, paesaggi, marine, ritratti e arte sacra." />
+  <meta name="author" content="Antonio Occhipinti" />
+  <link rel="canonical" href="https://occhipintiantonio.com" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://occhipintiantonio.com" />
+  <meta property="og:title"       content="Antonio Occhipinti — Portfolio" />
+  <meta property="og:description" content="Portfolio di Antonio Occhipinti: acquerelli originali, paesaggi, marine, ritratti e arte sacra." />
+  <meta property="og:image"       content="https://occhipintiantonio.com/img/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Antonio Occhipinti — Portfolio" />
+  <meta name="twitter:description" content="Portfolio di Antonio Occhipinti: acquerelli originali, paesaggi, marine, ritratti e arte sacra." />
+  <meta name="twitter:image"       content="https://occhipintiantonio.com/img/og-image.jpg" />
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%237A9EB1'/><text x='50' y='68' font-family='Georgia,serif' font-size='46' font-weight='bold' text-anchor='middle' fill='%23FCFCFC'>AO</text></svg>" />
 
   <!-- Google Fonts: Playfair Display (titoli) + Inter (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,6 +51,9 @@
     }
   </script>
 
+  <!-- marked.js — Markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
   <!-- Custom styles -->
   <link rel="stylesheet" href="css/styles.css" />
 
@@ -47,21 +70,41 @@
     <h1 class="font-serif text-5xl md:text-6xl tracking-tight">
       Antonio Occhipinti
     </h1>
-    <p class="mt-3 text-xs tracking-[0.25em] uppercase text-powder">
+    <p class="mt-3 text-xs tracking-[0.25em] uppercase text-powder"
+       x-data
+       x-text="$store.i18n.lang === 'it' ? 'Acquerellista' : 'Watercolourist'">
       Acquerellista
     </p>
 
+    <!-- Language toggle -->
+    <div x-data class="mt-6 flex justify-center items-center gap-3 text-xs tracking-widest uppercase" aria-label="Seleziona lingua">
+      <button
+        @click="$store.i18n.setLang('it')"
+        :class="$store.i18n.lang === 'it' ? 'text-powder font-medium border-b border-powder' : 'text-ink/30 hover:text-ink/60'"
+        class="pb-0.5 transition-colors duration-200 focus:outline-none"
+        aria-label="Italiano"
+      >IT</button>
+      <span class="text-ink/20 select-none">|</span>
+      <button
+        @click="$store.i18n.setLang('en')"
+        :class="$store.i18n.lang === 'en' ? 'text-powder font-medium border-b border-powder' : 'text-ink/30 hover:text-ink/60'"
+        class="pb-0.5 transition-colors duration-200 focus:outline-none"
+        aria-label="English"
+      >EN</button>
+    </div>
+
     <!-- Nav -->
-    <nav class="mt-10 flex justify-center gap-10 text-sm font-light" aria-label="Navigazione principale">
-      <a href="#gallery" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5">
-        Opere
-      </a>
-      <a href="#about" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5">
-        Chi sono
-      </a>
-      <a href="#contact" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5">
-        Contatti
-      </a>
+    <nav class="mt-8 flex flex-wrap justify-center gap-8 text-sm font-light" aria-label="Navigazione principale">
+      <a href="#gallery" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
+         x-data x-text="$store.i18n.lang === 'it' ? 'Opere' : 'Works'">Opere</a>
+      <a href="#mostre" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
+         x-data x-text="$store.i18n.lang === 'it' ? 'Mostre' : 'Exhibitions'">Mostre</a>
+      <a href="#critica" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
+         x-data x-text="$store.i18n.lang === 'it' ? 'Critica' : 'Critical Reviews'">Critica</a>
+      <a href="#about" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
+         x-data x-text="$store.i18n.lang === 'it' ? 'Chi sono' : 'About'">Chi sono</a>
+      <a href="#contact" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
+         x-data x-text="$store.i18n.lang === 'it' ? 'Contatti' : 'Contact'">Contatti</a>
     </nav>
 
     <!-- Decorative rule -->
@@ -70,7 +113,7 @@
 
 
   <!-- ═══════════════════════════════════════
-       MAIN — GALLERY  (TSK-5 + TSK-6)
+       MAIN — GALLERY
   ════════════════════════════════════════ -->
   <main
     id="gallery"
@@ -80,25 +123,22 @@
     aria-label="Galleria opere"
   >
 
-    <!-- ── Category tabs (TSK-6) ── -->
+    <!-- ── Category tabs ── -->
     <div
       x-show="!loading && !error && categories.length > 0"
       class="flex flex-wrap justify-center gap-1 mb-12"
       role="tablist"
       aria-label="Filtra per categoria"
     >
-      <!-- "Tutte" tab -->
       <button
         role="tab"
         :aria-selected="activeCategory === 'Tutte'"
         @click="activeCategory = 'Tutte'"
         :class="activeCategory === 'Tutte' ? 'tab-active' : 'tab-inactive'"
         class="px-5 py-1.5 text-xs tracking-widest uppercase border-b-2 transition-colors duration-200 focus:outline-none"
-      >
-        Tutte
-      </button>
+        x-text="$store.i18n.lang === 'it' ? 'Tutte' : 'All'"
+      ></button>
 
-      <!-- Dynamic category tabs -->
       <template x-for="cat in categories" :key="cat">
         <button
           role="tab"
@@ -117,35 +157,24 @@
       x-transition
       class="flex justify-center items-center py-32"
       aria-live="polite"
-      aria-label="Caricamento in corso"
     >
-      <span class="text-ink/30 text-sm tracking-widest uppercase animate-pulse">
-        Caricamento…
-      </span>
+      <span class="text-ink/30 text-sm tracking-widest uppercase animate-pulse"
+            x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'">Caricamento…</span>
     </div>
 
     <!-- ── Error state ── -->
-    <div
-      x-show="error"
-      x-transition
-      class="text-center py-32"
-      role="alert"
-    >
+    <div x-show="error" x-transition class="text-center py-32" role="alert">
       <p class="text-sm text-ink/40" x-text="error"></p>
     </div>
 
-    <!-- ── Artwork grid (TSK-5) ── -->
+    <!-- ── Artwork grid ── -->
     <div
       x-show="!loading && !error"
       x-transition
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14 max-w-6xl mx-auto"
     >
       <template x-for="art in filtered" :key="art.title + art.category">
-
-        <!-- Artwork card -->
         <article class="group cursor-pointer" @click="openLightbox(art)">
-
-          <!-- Image wrapper — fixed-ratio frame -->
           <div class="relative w-full aspect-square bg-gray-50 overflow-hidden">
             <img
               :src="art.thumb"
@@ -154,47 +183,33 @@
               loading="lazy"
             />
           </div>
-
-          <!-- Caption -->
           <div class="mt-4 space-y-1">
-            <h2
-              class="font-serif text-xl leading-snug"
-              x-text="art.title"
-            ></h2>
-            <p
-              class="text-xs tracking-widest uppercase text-powder"
-              x-text="art.category"
-            ></p>
-            <p
-              class="text-xs text-ink/40 font-light"
-              x-text="art.details"
-            ></p>
+            <h2 class="font-serif text-xl leading-snug" x-text="art.title"></h2>
+            <p class="text-xs tracking-widest uppercase text-powder" x-text="art.category"></p>
+            <p class="text-xs text-ink/40 font-light" x-text="art.details"></p>
           </div>
         </article>
-
       </template>
 
-      <!-- Empty state after filtering -->
       <div
         x-show="filtered.length === 0 && !loading"
         class="col-span-full text-center py-20 text-ink/30 text-sm"
-      >
-        Nessuna opera in questa categoria.
-      </div>
+        x-text="$store.i18n.lang === 'it' ? 'Nessuna opera in questa categoria.' : 'No works in this category.'"
+      ></div>
     </div>
 
   </main><!-- /gallery -->
 
 
   <!-- ═══════════════════════════════════════
-       LIGHTBOX  (semplice fullscreen viewer)
+       LIGHTBOX
   ════════════════════════════════════════ -->
   <div
     x-data
     x-show="$store.lb.open"
     x-transition.opacity
     @keydown.escape.window="$store.lb.close()"
-    class="lightbox-overlay fixed inset-0 z-50 flex items-center justify-center p-6"
+    class="lightbox-overlay fixed inset-0 z-50 flex flex-col items-center justify-center p-6"
     role="dialog"
     aria-modal="true"
     :aria-label="$store.lb.art?.title"
@@ -209,47 +224,103 @@
     <img
       :src="$store.lb.art?.image"
       :alt="$store.lb.art?.title"
-      class="max-w-full max-h-[85vh] object-contain shadow-2xl"
+      class="max-w-full max-h-[72vh] object-contain shadow-2xl"
     />
+
+    <!-- Metadata block (REQ-08) -->
+    <div class="mt-5 text-center max-w-lg px-4">
+      <h3 class="font-serif text-white text-xl leading-snug" x-text="$store.lb.art?.title"></h3>
+      <p class="mt-1 text-white/50 text-xs tracking-widest uppercase" x-text="$store.lb.art?.category"></p>
+      <p class="mt-1 text-white/40 text-xs font-light" x-text="$store.lb.art?.details"></p>
+    </div>
   </div>
 
 
   <!-- ═══════════════════════════════════════
-       ABOUT
+       MOSTRE  (REQ-03)
   ════════════════════════════════════════ -->
-  <section id="about" class="px-6 md:px-12 lg:px-20 py-24 max-w-2xl mx-auto w-full">
+  <section
+    id="mostre"
+    x-data="markdownSection('mostre')"
+    x-init="init(); load()"
+    class="px-6 md:px-12 lg:px-20 py-24 max-w-2xl mx-auto w-full"
+  >
     <div class="mx-auto w-12 h-px bg-powder opacity-50 mb-12"></div>
-    <h2 class="font-serif text-3xl mb-6">Chi sono</h2>
-    <div id="about-content" class="prose-sm text-ink/70 leading-relaxed space-y-4 font-light">
-      <!-- Contenuto caricato da chi-sono.md via marked.js in TSK-7 -->
-      <p>
-        Pittrice acquerellista con base a Milano. Lavoro su carta 100% cotone,
-        esplorando la trasparenza del colore e la luce dell'acqua.
-      </p>
-      <p>
-        Le mie opere spaziano dal paesaggio naturale al ritratto, fino
-        all'astrazione cromatica. Ogni foglio racconta un momento sospeso.
-      </p>
-    </div>
+    <h2 class="font-serif text-3xl mb-6"
+        x-data x-text="$store.i18n.lang === 'it' ? 'Mostre' : 'Exhibitions'">Mostre</h2>
+    <div id="mostre-content"
+         class="markdown-content text-ink/70 leading-relaxed font-light"
+         x-html="content"
+         x-show="!loading && !error"></div>
+    <p x-show="loading" class="text-ink/30 text-sm animate-pulse"
+       x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
+    <p x-show="!!error" class="text-ink/40 text-sm" x-text="error" role="alert"></p>
   </section>
 
 
   <!-- ═══════════════════════════════════════
-       CONTACT
+       CRITICA  (REQ-04)
   ════════════════════════════════════════ -->
-  <section id="contact" class="px-6 md:px-12 lg:px-20 py-16 max-w-2xl mx-auto w-full">
+  <section
+    id="critica"
+    x-data="markdownSection('articoli')"
+    x-init="init(); load()"
+    class="px-6 md:px-12 lg:px-20 py-24 max-w-2xl mx-auto w-full"
+  >
     <div class="mx-auto w-12 h-px bg-powder opacity-50 mb-12"></div>
-    <h2 class="font-serif text-3xl mb-6">Contatti</h2>
-    <div id="contact-content" class="text-ink/70 font-light leading-relaxed space-y-2">
-      <!-- Contenuto caricato da contatti.md via marked.js in TSK-7 -->
-      <p>Per acquisti, commissioni o mostre:</p>
-      <p>
-        <a href="mailto:giulia@example.com"
-           class="text-powder hover:underline">
-          giulia@example.com
-        </a>
-      </p>
-    </div>
+    <h2 class="font-serif text-3xl mb-6"
+        x-data x-text="$store.i18n.lang === 'it' ? 'Critica' : 'Critical Reviews'">Critica</h2>
+    <div id="critica-content"
+         class="markdown-content text-ink/70 leading-relaxed font-light"
+         x-html="content"
+         x-show="!loading && !error"></div>
+    <p x-show="loading" class="text-ink/30 text-sm animate-pulse"
+       x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
+    <p x-show="!!error" class="text-ink/40 text-sm" x-text="error" role="alert"></p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       ABOUT  (REQ-01)
+  ════════════════════════════════════════ -->
+  <section
+    id="about"
+    x-data="markdownSection('about')"
+    x-init="init(); load()"
+    class="px-6 md:px-12 lg:px-20 py-24 max-w-2xl mx-auto w-full"
+  >
+    <div class="mx-auto w-12 h-px bg-powder opacity-50 mb-12"></div>
+    <h2 class="font-serif text-3xl mb-6"
+        x-data x-text="$store.i18n.lang === 'it' ? 'Chi sono' : 'About'">Chi sono</h2>
+    <div id="about-content"
+         class="markdown-content text-ink/70 leading-relaxed font-light"
+         x-html="content"
+         x-show="!loading && !error"></div>
+    <p x-show="loading" class="text-ink/30 text-sm animate-pulse"
+       x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
+    <p x-show="!!error" class="text-ink/40 text-sm" x-text="error" role="alert"></p>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       CONTACT  (REQ-01, REQ-05)
+  ════════════════════════════════════════ -->
+  <section
+    id="contact"
+    x-data="markdownSection('contatti')"
+    x-init="init(); load()"
+    class="px-6 md:px-12 lg:px-20 py-16 max-w-2xl mx-auto w-full"
+  >
+    <div class="mx-auto w-12 h-px bg-powder opacity-50 mb-12"></div>
+    <h2 class="font-serif text-3xl mb-6"
+        x-data x-text="$store.i18n.lang === 'it' ? 'Contatti' : 'Contact'">Contatti</h2>
+    <div id="contact-content"
+         class="markdown-content text-ink/70 font-light leading-relaxed"
+         x-html="content"
+         x-show="!loading && !error"></div>
+    <p x-show="loading" class="text-ink/30 text-sm animate-pulse"
+       x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
+    <p x-show="!!error" class="text-ink/40 text-sm" x-text="error" role="alert"></p>
   </section>
 
 
@@ -258,22 +329,113 @@
   ════════════════════════════════════════ -->
   <footer class="px-6 py-10 text-center text-xs text-ink/25 font-light border-t border-ink/5 mt-8">
     <p>&copy; <span x-data x-text="new Date().getFullYear()"></span> Antonio Occhipinti — Tutti i diritti riservati</p>
+    <p class="mt-2">
+      <a href="/privacy.html" class="hover:text-ink/60 transition-colors duration-200 underline underline-offset-2">Privacy Policy</a>
+    </p>
   </footer>
 
 
   <!-- ═══════════════════════════════════════
-       ALPINE.JS — Gallery component
+       COOKIE BANNER  (REQ-06)
   ════════════════════════════════════════ -->
+  <div
+    x-data
+    x-show="$store.cookies.showBanner"
+    x-transition:enter="transition ease-out duration-300"
+    x-transition:enter-start="opacity-0 translate-y-4"
+    x-transition:enter-end="opacity-100 translate-y-0"
+    class="fixed bottom-0 inset-x-0 z-40 p-4 md:p-6 bg-ink/95 backdrop-blur-sm border-t border-white/10"
+    role="alertdialog"
+    aria-live="polite"
+    aria-label="Informativa cookie"
+  >
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-4">
+      <p class="text-white/70 text-xs font-light leading-relaxed flex-1">
+        Utilizziamo cookie analitici (Google Analytics 4) per migliorare il sito, solo previo tuo consenso.
+        <a href="/privacy.html" class="text-powder hover:underline ml-1">Privacy Policy</a>
+      </p>
+      <div class="flex gap-3 shrink-0">
+        <button
+          @click="$store.cookies.reject()"
+          class="px-4 py-2 text-xs tracking-widest uppercase text-white/50 border border-white/20 hover:border-white/40 hover:text-white/80 transition-colors duration-200 focus:outline-none"
+        >Rifiuta</button>
+        <button
+          @click="$store.cookies.accept()"
+          class="px-4 py-2 text-xs tracking-widest uppercase bg-powder text-white hover:bg-powder/80 transition-colors duration-200 focus:outline-none"
+        >Accetta</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       SCRIPTS
+  ════════════════════════════════════════ -->
+  <script src="js/cookie.js"></script>
   <script>
+    // ── i18n store ──────────────────────────────────────────────────
+    document.addEventListener('alpine:init', () => {
+      Alpine.store('i18n', {
+        lang: localStorage.getItem('lang') || 'it',
+        setLang(l) {
+          this.lang = l
+          localStorage.setItem('lang', l)
+          window.dispatchEvent(new CustomEvent('lang-changed', { detail: l }))
+        },
+      })
+    })
+
     // ── Lightbox store ──────────────────────────────────────────────
     document.addEventListener('alpine:init', () => {
       Alpine.store('lb', {
         open: false,
-        art: null,
+        art:  null,
         show(art) { this.art = art; this.open = true; },
         close()   { this.open = false; this.art = null; },
       })
     })
+
+    // ── Markdown section component ──────────────────────────────────
+    function markdownSection(file) {
+      return {
+        content: '',
+        loading: true,
+        error:   null,
+        _file:   file,
+
+        async load() {
+          this.loading = true
+          this.error   = null
+          const lang = Alpine.store('i18n').lang
+          try {
+            const res = await fetch(`content/${lang}/${this._file}.md`)
+            if (!res.ok) throw new Error(`HTTP ${res.status}`)
+            const md = await res.text()
+            this.content = marked.parse(md)
+          } catch {
+            // Fallback to Italian if the requested language file is missing
+            if (lang !== 'it') {
+              try {
+                const res = await fetch(`content/it/${this._file}.md`)
+                if (!res.ok) throw new Error(`HTTP ${res.status}`)
+                const md = await res.text()
+                this.content = marked.parse(md)
+                return
+              } catch { /* fall through */ }
+            }
+            this.error = Alpine.store('i18n').lang === 'it'
+              ? 'Contenuto non disponibile.'
+              : 'Content not available.'
+          } finally {
+            this.loading = false
+          }
+        },
+
+        init() {
+          window.addEventListener('lang-changed', () => this.load())
+        },
+      }
+    }
 
     // ── Gallery component ───────────────────────────────────────────
     function gallery() {
@@ -284,14 +446,12 @@
         loading:        true,
         error:          null,
 
-        // Fetch gallery.json
         async load() {
           try {
             const res = await fetch('data/gallery.json')
             if (!res.ok) throw new Error(`HTTP ${res.status} — ${res.statusText}`)
             const data = await res.json()
-            this.artworks = data
-            // Extract unique categories preserving order of first appearance
+            this.artworks   = data
             this.categories = [...new Set(data.map(a => a.category))]
           } catch (err) {
             this.error = `Impossibile caricare le opere: ${err.message}`
@@ -300,13 +460,11 @@
           }
         },
 
-        // Filtered artworks based on active category tab
         get filtered() {
           if (this.activeCategory === 'Tutte') return this.artworks
           return this.artworks.filter(a => a.category === this.activeCategory)
         },
 
-        // Open lightbox
         openLightbox(art) {
           this.$store.lb.show(art)
         },
