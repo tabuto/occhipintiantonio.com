@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Tramonto sul Lago",
+    "category": "Paesaggi",
+    "image": "/img/art/tramonto-sul-lago-1.jpg",
+    "thumb": "/img/art/thumb_tramonto-sul-lago-1.jpg",
+    "details": "2023, Acquerello su carta 300g"
+  },
+  {
+    "title": "Nebbia Mattutina",
+    "category": "Paesaggi",
+    "image": "/img/art/nebbia-mattutina-2.jpg",
+    "thumb": "/img/art/thumb_nebbia-mattutina-2.jpg",
+    "details": "2023, Acquerello su carta 300g"
+  },
+  {
+    "title": "Colline d'Autunno",
+    "category": "Paesaggi",
+    "image": "/img/art/colline-autunno-3.jpg",
+    "thumb": "/img/art/thumb_colline-autunno-3.jpg",
+    "details": "2022, Acquerello su carta 200g"
+  },
+  {
+    "title": "Ritratto di Anna",
+    "category": "Ritratti",
+    "image": "/img/art/ritratto-anna-4.jpg",
+    "thumb": "/img/art/thumb_ritratto-anna-4.jpg",
+    "details": "2024, Acquerello su carta 300g"
+  },
+  {
+    "title": "Sguardo Lontano",
+    "category": "Ritratti",
+    "image": "/img/art/sguardo-lontano-5.jpg",
+    "thumb": "/img/art/thumb_sguardo-lontano-5.jpg",
+    "details": "2023, Acquerello su carta 300g"
+  },
+  {
+    "title": "Flusso Blu",
+    "category": "Astratti",
+    "image": "/img/art/flusso-blu-6.jpg",
+    "thumb": "/img/art/thumb_flusso-blu-6.jpg",
+    "details": "2024, Acquerello su carta 640g"
+  },
+  {
+    "title": "Geometrie dell'Alba",
+    "category": "Astratti",
+    "image": "/img/art/geometrie-alba-7.jpg",
+    "thumb": "/img/art/thumb_geometrie-alba-7.jpg",
+    "details": "2024, Acquerello su carta 640g"
+  },
+  {
+    "title": "Porto Antico",
+    "category": "Paesaggi",
+    "image": "/img/art/porto-antico-8.jpg",
+    "thumb": "/img/art/thumb_porto-antico-8.jpg",
+    "details": "2022, Acquerello su carta 300g"
+  },
+  {
+    "title": "Studio in Ocra",
+    "category": "Astratti",
+    "image": "/img/art/studio-ocra-9.jpg",
+    "thumb": "/img/art/thumb_studio-ocra-9.jpg",
+    "details": "2023, Acquerello su carta 200g"
+  }
+]

@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antonio Occhipinti — Portfolio</title>
+  <meta name="description" content="Portfolio di Antonio Occhipinti: acquerelli originali, paesaggi, ritratti e astratti." />
+
+  <!-- Google Fonts: Playfair Display (titoli) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            canvas:  '#FCFCFC',
+            ink:     '#1A1A1A',
+            powder:  '#7A9EB1',
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans:  ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Alpine.js CDN (deferred) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+
+<body class="font-sans bg-canvas text-ink min-h-screen flex flex-col">
+
+  <!-- ═══════════════════════════════════════
+       HEADER
+  ════════════════════════════════════════ -->
+  <header class="px-6 pt-16 pb-10 text-center">
+    <h1 class="font-serif text-5xl md:text-6xl tracking-tight">
+      Antonio Occhipinti
+    </h1>
+    <p class="mt-3 text-xs tracking-[0.25em] uppercase text-powder">
+      Acquerellista
+    </p>
+
+    <!-- Nav -->
+    <nav class="mt-10 flex justify-center gap-10 text-sm font-light" aria-label="Navigazione principale">
+      <a href="#gallery" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5">
+        Opere
+      </a>
+      <a href="#about" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5">
+        Chi sono
+      </a>
+      <a href="#contact" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5">
+        Contatti
+      </a>
+    </nav>
+
+    <!-- Decorative rule -->
+    <div class="mt-10 mx-auto w-12 h-px bg-powder opacity-50"></div>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════
+       MAIN — GALLERY  (TSK-5 + TSK-6)
+  ════════════════════════════════════════ -->
+  <main
+    id="gallery"
+    x-data="gallery()"
+    x-init="load()"
+    class="flex-1 px-6 md:px-12 lg:px-20 py-12"
+    aria-label="Galleria opere"
+  >
+
+    <!-- ── Category tabs (TSK-6) ── -->
+    <div
+      x-show="!loading && !error && categories.length > 0"
+      class="flex flex-wrap justify-center gap-1 mb-12"
+      role="tablist"
+      aria-label="Filtra per categoria"
+    >
+      <!-- "Tutte" tab -->
+      <button
+        role="tab"
+        :aria-selected="activeCategory === 'Tutte'"
+        @click="activeCategory = 'Tutte'"
+        :class="activeCategory === 'Tutte' ? 'tab-active' : 'tab-inactive'"
+        class="px-5 py-1.5 text-xs tracking-widest uppercase border-b-2 transition-colors duration-200 focus:outline-none"
+      >
+        Tutte
+      </button>
+
+      <!-- Dynamic category tabs -->
+      <template x-for="cat in categories" :key="cat">
+        <button
+          role="tab"
+          :aria-selected="activeCategory === cat"
+          @click="activeCategory = cat"
+          :class="activeCategory === cat ? 'tab-active' : 'tab-inactive'"
+          class="px-5 py-1.5 text-xs tracking-widest uppercase border-b-2 transition-colors duration-200 focus:outline-none"
+          x-text="cat"
+        ></button>
+      </template>
+    </div>
+
+    <!-- ── Loading state ── -->
+    <div
+      x-show="loading"
+      x-transition
+      class="flex justify-center items-center py-32"
+      aria-live="polite"
+      aria-label="Caricamento in corso"
+    >
+      <span class="text-ink/30 text-sm tracking-widest uppercase animate-pulse">
+        Caricamento…
+      </span>
+    </div>
+
+    <!-- ── Error state ── -->
+    <div
+      x-show="error"
+      x-transition
+      class="text-center py-32"
+      role="alert"
+    >
+      <p class="text-sm text-ink/40" x-text="error"></p>
+    </div>
+
+    <!-- ── Artwork grid (TSK-5) ── -->
+    <div
+      x-show="!loading && !error"
+      x-transition
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14 max-w-6xl mx-auto"
+    >
+      <template x-for="art in filtered" :key="art.title + art.category">
+
+        <!-- Artwork card -->
+        <article class="group cursor-pointer" @click="openLightbox(art)">
+
+          <!-- Image wrapper — fixed-ratio frame -->
+          <div class="relative w-full aspect-square bg-gray-50 overflow-hidden">
+            <img
+              :src="art.thumb"
+              :alt="art.title"
+              class="artwork-img transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- Caption -->
+          <div class="mt-4 space-y-1">
+            <h2
+              class="font-serif text-xl leading-snug"
+              x-text="art.title"
+            ></h2>
+            <p
+              class="text-xs tracking-widest uppercase text-powder"
+              x-text="art.category"
+            ></p>
+            <p
+              class="text-xs text-ink/40 font-light"
+              x-text="art.details"
+            ></p>
+          </div>
+        </article>
+
+      </template>
+
+      <!-- Empty state after filtering -->
+      <div
+        x-show="filtered.length === 0 && !loading"
+        class="col-span-full text-center py-20 text-ink/30 text-sm"
+      >
+        Nessuna opera in questa categoria.
+      </div>
+    </div>
+
+  </main><!-- /gallery -->
+
+
+  <!-- ═══════════════════════════════════════
+       LIGHTBOX  (semplice fullscreen viewer)
+  ════════════════════════════════════════ -->
+  <div
+    x-data
+    x-show="$store.lb.open"
+    x-transition.opacity
+    @keydown.escape.window="$store.lb.close()"
+    class="lightbox-overlay fixed inset-0 z-50 flex items-center justify-center p-6"
+    role="dialog"
+    aria-modal="true"
+    :aria-label="$store.lb.art?.title"
+    @click.self="$store.lb.close()"
+  >
+    <button
+      @click="$store.lb.close()"
+      class="absolute top-5 right-6 text-white/60 hover:text-white text-3xl leading-none focus:outline-none"
+      aria-label="Chiudi"
+    >&times;</button>
+
+    <img
+      :src="$store.lb.art?.image"
+      :alt="$store.lb.art?.title"
+      class="max-w-full max-h-[85vh] object-contain shadow-2xl"
+    />
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       ABOUT
+  ════════════════════════════════════════ -->
+  <section id="about" class="px-6 md:px-12 lg:px-20 py-24 max-w-2xl mx-auto w-full">
+    <div class="mx-auto w-12 h-px bg-powder opacity-50 mb-12"></div>
+    <h2 class="font-serif text-3xl mb-6">Chi sono</h2>
+    <div id="about-content" class="prose-sm text-ink/70 leading-relaxed space-y-4 font-light">
+      <!-- Contenuto caricato da chi-sono.md via marked.js in TSK-7 -->
+      <p>
+        Pittrice acquerellista con base a Milano. Lavoro su carta 100% cotone,
+        esplorando la trasparenza del colore e la luce dell'acqua.
+      </p>
+      <p>
+        Le mie opere spaziano dal paesaggio naturale al ritratto, fino
+        all'astrazione cromatica. Ogni foglio racconta un momento sospeso.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════ -->
+  <section id="contact" class="px-6 md:px-12 lg:px-20 py-16 max-w-2xl mx-auto w-full">
+    <div class="mx-auto w-12 h-px bg-powder opacity-50 mb-12"></div>
+    <h2 class="font-serif text-3xl mb-6">Contatti</h2>
+    <div id="contact-content" class="text-ink/70 font-light leading-relaxed space-y-2">
+      <!-- Contenuto caricato da contatti.md via marked.js in TSK-7 -->
+      <p>Per acquisti, commissioni o mostre:</p>
+      <p>
+        <a href="mailto:giulia@example.com"
+           class="text-powder hover:underline">
+          giulia@example.com
+        </a>
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer class="px-6 py-10 text-center text-xs text-ink/25 font-light border-t border-ink/5 mt-8">
+    <p>&copy; <span x-data x-text="new Date().getFullYear()"></span> Antonio Occhipinti — Tutti i diritti riservati</p>
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════
+       ALPINE.JS — Gallery component
+  ════════════════════════════════════════ -->
+  <script>
+    // ── Lightbox store ──────────────────────────────────────────────
+    document.addEventListener('alpine:init', () => {
+      Alpine.store('lb', {
+        open: false,
+        art: null,
+        show(art) { this.art = art; this.open = true; },
+        close()   { this.open = false; this.art = null; },
+      })
+    })
+
+    // ── Gallery component ───────────────────────────────────────────
+    function gallery() {
+      return {
+        artworks:       [],
+        categories:     [],
+        activeCategory: 'Tutte',
+        loading:        true,
+        error:          null,
+
+        // Fetch gallery.json
+        async load() {
+          try {
+            const res = await fetch('data/gallery.json')
+            if (!res.ok) throw new Error(`HTTP ${res.status} — ${res.statusText}`)
+            const data = await res.json()
+            this.artworks = data
+            // Extract unique categories preserving order of first appearance
+            this.categories = [...new Set(data.map(a => a.category))]
+          } catch (err) {
+            this.error = `Impossibile caricare le opere: ${err.message}`
+          } finally {
+            this.loading = false
+          }
+        },
+
+        // Filtered artworks based on active category tab
+        get filtered() {
+          if (this.activeCategory === 'Tutte') return this.artworks
+          return this.artworks.filter(a => a.category === this.activeCategory)
+        },
+
+        // Open lightbox
+        openLightbox(art) {
+          this.$store.lb.show(art)
+        },
+      }
+    }
+  </script>
+
+</body>
+</html>

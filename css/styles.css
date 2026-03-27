@@ -1,0 +1,43 @@
+/* styles.css — custom overrides beyond Tailwind CDN */
+
+/* Palette variables */
+:root {
+  --color-canvas:  #FCFCFC;
+  --color-ink:     #1A1A1A;
+  --color-powder:  #7A9EB1;
+}
+
+/* Base */
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Artwork images — never crop the work */
+.artwork-img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+/* Category tab active underline */
+.tab-active {
+  border-color: var(--color-powder);
+  color: var(--color-powder);
+}
+.tab-inactive {
+  border-color: transparent;
+  color: rgba(26, 26, 26, 0.4);
+}
+.tab-inactive:hover {
+  color: var(--color-ink);
+}
+
+/* Lightbox overlay */
+.lightbox-overlay {
+  background: rgba(26, 26, 26, 0.9);
+  backdrop-filter: blur(4px);
+}
