@@ -6,9 +6,9 @@
 
 ---
 
-Pittore acquerellista tra i più raffinati in Italia. Nato a Gela, dove vive e opera.
+Pittore acquerellista tra i più raffinati in Italia. Nato a Gela, vi ha vissuto e operato fino al 2024, anno della sua morte.
 
-Ha preso parte a diverse mostre a carattere nazionale e internazionale. Sue opere si trovano in collezioni pubbliche e private. Ha ottenuto numerosi premi e segnalazioni; critica e stampa si sono sempre interessati di lui.
+Ha preso parte a diverse mostre a carattere nazionale e internazionale. Sue opere si trovano in collezioni pubbliche e private. Ha ottenuto numerosi premi e segnalazioni; critica e stampa si sono sempre interessati di lui. A lui è stata dedicata la Pinacoteca comunale di Gela, che conserva sue opere.
 
 Ha organizzato con il Comune di Gela ed altri enti opere pubbliche, mostre collettive ed estemporanee, ospitando a Gela gli artisti più affermati in campo nazionale e internazionale.
 

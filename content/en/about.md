@@ -6,9 +6,9 @@
 
 ---
 
-A watercolour painter among the most refined in Italy. Born in Gela (Sicily), where he lives and works.
+A watercolour painter among the most refined in Italy. Born in Gela (Sicily), where he lived and worked until 2024, the year of his death.
 
-He has participated in numerous national and international exhibitions. His works are held in public and private collections. He has received many awards and distinctions; critics and the press have consistently shown interest in his work.
+He participated in numerous national and international exhibitions. His works are held in public and private collections. He received many awards and distinctions; critics and the press consistently showed interest in his work. Gela's Municipal Art Gallery was dedicated to him and houses his works.
 
 Together with the Municipality of Gela and other institutions, he has organised public works, group exhibitions and open-air painting events, hosting Italy's and the world's most celebrated artists in Gela.
 

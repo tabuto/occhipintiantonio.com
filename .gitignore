@@ -2,3 +2,4 @@
 /img/
 .server.pid
 .server.log
+.DS_Store
