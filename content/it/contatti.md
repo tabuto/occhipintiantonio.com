@@ -5,7 +5,7 @@ Per informazioni sulle opere, richieste di acquisto o collaborazioni, è possibi
 ---
 
 **Email**
-[info@occhipintiantonio.com](mailto:info@occhipintiantonio.com)
+[occhipinti.antonio.fam@gmail.com](mailto:occhipinti.antonio.fam@gmail.com)
 
 ---
 

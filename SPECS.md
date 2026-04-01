@@ -83,7 +83,7 @@ Requisiti tecnico-funzionali del sito. Ogni requisito è formulato in modo da co
 **Contesto:** La sezione contatti in `index.html` contiene l'email placeholder `giulia@example.com`.
 
 **Requisiti:**
-- Sostituire `mailto:giulia@example.com` con `mailto:info@occhipintiantonio.com`.
+- Sostituire `mailto:giulia@example.com` con `mailto:occhipinti.antonio.fam@gmail.com`.
 - Aggiornare il testo del link visibile di conseguenza.
 - Verificare coerenza con il valore in `content/it/contatti.md`.
 
@@ -163,6 +163,22 @@ Requisiti tecnico-funzionali del sito. Ogni requisito è formulato in modo da co
 - Il footer della privacy page deve includere lo stesso copyright del sito principale.
 
 **File coinvolti:** `privacy.html` (da creare)
+
+---
+
+## REQ-11 — Pagina Gallery completa
+
+**Contesto:** La homepage mostra una selezione opere caricata da `data/gallery.json`. Serve una pagina dedicata che mostri l'archivio completo usando un dataset separato.
+
+**Requisiti:**
+- Creare una nuova pagina `gallery.html` con layout coerente al sito principale (stessa palette, font e comportamento responsive).
+- Caricare i dati da `data/complete-gallery.json` tramite `fetch()` lato client, senza introdurre bundler o dipendenze aggiuntive.
+- Riutilizzare, dove possibile, la logica JS già presente per categorie, filtri e lightbox.
+- Gestire stati di caricamento ed errore in modo coerente con `index.html`.
+- Aggiungere nella navigazione principale di `index.html` un link alla nuova pagina Gallery.
+- Il link deve avere etichetta localizzata (`Gallery` in IT e EN, oppure altra etichetta coerente definita in implementazione).
+
+**File coinvolti:** `gallery.html` (da creare), `data/complete-gallery.json`, `index.html`, `js/app.js` (o file JS dedicato)
 
 ---
 

@@ -75,13 +75,14 @@ function markdownSection(file) {
 }
 
 // ── Gallery component ───────────────────────────────────────────
-function gallery() {
+function gallery(dataUrl = 'data/gallery.json') {
   return {
     artworks:       [],
     categories:     [],
     activeCategory: 'Tutte',
     loading:        true,
     error:          null,
+    _dataUrl:       dataUrl,
 
     // Returns the display label for a category in the current language
     translateCat(cat) {
@@ -89,8 +90,10 @@ function gallery() {
     },
 
     async load() {
+      this.loading = true
+      this.error = null
       try {
-        const res = await fetch('data/gallery.json')
+        const res = await fetch(this._dataUrl)
         if (!res.ok) throw new Error(`HTTP ${res.status} — ${res.statusText}`)
         const raw = await res.json()
         // Support both a flat array and a categorised object { categories: [{ items: [] }] }
@@ -100,7 +103,9 @@ function gallery() {
         this.artworks   = data
         this.categories = [...new Set(data.map(a => a.category))]
       } catch (err) {
-        this.error = `Impossibile caricare le opere: ${err.message}`
+        this.error = this.$store.i18n.lang === 'it'
+          ? `Impossibile caricare le opere: ${err.message}`
+          : `Unable to load artworks: ${err.message}`
       } finally {
         this.loading = false
       }

@@ -5,7 +5,7 @@ For information about artworks, purchase enquiries or collaborations, please con
 ---
 
 **Email**
-[info@occhipintiantonio.com](mailto:info@occhipintiantonio.com)
+[occhipinti.antonio.fam@gmail.com](mailto:occhipinti.antonio.fam@gmail.com)
 
 ---
 
