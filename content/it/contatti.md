@@ -1,6 +1,6 @@
 
 
-Per informazioni sulle opere, richieste di acquisto o collaborazioni, è possibile contattare Antonio Occhipinti attraverso i seguenti canali.
+Per informazioni sulle opere, richieste di acquisto o collaborazioni, è possibile utilizzare i seguenti canali.
 
 ---
 

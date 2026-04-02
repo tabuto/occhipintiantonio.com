@@ -1,6 +1,6 @@
 
 
-For information about artworks, purchase enquiries or collaborations, please contact Antonio Occhipinti through the following channels.
+For information about artworks, purchase enquiries or collaborations, please use the following channels.
 
 ---
 
