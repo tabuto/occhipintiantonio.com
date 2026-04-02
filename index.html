@@ -85,6 +85,8 @@
          x-data x-text="'Gallery'">Gallery</a>
       <a href="/mostre.html" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
          x-data x-text="$store.i18n.lang === 'it' ? 'Mostre' : 'Exhibitions'">Mostre</a>
+      <a href="/awards.html" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
+         x-data x-text="$store.i18n.lang === 'it' ? 'Premi' : 'Awards'">Premi</a>
       <a href="/critica.html" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
          x-data x-text="$store.i18n.lang === 'it' ? 'Critica' : 'Critical Reviews'">Critica</a>
       <a href="#about" class="border-b border-transparent hover:border-powder hover:text-powder transition-colors duration-200 pb-0.5"
@@ -93,9 +95,45 @@
          x-data x-text="$store.i18n.lang === 'it' ? 'Contatti' : 'Contact'">Contatti</a>
     </nav>
 
-    <!-- Decorative rule -->
-    <div class="mt-10 mx-auto w-12 h-px bg-powder opacity-50"></div>
   </header>
+
+
+  <!-- ═══════════════════════════════════════
+       ABOUT  (REQ-01)
+  ════════════════════════════════════════ -->
+  <section
+    id="about"
+    x-data="markdownSection('about')"
+    x-init="init(); load()"
+    class="px-6 md:px-12 lg:px-20 py-16 max-w-4xl mx-auto w-full"
+  >
+    <h2 class="font-serif text-3xl mb-8"
+        x-data x-text="$store.i18n.lang === 'it' ? 'Chi sono' : 'About'">Chi sono</h2>
+
+    <div class="flex flex-col md:flex-row md:gap-12 items-start">
+
+      <!-- Text content -->
+      <div class="flex-1 min-w-0 order-2 md:order-1">
+        <div id="about-content"
+             class="markdown-content text-ink/70 leading-relaxed font-light"
+             x-html="content"
+             x-show="!loading && !error"></div>
+        <p x-show="loading" class="text-ink/30 text-sm animate-pulse"
+           x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
+        <p x-show="!!error" class="text-ink/40 text-sm" x-text="error" role="alert"></p>
+      </div>
+
+      <!-- Portrait — top on mobile, right on desktop -->
+      <div class="shrink-0 w-full md:w-auto order-1 md:order-2 flex justify-center md:block mb-8 md:mb-0">
+        <img
+          src="img/aocchipinti.png"
+          alt="Antonio Occhipinti"
+          class="w-44 md:w-56 object-cover rounded-full aspect-square"
+        />
+      </div>
+
+    </div>
+  </section>
 
 
   <!-- ═══════════════════════════════════════
@@ -221,28 +259,6 @@
       <p class="mt-1 text-white/40 text-xs font-light" x-text="$store.lb.art?.details"></p>
     </div>
   </div>
-
-
-  <!-- ═══════════════════════════════════════
-       ABOUT  (REQ-01)
-  ════════════════════════════════════════ -->
-  <section
-    id="about"
-    x-data="markdownSection('about')"
-    x-init="init(); load()"
-    class="px-6 md:px-12 lg:px-20 py-24 max-w-2xl mx-auto w-full"
-  >
-    <div class="mx-auto w-12 h-px bg-powder opacity-50 mb-12"></div>
-    <h2 class="font-serif text-3xl mb-6"
-        x-data x-text="$store.i18n.lang === 'it' ? 'Chi sono' : 'About'">Chi sono</h2>
-    <div id="about-content"
-         class="markdown-content text-ink/70 leading-relaxed font-light"
-         x-html="content"
-         x-show="!loading && !error"></div>
-    <p x-show="loading" class="text-ink/30 text-sm animate-pulse"
-       x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
-    <p x-show="!!error" class="text-ink/40 text-sm" x-text="error" role="alert"></p>
-  </section>
 
 
   <!-- ═══════════════════════════════════════

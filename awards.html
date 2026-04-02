@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premi e riconoscimenti — Antonio Occhipinti</title>
+  <meta name="description" content="Premi, riconoscimenti e attestazioni ricevuti da Antonio Occhipinti nel corso della sua carriera." />
+
+  <!-- SEO -->
+  <meta name="author" content="Antonio Occhipinti" />
+  <link rel="canonical" href="https://occhipintiantonio.com/awards.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://occhipintiantonio.com/awards.html" />
+  <meta property="og:title"       content="Premi e riconoscimenti — Antonio Occhipinti" />
+  <meta property="og:description" content="Premi, riconoscimenti e attestazioni ricevuti da Antonio Occhipinti nel corso della sua carriera." />
+  <meta property="og:image"       content="https://occhipintiantonio.com/img/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Premi e riconoscimenti — Antonio Occhipinti" />
+  <meta name="twitter:description" content="Premi, riconoscimenti e attestazioni ricevuti da Antonio Occhipinti nel corso della sua carriera." />
+  <meta name="twitter:image"       content="https://occhipintiantonio.com/img/og-image.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { canvas: '#FCFCFC', ink: '#1A1A1A', powder: '#C44027' },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans:  ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <!-- marked.js -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%23C44027'/><text x='50' y='68' font-family='Georgia,serif' font-size='46' font-weight='bold' text-anchor='middle' fill='%23FCFCFC'>AO</text></svg>" />
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Alpine.js -->
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+
+<body class="font-sans bg-canvas text-ink min-h-screen flex flex-col">
+
+  <header class="px-6 pt-12 pb-8 text-center border-b border-ink/5">
+    <p class="text-xs tracking-[0.25em] uppercase text-powder mb-4">
+      <a href="/" class="hover:text-ink/60 transition-colors duration-200">← Antonio Occhipinti</a>
+    </p>
+    <h1 class="font-serif text-4xl md:text-5xl tracking-tight"
+        x-data x-text="$store.i18n.lang === 'it' ? 'Premi e riconoscimenti' : 'Awards and recognition'">Premi e riconoscimenti</h1>
+    <p class="mt-3 text-sm text-ink/50 max-w-2xl mx-auto"
+       x-data
+       x-text="$store.i18n.lang === 'it' ? 'Una raccolta dei principali premi, onorificenze e attestazioni dedicate all\'artista.' : 'A collection of the artist\'s main awards, honours and distinctions.'">
+      Una raccolta dei principali premi, onorificenze e attestazioni dedicate all'artista.
+    </p>
+
+    <div x-data class="mt-5 flex justify-center items-center gap-3 text-xs tracking-widest uppercase">
+      <button @click="$store.i18n.setLang('it')"
+              :class="$store.i18n.lang === 'it' ? 'text-powder font-medium border-b border-powder' : 'text-ink/30 hover:text-ink/60'"
+              class="pb-0.5 transition-colors duration-200 focus:outline-none">IT</button>
+      <span class="text-ink/20 select-none">|</span>
+      <button @click="$store.i18n.setLang('en')"
+              :class="$store.i18n.lang === 'en' ? 'text-powder font-medium border-b border-powder' : 'text-ink/30 hover:text-ink/60'"
+              class="pb-0.5 transition-colors duration-200 focus:outline-none">EN</button>
+    </div>
+  </header>
+
+  <main
+    x-data="markdownPage('awards')"
+    x-init="init(); load()"
+    class="flex-1 px-6 md:px-12 lg:px-20 py-16 max-w-3xl mx-auto w-full"
+  >
+    <div id="awards-content"
+         class="markdown-content text-ink/70 leading-relaxed font-light"
+         x-html="content"
+         x-show="!loading && !error"></div>
+    <p x-show="loading" class="text-ink/30 text-sm animate-pulse"
+       x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
+    <p x-show="!!error" class="text-ink/40 text-sm" x-text="error" role="alert"></p>
+  </main>
+
+  <footer class="px-6 py-8 text-center text-xs text-ink/25 font-light border-t border-ink/5 mt-8">
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Antonio Occhipinti — Tutti i diritti riservati</p>
+    <p class="mt-1">
+      <a href="/" class="hover:text-ink/60 transition-colors duration-200 underline underline-offset-2"
+         x-data
+         x-text="$store.i18n.lang === 'it' ? 'Torna al sito' : 'Back to site'">Torna al sito</a>
+    </p>
+  </footer>
+
+  <script>
+    document.addEventListener('alpine:init', () => {
+      Alpine.store('i18n', {
+        lang: localStorage.getItem('lang') || 'it',
+        setLang(l) {
+          this.lang = l
+          localStorage.setItem('lang', l)
+          window.dispatchEvent(new CustomEvent('lang-changed', { detail: l }))
+        },
+      })
+    })
+
+    function markdownPage(file) {
+      return {
+        content: '',
+        loading: true,
+        error:   null,
+        _file:   file,
+
+        async load() {
+          this.loading = true
+          this.error   = null
+          const lang = Alpine.store('i18n').lang
+          try {
+            const res = await fetch(`content/${lang}/${this._file}.md`)
+            if (!res.ok) throw new Error(`HTTP ${res.status}`)
+            this.content = marked.parse(await res.text())
+          } catch {
+            if (lang !== 'it') {
+              try {
+                const res = await fetch(`content/it/${this._file}.md`)
+                if (!res.ok) throw new Error(`HTTP ${res.status}`)
+                this.content = marked.parse(await res.text())
+                return
+              } catch { /* fall through */ }
+            }
+            this.error = Alpine.store('i18n').lang === 'it'
+              ? 'Contenuto non disponibile.'
+              : 'Content not available.'
+          } finally {
+            this.loading = false
+          }
+        },
+
+        init() {
+          window.addEventListener('lang-changed', () => this.load())
+        },
+      }
+    }
+  </script>
+
+</body>
+</html>
