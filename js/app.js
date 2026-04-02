@@ -103,9 +103,12 @@ function gallery(dataUrl = 'data/gallery.json') {
         this.artworks   = data
         this.categories = [...new Set(data.map(a => a.category))]
       } catch (err) {
-        this.error = this.$store.i18n.lang === 'it'
-          ? `Impossibile caricare le opere: ${err.message}`
-          : `Unable to load artworks: ${err.message}`
+        // 404 = file non presente: stato vuoto silenzioso, nessun messaggio
+        if (!err.message.includes('404')) {
+          this.error = this.$store.i18n.lang === 'it'
+            ? `Impossibile caricare le opere: ${err.message}`
+            : `Unable to load artworks: ${err.message}`
+        }
       } finally {
         this.loading = false
       }
