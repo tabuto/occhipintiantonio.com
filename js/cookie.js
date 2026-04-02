@@ -8,7 +8,7 @@
  */
 ;(function () {
   const CONSENT_KEY   = 'cookie_consent'
-  const GA_ID         = 'G-XXXXXXXXXX' // TODO: replace with real GA4 Measurement ID
+  const GA_ID         = 'G-DHCC90THJJ'
   const SIX_MONTHS_MS = 6 * 30 * 24 * 60 * 60 * 1000
 
   function readConsent() {
