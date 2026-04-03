@@ -3,23 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Antonio Occhipinti — Portfolio</title>
+  <title>Antonio Occhipinti — Maestro dell'Acquerello | Pittore di Gela</title>
 
   <!-- SEO -->
-  <meta name="description" content="Portfolio di Antonio Occhipinti: acquerelli originali, paesaggi, marine, ritratti e arte sacra." />
+  <meta name="description" content="Portfolio di Antonio Occhipinti, tra i più raffinati acquerellisti italiani: paesaggi, marine, ritratti, arte sacra e figure. Opere originali dal 1956 al 2024." />
   <meta name="author" content="Antonio Occhipinti" />
   <link rel="canonical" href="https://occhipintiantonio.com" />
+
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="it"        href="https://occhipintiantonio.com/" />
+  <link rel="alternate" hreflang="en"        href="https://occhipintiantonio.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/" />
 
   <!-- Open Graph -->
   <meta property="og:type"        content="website" />
   <meta property="og:url"         content="https://occhipintiantonio.com" />
-  <meta property="og:title"       content="Antonio Occhipinti — Portfolio" />
+  <meta property="og:title"       content="Antonio Occhipinti — Maestro dell'Acquerello | Pittore di Gela" />
   <meta property="og:description" content="Portfolio di Antonio Occhipinti: acquerelli originali, paesaggi, marine, ritratti e arte sacra." />
   <meta property="og:image"       content="https://occhipintiantonio.com/img/og-image.jpg" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image" />
-  <meta name="twitter:title"       content="Antonio Occhipinti — Portfolio" />
+  <meta name="twitter:title"       content="Antonio Occhipinti — Maestro dell'Acquerello | Pittore di Gela" />
   <meta name="twitter:description" content="Portfolio di Antonio Occhipinti: acquerelli originali, paesaggi, marine, ritratti e arte sacra." />
   <meta name="twitter:image"       content="https://occhipintiantonio.com/img/og-image.jpg" />
 
@@ -144,6 +149,7 @@
     class="flex-1 px-6 md:px-12 lg:px-20 py-12"
     aria-label="Galleria opere"
   >
+    <h2 class="sr-only" x-data x-text="$store.i18n.lang === 'it' ? 'Galleria opere' : 'Works gallery'">Galleria opere</h2>
 
     <!-- ── Category tabs ── -->
     <div
@@ -206,7 +212,7 @@
             />
           </div>
           <div class="mt-4 space-y-1">
-            <h2 class="font-serif text-xl leading-snug" x-text="art.title"></h2>
+            <h3 class="font-serif text-xl leading-snug" x-text="art.title"></h3>
             <p class="text-xs tracking-widest uppercase text-powder" x-text="translateCat(art.category)"></p>
             <p class="text-xs text-ink/40 font-light" x-text="art.details"></p>
           </div>

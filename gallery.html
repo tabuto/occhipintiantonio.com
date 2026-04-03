@@ -3,12 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gallery — Antonio Occhipinti</title>
-  <meta name="description" content="Gallery completa delle opere di Antonio Occhipinti." />
+  <title>Galleria delle opere — Antonio Occhipinti, Acquerellista</title>
+  <meta name="description" content="Archivio completo delle opere di Antonio Occhipinti: acquerelli originali, paesaggi, marine, ritratti, arte sacra e figure." />
 
   <!-- SEO -->
   <meta name="author" content="Antonio Occhipinti" />
   <link rel="canonical" href="https://occhipintiantonio.com/gallery.html" />
+
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="it"        href="https://occhipintiantonio.com/gallery.html" />
+  <link rel="alternate" hreflang="en"        href="https://occhipintiantonio.com/gallery.html" />
+  <link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/gallery.html" />
 
   <!-- Open Graph -->
   <meta property="og:type"        content="website" />
@@ -134,7 +139,7 @@
             />
           </div>
           <div class="mt-4 space-y-1">
-            <h2 class="font-serif text-xl leading-snug" x-text="art.title"></h2>
+            <h3 class="font-serif text-xl leading-snug" x-text="art.title"></h3>
             <p class="text-xs tracking-widest uppercase text-powder" x-text="translateCat(art.category)"></p>
             <p class="text-xs text-ink/40 font-light" x-text="art.details"></p>
           </div>

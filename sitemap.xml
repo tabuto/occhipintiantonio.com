@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://occhipintiantonio.com/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/gallery.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/mostre.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/mostre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/mostre.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/awards.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/awards.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/awards.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/critica.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/critica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/critica.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
