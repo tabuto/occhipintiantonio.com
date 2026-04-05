@@ -1,65 +1,123 @@
-[
-  {
-    "title": "Marina di Scicli",
-    "category": "Marine",
-    "image": "/img/art/marina-scicli-1.jpg",
-    "thumb": "/img/art/thumb_marina-scicli-1.jpg",
-    "details": "Acquerello su carta 300g"
-  },
-  {
-    "title": "Barche al Porto",
-    "category": "Marine",
-    "image": "/img/art/barche-porto-2.jpg",
-    "thumb": "/img/art/thumb_barche-porto-2.jpg",
-    "details": "Acquerello su carta 300g"
-  },
-  {
-    "title": "Colline Siciliane",
-    "category": "Paesaggi",
-    "image": "/img/art/colline-siciliane-3.jpg",
-    "thumb": "/img/art/thumb_colline-siciliane-3.jpg",
-    "details": "Acquerello su carta 300g"
-  },
-  {
-    "title": "Paesaggio Mediterraneo",
-    "category": "Paesaggi",
-    "image": "/img/art/paesaggio-mediterraneo-4.jpg",
-    "thumb": "/img/art/thumb_paesaggio-mediterraneo-4.jpg",
-    "details": "Acquerello su carta 200g"
-  },
-  {
-    "title": "Ritratto Femminile",
-    "category": "Ritratti",
-    "image": "/img/art/ritratto-femminile-5.jpg",
-    "thumb": "/img/art/thumb_ritratto-femminile-5.jpg",
-    "details": "Acquerello su carta 300g"
-  },
-  {
-    "title": "Figura in Luce",
-    "category": "Figure",
-    "image": "/img/art/figura-in-luce-6.jpg",
-    "thumb": "/img/art/thumb_figura-in-luce-6.jpg",
-    "details": "Acquerello su carta 300g"
-  },
-  {
-    "title": "Madonna con Bambino",
-    "category": "Arte Sacra",
-    "image": "/img/art/madonna-bambino-7.jpg",
-    "thumb": "/img/art/thumb_madonna-bambino-7.jpg",
-    "details": "Acquerello su carta 640g"
-  },
-  {
-    "title": "Nudo di Schiena",
-    "category": "Nudi",
-    "image": "/img/art/nudo-schiena-8.jpg",
-    "thumb": "/img/art/thumb_nudo-schiena-8.jpg",
-    "details": "Acquerello su carta 300g"
-  },
-  {
-    "title": "Sguardo",
-    "category": "Ritratti",
-    "image": "/img/art/sguardo-9.jpg",
-    "thumb": "/img/art/thumb_sguardo-9.jpg",
-    "details": "Acquerello su carta 300g"
-  }
-]
+{
+  "gallery_name": "Principale",
+  "categories": [
+    {
+      "name": "marine",
+      "slug": "marine",
+      "items": [
+        {
+          "title": "Porto di Gela",
+          "category": "marine",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1774985081/pyartist/web/marine/porto-di-gela-2.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1774985081/pyartist/thumbs/marine/thumb_porto-di-gela-2.jpg",
+          "details": "2024, Acquerello su carta",
+          "formato": "",
+          "tecnica": "",
+          "descrizione": ""
+        },
+        {
+          "title": "Marina",
+          "category": "marine",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032088/pyartist/web/marine/marina-3.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032089/pyartist/thumbs/marine/thumb_marina-3.jpg",
+          "details": "2008, Acquerello su carta",
+          "formato": "",
+          "tecnica": "",
+          "descrizione": ""
+        }
+      ]
+    },
+    {
+      "name": "ritratti",
+      "slug": "ritratti",
+      "items": [
+        {
+          "title": "Papa Giovanni XXIII",
+          "category": "ritratti",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147107/pyartist/web/ritratti/papa-giovanni-xxiii-9.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147108/pyartist/thumbs/ritratti/thumb_papa-giovanni-xxiii-9.jpg",
+          "details": "Acquerello su carta",
+          "formato": "40x50",
+          "tecnica": "acquerello",
+          "descrizione": ""
+        },
+        {
+          "title": "Padre Pio",
+          "category": "ritratti",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147178/pyartist/web/ritratti/padre-pio-10.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147179/pyartist/thumbs/ritratti/thumb_padre-pio-10.jpg",
+          "details": "Acquerello su carta",
+          "formato": "",
+          "tecnica": "acquerello",
+          "descrizione": ""
+        },
+        {
+          "title": "Santa Caterina",
+          "category": "ritratti",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147226/pyartist/web/ritratti/santa-caterina-11.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147226/pyartist/thumbs/ritratti/thumb_santa-caterina-11.jpg",
+          "details": "Acquerello su carta",
+          "formato": "40x50",
+          "tecnica": "acquerello",
+          "descrizione": ""
+        }
+      ]
+    },
+    {
+      "name": "figure",
+      "slug": "figure",
+      "items": [
+        {
+          "title": "Figura",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032155/pyartist/web/figure/figura-4.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032156/pyartist/thumbs/figure/thumb_figura-4.jpg",
+          "details": "2008, Acquerello su carta",
+          "formato": "",
+          "tecnica": "",
+          "descrizione": ""
+        },
+        {
+          "title": "Contadino",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032222/pyartist/web/figure/contadino-5.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032223/pyartist/thumbs/figure/thumb_contadino-5.jpg",
+          "details": "2008, Acquerello su carta",
+          "formato": "",
+          "tecnica": "",
+          "descrizione": ""
+        },
+        {
+          "title": "Figura Matita",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775146829/pyartist/web/figure/figura-matita-6.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775146829/pyartist/thumbs/figure/thumb_figura-matita-6.jpg",
+          "details": "2019, None",
+          "formato": "40x50",
+          "tecnica": "matita",
+          "descrizione": ""
+        },
+        {
+          "title": "Figura",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775146916/pyartist/web/figure/figura-7.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775146917/pyartist/thumbs/figure/thumb_figura-7.jpg",
+          "details": "Acquerello su carta",
+          "formato": "40x50",
+          "tecnica": "acquerello",
+          "descrizione": ""
+        },
+        {
+          "title": "Zeffirelli",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147020/pyartist/web/figure/zeffirelli-8.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147021/pyartist/thumbs/figure/thumb_zeffirelli-8.jpg",
+          "details": "Acquerello su carta",
+          "formato": "",
+          "tecnica": "acquerello",
+          "descrizione": ""
+        }
+      ]
+    }
+  ]
+}
