@@ -124,20 +124,7 @@
         <p x-show="loading" class="text-ink/30 text-sm animate-pulse"
            x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
         <p x-show="!!error" class="text-ink/40 text-sm" x-text="error" role="alert"></p>
-        <p class="mt-6 text-sm text-ink/50 font-light" x-show="!loading && !error">
-          <span x-show="$store.i18n.lang === 'it'">
-            Per un approfondimento enciclopedico sulla carriera del Maestro, consulta la
-            <a href="https://it.wikipedia.org/wiki/Antonio_Occhipinti_Artista"
-               target="_blank" rel="noopener noreferrer"
-               class="underline underline-offset-2 hover:text-ink/80 transition-colors duration-200">voce dedicata su Wikipedia</a>.
-          </span>
-          <span x-show="$store.i18n.lang !== 'it'">
-            For an encyclopaedic overview of the Master's career, see the
-            <a href="https://it.wikipedia.org/wiki/Antonio_Occhipinti_Artista"
-               target="_blank" rel="noopener noreferrer"
-               class="underline underline-offset-2 hover:text-ink/80 transition-colors duration-200">dedicated Wikipedia page</a>.
-          </span>
-        </p>
+
       </div>
 
       <!-- Portrait — top on mobile, right on desktop -->
