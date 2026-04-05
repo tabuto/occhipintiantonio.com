@@ -19,6 +19,14 @@
   </url>
 
   <url>
+    <loc>https://occhipintiantonio.com/photo-gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/photo-gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/photo-gallery.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://occhipintiantonio.com/mostre.html</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/mostre.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/mostre.html"/>
