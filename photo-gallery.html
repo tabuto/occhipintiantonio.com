@@ -77,7 +77,7 @@
   </header>
 
   <main
-    x-data="gallery('data/photo-gallery.json')"
+    x-data="gallery(`data/photo-gallery.json?v=${CONTENT_VERSION}`)"
     x-init="load()"
     class="flex-1 px-6 md:px-12 lg:px-20 py-12"
     aria-label="Archivio fotografico"
@@ -195,6 +195,7 @@
     <p class="mt-1">Made with Love &amp; AI by <a href="https://francescodidio.com" target="_blank" rel="noopener noreferrer" class="hover:text-ink/60 transition-colors duration-200 underline underline-offset-2">francescodidio.com</a></p>
   </footer>
 
+  <script>const CONTENT_VERSION = '20260418'</script>
   <script src="js/app.js"></script>
 
   <!-- Cookie Banner -->

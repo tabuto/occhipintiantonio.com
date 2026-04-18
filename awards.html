@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Premi e Riconoscimenti — Antonio Occhipinti, Maestro dell'Acquerello</title>
-  <meta name="description" content="Premi, riconoscimenti e onorificenze di Antonio Occhipinti: Premio Talamone 2019, Premio G.B. Tiepolo, Socio Onorario AIA e la definizione di Pietro Annigoni." />
+  <meta name="description" content="Premi, riconoscimenti e onorificenze di Antonio Occhipinti: Premio Telamone 2019, intitolazione della Pinacoteca Comunale di Gela 2025, Premio G.B. Tiepolo, Socio Onorario AIA e la definizione di Pietro Annigoni." />
 
   <!-- SEO -->
   <meta name="author" content="Antonio Occhipinti" />
@@ -112,6 +112,8 @@
   </footer>
 
   <script>
+    const CONTENT_VERSION = '20260418'
+
     document.addEventListener('alpine:init', () => {
       Alpine.store('i18n', {
         lang: localStorage.getItem('lang') || 'it',
@@ -135,13 +137,13 @@
           this.error   = null
           const lang = Alpine.store('i18n').lang
           try {
-            const res = await fetch(`content/${lang}/${this._file}.md`)
+            const res = await fetch(`content/${lang}/${this._file}.md?v=${CONTENT_VERSION}`)
             if (!res.ok) throw new Error(`HTTP ${res.status}`)
             this.content = marked.parse(await res.text())
           } catch {
             if (lang !== 'it') {
               try {
-                const res = await fetch(`content/it/${this._file}.md`)
+                const res = await fetch(`content/it/${this._file}.md?v=${CONTENT_VERSION}`)
                 if (!res.ok) throw new Error(`HTTP ${res.status}`)
                 this.content = marked.parse(await res.text())
                 return

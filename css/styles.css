@@ -139,3 +139,105 @@ body {
   border-bottom: 1px solid rgba(122, 158, 177, 0.2);
   padding-bottom: 0.25rem;
 }
+
+/* ── Critica section ─────────────────────────────────────────── */
+
+/* Article title */
+.critica-content h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+/* Badge metadata (em immediately after h2) */
+.critica-content h2 + p em,
+.critica-content h2 + p {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(26, 26, 26, 0.45);
+  font-style: normal;
+  margin-bottom: 1.25rem;
+}
+
+/* Photo: centered, max-width, subtle border */
+.critica-content img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  max-height: 480px;
+  object-fit: contain;
+  border: 1px solid rgba(26, 26, 26, 0.08);
+  border-radius: 2px;
+  box-shadow: 0 2px 12px rgba(26, 26, 26, 0.06);
+}
+
+/* Caption (em after img paragraph) */
+.critica-content img + em,
+.critica-content p:has(img) + p em {
+  display: block;
+  text-align: center;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: rgba(26, 26, 26, 0.38);
+  font-style: normal;
+  margin-top: -0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Letterhead code block */
+.critica-content pre {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.72rem;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  color: rgba(26, 26, 26, 0.48);
+  background: rgba(26, 26, 26, 0.025);
+  border: none;
+  border-left: 2px solid rgba(196, 64, 39, 0.2);
+  padding: 0.85rem 1.1rem;
+  margin: 1.5rem 0;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.critica-content pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Letter body blockquote */
+.critica-content blockquote {
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: 1.0rem;
+  line-height: 1.9;
+  font-weight: 300;
+  color: rgba(26, 26, 26, 0.72);
+  border-left: 2px solid rgba(196, 64, 39, 0.3);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.critica-content blockquote p {
+  margin-bottom: 1em;
+  color: inherit;
+}
+
+/* Signature (em at end) */
+.critica-content > p:last-child em {
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  color: rgba(26, 26, 26, 0.55);
+  font-size: 0.9rem;
+}
+
+.critica-content > p:last-child strong {
+  font-weight: 500;
+  color: rgba(26, 26, 26, 0.75);
+}

@@ -4,13 +4,54 @@ A selection of the main awards, honours and distinctions received by Antonio Occ
 
 ## Main awards and honours
 
-| Award / Recognition | Year | Description |
-| ------------------- | ---- | ----------- |
-| **Premio Telamone** [1] | 2019 | 43rd Edition of the Premio Telamone — awarded to outstanding Sicilian figures in the fields of business, science, culture and the arts. |
-| **Premio G.B. Tiepolo** [2] | - | Award received in Venice during his long career. |
-| **Premio Internazionale Fabriano** [2] | - | International award dedicated to watercolour painting. |
-| **Honorary Member of AIA** [3][4] | for over 40 years | Honorary member of the **Italian Watercolour Association** until his death. |
-| **Description by Pietro Annigoni** [5] | - | Described as *"one of the best watercolourists in Italy"* by the painter Pietro Annigoni. |
+---
+
+### Naming of the Gela Municipal Art Gallery [5]
+*2025*
+
+The Gela Municipal Art Gallery was officially named after Antonio Occhipinti.
+
+---
+
+### Premio Telamone [1]
+*2019*
+
+43rd Edition of the Premio Telamone — awarded to outstanding Sicilian figures in the fields of business, science, culture and the arts.
+
+---
+
+### Premio Roma-Fiat [7]
+*1995*
+
+3rd place at the 2nd National Watercolour Exhibition — Premio Roma-Fiat 1995.
+
+---
+
+### Premio Internazionale Fabriano [2][6]
+*1986 · 1st Prize*
+
+1st Prize in the watercolour section — international award dedicated to watercolour painting.
+
+---
+
+### Premio G.B. Tiepolo [2]
+*1983 · Venice*
+
+Award received in Venice during his long career.
+
+---
+
+### Honorary Member of AIA [3][4]
+*for over 40 years*
+
+Honorary member of the **Italian Watercolour Association** until his death.
+
+---
+
+### «One of the finest watercolourists in Italy» [8]
+*Pietro Annigoni, 1982*
+
+Described as *"one of the finest watercolourists in Italy"* by the painter Pietro Annigoni in his [autograph letter of 1982](https://occhipintiantonio.com/critica.html).
 
 ## Premio Telamone 2019 — 43rd Edition
 
@@ -26,15 +67,15 @@ Among the other laureates of the same edition were Nicola Fiasconaro (award-winn
 
 - **Works in the Vatican Galleries**: in his later years he painted portraits of the popes displayed in the Vatican Galleries.
 - **Gela Municipal Art Gallery**: 22 watercolours on the history of Gela, created between 1990 and 2015, are exhibited in the municipal art gallery.
+- **Naming of the Gela Municipal Art Gallery (2025)**: the Gela Municipal Art Gallery was officially named after Antonio Occhipinti [5].
 - **Works in the churches of Gela**: numerous works are held in local churches and in the town's art gallery.
-- **Proposal to name the art gallery after him**: the Centro di Cultura Zuppardo proposed naming the art gallery after Antonio Occhipinti.
 
 Occhipinti died in July 2024 at the age of 87, leaving behind an important artistic legacy.
 
 ## Sources
 
 [1] Premio Telamone, *43rd Edition — Award Ceremony 2019*  
-https://www.premiotelamone.com/news/premiotelamone/2019/12/3/dje839k7uwhvvaghjokmhjoc8yogii
+https://web.archive.org/web/20260406134306/https://www.premiotelamone.com/news/premiotelamone/2019/12/3/dje839k7uwhvvaghjokmhjoc8yogii
 
 [2] Settegiorni, *Per Antonio, geniale costruttore della bellezza*  
 https://www.settegiorni.net/2025/09/03/per-antonio-geniale-costruttore-della-bellezza/
@@ -47,3 +88,9 @@ https://acquerello-aia.it/
 
 [5] Gela Beni Culturali, *Inaugurazione Pinacoteca*  
 http://www.gelabeniculturali.it/inaugurazione_pinacoteca.htm
+
+[6] *Premio internazionale Fabriano: sezione acquerelli ed incisione*, Fabriano, Oratorio del Gonfalone, 1987. SBN: ANA0010998
+
+[7] *2ª Mostra nazionale dell'acquerello: Premio Roma-Fiat 1995*, Roma, [s. n.], 1995 (Roma: Tip. de "Il Giornale d'Italia"). SBN: BVE0096964
+
+[8] Pietro Annigoni, *Autograph letter to Antonio Occhipinti*, 16 July 1982 — transcription available at: [Critical Reviews — occhipintiantonio.com](https://occhipintiantonio.com/critica.html)
