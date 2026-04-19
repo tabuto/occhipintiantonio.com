@@ -86,7 +86,7 @@ https://acquerello-aia.it/il-socio-onorario-antonio-occhipinti-ci-ha-lasciato/
 [4] Associazione Italiana Acquerellisti  
 https://acquerello-aia.it/
 
-[5] Gela Beni Culturali, *Inaugurazione Pinacoteca*  
+[5] *Gela dedica la Pinacoteca Comunale ad Antonio Occhipinti*, Quotidiano di Gela — [web.archive.org](https://web.archive.org/web/20260419074651/https://quotidianodigela.it/gela-dedica-la-pinacoteca-comunale-ad-antonio-occhipinti)  
 http://www.gelabeniculturali.it/inaugurazione_pinacoteca.htm
 
 [6] *Premio internazionale Fabriano: sezione acquerelli ed incisione*, Fabriano, Oratorio del Gonfalone, 1987. SBN: ANA0010998
