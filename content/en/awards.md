@@ -16,8 +16,6 @@ The Gela Municipal Art Gallery was officially named after Antonio Occhipinti.
 ### Premio Telamone [1]
 *2019*
 
-43rd Edition of the Premio Telamone — awarded to outstanding Sicilian figures in the fields of business, science, culture and the arts.
-
 ---
 
 ### Premio Roma-Fiat [7]
@@ -34,10 +32,8 @@ The Gela Municipal Art Gallery was officially named after Antonio Occhipinti.
 
 ---
 
-### Premio G.B. Tiepolo [2]
-*1983 · Venice*
-
-Award received in Venice during his long career.
+### Premio Giombattista Tiepolo [2]
+*1983 · 1st Prize Venice*
 
 ---
 
@@ -52,16 +48,6 @@ Honorary member of the **Italian Watercolour Association** until his death.
 *Pietro Annigoni, 1982*
 
 Described as *"one of the finest watercolourists in Italy"* by the painter Pietro Annigoni in his [autograph letter of 1982](https://occhipintiantonio.com/critica.html).
-
-## Premio Telamone 2019 — 43rd Edition
-
-At the 43rd Edition of the **Premio Telamone**, Antonio Occhipinti was honoured among prominent Sicilian figures from the worlds of culture, enterprise and society, united by a path of excellence and a deep bond with the land of Sicily.
-
-The ceremony was held under the theme *"Responsibility and Enhancement of the Territory"*, celebrating men and women who chose, each in their own field, the demanding path of commitment and action.
-
-The master watercolourist — particularly admired in the art world — received the Premio Telamone *"with evident emotion, raising it in the air like a tribute to his own career, where the love of beauty had entirely guided his human and artistic sensibility"* [1].
-
-Among the other laureates of the same edition were Nicola Fiasconaro (award-winning pastry chef), Gabriella Anca Rallo (Donnafugata winery), Federico Mancarella (Paralympic champion), Nadia Terranova (writer, finalist for the Premio Strega 2019) and Antonio Sellerio (Sellerio Editori).
 
 ## Other sources and recognitions
 
