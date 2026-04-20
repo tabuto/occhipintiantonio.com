@@ -9,6 +9,7 @@ document.addEventListener('alpine:init', () => {
     },
     // Category name translations (canonical IT key → EN label)
     _catMap: {
+      'personalit': 'Personalità',
       'Marine':     'Seascapes',
       'Paesaggi':   'Landscapes',
       'Ritratti':   'Portraits',
@@ -17,7 +18,21 @@ document.addEventListener('alpine:init', () => {
       'Nudi':       'Nudes',
     },
     cat(name) {
-      return this.lang === 'en' ? (this._catMap[name] ?? name) : name
+      // Always resolve slug → readable label, then translate to EN if needed
+      const itLabel = this._catMap[name] ?? name
+      if (this.lang === 'en') {
+        const enMap = {
+          'Personalità': 'Personalities',
+          'Marine':      'Seascapes',
+          'Paesaggi':    'Landscapes',
+          'Ritratti':    'Portraits',
+          'Figure':      'Figures',
+          'Arte Sacra':  'Sacred Art',
+          'Nudi':        'Nudes',
+        }
+        return enMap[itLabel] ?? itLabel
+      }
+      return itLabel
     },
   })
 })
