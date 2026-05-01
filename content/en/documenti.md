@@ -50,6 +50,26 @@ _The Prior **Msgr. Angelo Livi**_
 
 ---
 
+### Autograph dedication by Ignazio Buttitta
+_23 March 1981_
+
+Ignazio Buttitta (1899–1997), the most authentic and civic poetic voice of 20th-century Sicily, dedicated this autograph poem in Sicilian dialect to Antonio Occhipinti, recognising him as a painter who paints with mind, heart and hand.
+
+![Autograph dedication by poet Ignazio Buttitta to Antonio Occhipinti, 1981](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777661227/pyartist/web/uncategorized/dedica-del-poeta-ignazio-buttata-1981-29.jpg)
+
+> A Ninni Occhipinti
+> pitturi sicilianu
+> ca pitta
+> cu ciriveddu
+> cu cori
+> e chi manu.
+>
+> *(To Ninni Occhipinti / Sicilian painter / who paints / with his mind / with his heart / and with his hand.)*
+
+_**Buttitta**, 23-3-1981_
+
+---
+
 ## Publications and catalogues
 
 _Exhibition catalogues, books and publications featuring works or texts about Antonio Occhipinti._
