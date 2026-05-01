@@ -26,3 +26,18 @@ BORGO ALBIZI, 8 — TELEF. 212.438
 >
 >Cordialmente Suo, **Pietro Annigoni**
 
+
+
+---
+
+## Occhipinti visto dal Maestro Aldo Raimondi
+
+_Milano_
+
+> Vorrei anzitutto esprimere la mia soddisfazione nell'avere visto i lavori di Antonio Occhipinti, il quale, ho potuto constatare è orgoglioso di essere un acquerellista, in quanto l'acquerello è l'espressione pittorica più preziosa che si possa immaginare, e nel mondo è difficile trovare acquerellisti veri poiché l'acquerello è una tecnica molto difficile, più di ogni altra tecnica, più di ogni altra espressione pittorica e non è per tutti, bisogna essere privilegiati dalla natura, proprio come lo è Occhipinti che rappresenta molto bene questa categoria.
+>
+> Fondamentale è la sua capacità di concepire le sue opere col cervello e di conoscerne il risultato ancora prima di eseguirle.
+>
+> Osservando i suoi lavori si evince infatti che lui è già in possesso del principio che governa l'arte dell'acquerello, cioè: «Fermarsi a tempo», non lasciarsi dunque trasportare dai rifacimenti o complicazioni che andrebbero a discapito della freschezza, che è tutta la preziosità dell'acquerello.
+
+_**Aldo Raimondi**, Milano_
