@@ -2,17 +2,6 @@ Newspaper articles, autograph letters, catalogues and testimonies documenting th
 
 ---
 
-## Press articles
-
-_Clippings and articles from newspapers and magazines dedicated to the work of Antonio Occhipinti._
-
-### Settegiorni — «Per Antonio, geniale costruttore della bellezza»
-_Settegiorni · September 2025_
-
-[Read the article →](https://www.settegiorni.net/2025/09/03/per-antonio-geniale-costruttore-della-bellezza/)
-
----
-
 ## Autograph letters
 
 _Correspondence and written testimonies from figures of the art world._
@@ -21,6 +10,26 @@ _Correspondence and written testimonies from figures of the art world._
 _16 July 1982 · Borgo Albizi, Florence_
 
 See the full transcription in the [Critical Reviews](https://occhipintiantonio.com/critica.html) section.
+
+---
+
+### Autograph dedication by Ignazio Buttitta
+_23 March 1981_
+
+Ignazio Buttitta (1899–1997), the most authentic and civic poetic voice of 20th-century Sicily, dedicated this autograph poem in Sicilian dialect to Antonio Occhipinti, recognising him as a painter who paints with mind, heart and hand.
+
+![Autograph dedication by poet Ignazio Buttitta to Antonio Occhipinti, 1981](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777661227/pyartist/web/uncategorized/dedica-del-poeta-ignazio-buttata-1981-29.jpg)
+
+> A Ninni Occhipinti
+> pitturi sicilianu
+> ca pitta
+> cu ciriveddu
+> cu cori
+> e chi manu.
+>
+> *(To Ninni Occhipinti / Sicilian painter / who paints / with his mind / with his heart / and with his hand.)*
+
+_**Buttitta**, 23-3-1981_
 
 ---
 
@@ -47,26 +56,6 @@ FIRENZE
 > With deep respect and a grateful heart,
 
 _The Prior **Msgr. Angelo Livi**_
-
----
-
-### Autograph dedication by Ignazio Buttitta
-_23 March 1981_
-
-Ignazio Buttitta (1899–1997), the most authentic and civic poetic voice of 20th-century Sicily, dedicated this autograph poem in Sicilian dialect to Antonio Occhipinti, recognising him as a painter who paints with mind, heart and hand.
-
-![Autograph dedication by poet Ignazio Buttitta to Antonio Occhipinti, 1981](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777661227/pyartist/web/uncategorized/dedica-del-poeta-ignazio-buttata-1981-29.jpg)
-
-> A Ninni Occhipinti
-> pitturi sicilianu
-> ca pitta
-> cu ciriveddu
-> cu cori
-> e chi manu.
->
-> *(To Ninni Occhipinti / Sicilian painter / who paints / with his mind / with his heart / and with his hand.)*
-
-_**Buttitta**, 23-3-1981_
 
 ---
 
@@ -98,6 +87,17 @@ _Mol, Belgium · March 1999_
 ![Certificate of participation, 21st Watercolour Exhibition, Mol 1999](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777652620/pyartist/web/uncategorized/partecipazione-alla-21st-watercolour-exhibition-27.jpg)
 
 Participation in the 21st edition of the international watercolour salon organised by the **Aquarel Instituut van België** (AIB), formerly the *Kempische Aquarelvereniging* (founded 1976). The exhibition was held at *'t Kristallijn*, Blauwe Keidreef 3, Mol. In 1999 the institute adopted its international name AIB to broaden its European reach.
+
+---
+
+## Press articles
+
+_Clippings and articles from newspapers and magazines dedicated to the work of Antonio Occhipinti._
+
+### Settegiorni — «Per Antonio, geniale costruttore della bellezza»
+_Settegiorni · September 2025_
+
+[Read the article →](https://www.settegiorni.net/2025/09/03/per-antonio-geniale-costruttore-della-bellezza/)
 
 ---
 
