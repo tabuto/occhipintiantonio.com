@@ -49,6 +49,7 @@ _**Aldo Raimondi**, Milano_
 
 _Mitreo, agosto 1991_
 
+![Testo critico di Aldo Riso su Antonio Occhipinti, 1991](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777660547/pyartist/web/uncategorized/critica-aldo-riso-1991-28.jpg)
 
 > L'acquerello è tecnica difficile, dai risultati, se trattato con magistero, stupendi che nessun altro metodo può ottenere.
 >

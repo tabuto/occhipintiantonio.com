@@ -48,6 +48,7 @@ _**Aldo Raimondi**, Milan_
 
 _Mitreo, August 1991_
 
+![Critical text by Aldo Riso on Antonio Occhipinti, 1991](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777660547/pyartist/web/uncategorized/critica-aldo-riso-1991-28.jpg)
 
 > Watercolour is a difficult technique, but when handled with mastery its results are stunning — results that no other method can achieve.
 >
