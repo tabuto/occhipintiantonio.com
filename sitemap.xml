@@ -56,5 +56,12 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://occhipintiantonio.com/documenti.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/documenti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/documenti.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
