@@ -60,7 +60,7 @@ function markdownSection(file) {
       this.error   = null
       const lang = Alpine.store('i18n').lang
       try {
-        const res = await fetch(`content/${lang}/${this._file}.md`)
+        const res = await fetch(`content/${lang}/${this._file}.md?v=${typeof CONTENT_VERSION !== 'undefined' ? CONTENT_VERSION : '1'}`)
         if (!res.ok) throw new Error(`HTTP ${res.status}`)
         const md = await res.text()
         this.content = marked.parse(md)
