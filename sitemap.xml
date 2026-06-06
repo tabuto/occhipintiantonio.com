@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- ═══ Pagine principali ═══ -->
+
   <url>
     <loc>https://occhipintiantonio.com/</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/"/>
@@ -47,8 +49,9 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/critica.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/critica.html"/>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
+
   <url>
     <loc>https://occhipintiantonio.com/collezioni.html</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/collezioni.html"/>
@@ -56,12 +59,123 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- ═══ Sezione Documenti ═══ -->
+
+  <url>
+    <loc>https://occhipintiantonio.com/elenco_documenti.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/elenco_documenti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/elenco_documenti.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://occhipintiantonio.com/documenti.html</loc>
     <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/documenti.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://occhipintiantonio.com/documenti.html"/>
-    <changefreq>monthly</changefreq>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- ═══ Schede — Critica e testimonianze ═══ -->
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/lettera-annigoni-1982.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/lettera-annigoni-1982.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/lettera-annigoni-1982.html"/>
+    <changefreq>yearly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/critica-aldo-raimondi.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/critica-aldo-raimondi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/critica-aldo-raimondi.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/critica-aldo-riso-1991.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/critica-aldo-riso-1991.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/critica-aldo-riso-1991.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ═══ Schede — Lettere autografe ═══ -->
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/dedica-annigoni-1982.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/dedica-annigoni-1982.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/dedica-annigoni-1982.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/dedica-buttitta-1981.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/dedica-buttitta-1981.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/dedica-buttitta-1981.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/lettera-livi-1984.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/lettera-livi-1984.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/lettera-livi-1984.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ═══ Schede — Pubblicazioni e cataloghi ═══ -->
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/catalogo-roma-fiat-1995.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/catalogo-roma-fiat-1995.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/catalogo-roma-fiat-1995.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- ═══ Schede — Musei e collezioni ═══ -->
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/museo-parisi-valle.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/museo-parisi-valle.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/museo-parisi-valle.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ═══ Schede — Articoli di stampa ═══ -->
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/settegiorni-2025.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/settegiorni-2025.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/settegiorni-2025.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- ═══ Schede — Attestati ═══ -->
+
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/attestato-aib-1999.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/attestato-aib-1999.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/attestato-aib-1999.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>

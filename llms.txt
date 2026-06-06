@@ -14,8 +14,32 @@
 
 - [Premi e riconoscimenti](https://occhipintiantonio.com/awards.html): Premio Giombattista Tiepolo (1983, 1° Premio Venezia), Premio Internazionale Fabriano (1986), Premio Roma-Fiat (1995), Premio Telamone (2019), Intitolazione Pinacoteca Comunale di Gela (2025). Definito da Pietro Annigoni "uno dei migliori acquarellisti d'Italia" (1982).
 
-- [Critica](https://occhipintiantonio.com/critica.html): Testi critici e testimonianze. Include la lettera autografa di Pietro Annigoni ad Antonio Occhipinti del 16 luglio 1982.
+- [Critica](https://occhipintiantonio.com/critica.html): Indice dei testi critici e testimonianze, con estratti e link alle schede complete. Include la lettera autografa di Pietro Annigoni (1982), il contributo di Aldo Raimondi e il testo critico di Aldo Riso (1991).
 
-- [Documenti e Rassegna Stampa](https://occhipintiantonio.com/documenti.html): Articoli di giornale, lettere autografe (inclusa la lettera di Pietro Annigoni del 1982), cataloghi di mostre e pubblicazioni.
+- [Documenti](https://occhipintiantonio.com/elenco_documenti.html): Archivio strutturato di lettere autografe, cataloghi, attestati, articoli di stampa e testimonianze critiche. I documenti sono raggruppati per tipologia e ogni voce ha una scheda dedicata.
 
 - [Collezioni](https://occhipintiantonio.com/collezioni.html): Opere presenti in collezioni pubbliche e private: Museo Annigoni (Firenze), Gallerie Vaticane, Consolato del Sud Africa (Milano), Museo di Padre Pio (San Giovanni Rotondo e Pietrelcina), Città del Messico, e numerose istituzioni e residenze private in Italia.
+
+## Schede documenti
+
+- [Lettera di Pietro Annigoni, 1982](https://occhipintiantonio.com/it/docs/lettera-annigoni-1982.html): Lettera autografa in cui Annigoni definisce Occhipinti «uno dei migliori acquarellisti d'Italia». Testo integrale con riproduzione fotografica dell'originale.
+
+- [Critica di Aldo Raimondi](https://occhipintiantonio.com/it/docs/critica-aldo-raimondi.html): Il Maestro Aldo Raimondi riconosce in Occhipinti la padronanza del principio dell'acquerello: «Fermarsi a tempo».
+
+- [Critica di Aldo Riso, 1991](https://occhipintiantonio.com/it/docs/critica-aldo-riso-1991.html): Testo critico in cui Aldo Riso definisce Occhipinti «vero artista» dotato di «una stupenda mano leggera condotta da un animo pervaso di poesia».
+
+- [Dedica autografa di Pietro Annigoni, 1982](https://occhipintiantonio.com/it/docs/dedica-annigoni-1982.html): Dedica con schizzo originale di Pietro Annigoni ad Antonio Occhipinti, novembre 1982.
+
+- [Dedica autografa di Ignazio Buttitta, 1981](https://occhipintiantonio.com/it/docs/dedica-buttitta-1981.html): Lirica autografa in dialetto siciliano del poeta Ignazio Buttitta, 23 marzo 1981.
+
+- [Lettera di Mons. Angelo Livi, 1984](https://occhipintiantonio.com/it/docs/lettera-livi-1984.html): Il Priore della Basilica di S. Lorenzo di Firenze ringrazia Occhipinti per il dono di un acquerello, luglio 1984.
+
+- [Catalogo Premio Fabriano, 1987](https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html): Catalogo della mostra Premio internazionale Fabriano, sezione acquerelli ed incisione, Oratorio del Gonfalone. SBN: ANA0010998.
+
+- [Catalogo Premio Roma-Fiat, 1995](https://occhipintiantonio.com/it/docs/catalogo-roma-fiat-1995.html): Catalogo della 2ª Mostra nazionale dell'acquerello, Premio Roma-Fiat, Roma. SBN: BVE0096964.
+
+- [Civico Museo Parisi Valle](https://occhipintiantonio.com/it/docs/museo-parisi-valle.html): Un acquerello su carta (700×500 mm, 2009) di Antonio Occhipinti è conservato nelle collezioni permanenti del Civico Museo Parisi Valle, nella raccolta «Colori sull'Acqua».
+
+- [Settegiorni, settembre 2025](https://occhipintiantonio.com/it/docs/settegiorni-2025.html): Articolo «Per Antonio, geniale costruttore della bellezza» pubblicato su Settegiorni.
+
+- [Attestato AIB, Mol 1999](https://occhipintiantonio.com/it/docs/attestato-aib-1999.html): Attestato di partecipazione alla 21ª edizione del salone internazionale dell'acquerello, Aquarel Instituut van België, Mol (Belgio).
