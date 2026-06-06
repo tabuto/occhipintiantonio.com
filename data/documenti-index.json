@@ -1,5 +1,29 @@
 [
   {
+    "slug": "lettera-annigoni-1982",
+    "title": "«Uno dei migliori acquarellisti d'Italia» — Pietro Annigoni",
+    "tipologia": "Critica e testimonianze",
+    "date": "16 luglio 1982",
+    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1776512977/pyartist/web/personalit/lettera-autografa-p-annigoni-1982-20.jpg",
+    "excerpt": "Lettera autografa in cui Pietro Annigoni riconosce in Antonio Occhipinti «uno dei migliori acquarellisti d'Italia», dopo aver ammirato il ritratto e l'acquarello di Gela donatigli."
+  },
+  {
+    "slug": "critica-aldo-raimondi",
+    "title": "Occhipinti visto dal Maestro Aldo Raimondi",
+    "tipologia": "Critica e testimonianze",
+    "date": "Milano",
+    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1778948660/pyartist/web/ritratti/aldo-raimondi-34.jpg",
+    "excerpt": "Il Maestro Aldo Raimondi riconosce in Occhipinti il possesso del principio che governa l'acquerello: «Fermarsi a tempo», con la capacità di concepire le opere col cervello prima ancora di eseguirle."
+  },
+  {
+    "slug": "critica-aldo-riso-1991",
+    "title": "Occhipinti visto da Aldo Riso",
+    "tipologia": "Critica e testimonianze",
+    "date": "agosto 1991",
+    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1777660547/pyartist/web/uncategorized/critica-aldo-riso-1991-28.jpg",
+    "excerpt": "Aldo Riso definisce Occhipinti «vero artista» dotato di «una stupenda mano leggera condotta da un animo pervaso di poesia che rende l'opera vera opera d'arte»."
+  },
+  {
     "slug": "dedica-annigoni-1982",
     "title": "Dedica autografa di Pietro Annigoni",
     "tipologia": "Lettere autografe",
@@ -40,12 +64,12 @@
     "excerpt": "Catalogo della 2ª Mostra nazionale dell'acquerello, Premio Roma-Fiat, Roma 1995. SBN: BVE0096964."
   },
   {
-    "slug": "attestato-aib-1999",
-    "title": "Attestato — 21st Watercolour Exhibition, AIB Mol 1999",
-    "tipologia": "Attestati",
-    "date": "marzo 1999",
-    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1777652620/pyartist/web/uncategorized/partecipazione-alla-21st-watercolour-exhibition-27.jpg",
-    "excerpt": "Attestato di partecipazione alla 21ª edizione del salone internazionale dell'acquerello AIB, Mol, Belgio, marzo 1999."
+    "slug": "museo-parisi-valle",
+    "title": "Opera in collezione — Civico Museo Parisi Valle",
+    "tipologia": "Musei e collezioni",
+    "date": "2009",
+    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1779372796/pyartist/web/figure/senza-titolo-37.jpg",
+    "excerpt": "Un acquerello su carta di Antonio Occhipinti è presente nelle collezioni permanenti del Civico Museo Parisi Valle, nella collezione «Colori sull'Acqua»."
   },
   {
     "slug": "settegiorni-2025",
@@ -56,11 +80,11 @@
     "excerpt": "Articolo dedicato ad Antonio Occhipinti pubblicato su Settegiorni, settembre 2025."
   },
   {
-    "slug": "museo-parisi-valle",
-    "title": "Opera in collezione — Civico Museo Parisi Valle",
-    "tipologia": "Musei e collezioni",
-    "date": "2009",
-    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1779372796/pyartist/web/figure/senza-titolo-37.jpg",
-    "excerpt": "Un acquerello su carta di Antonio Occhipinti è presente nelle collezioni permanenti del Civico Museo Parisi Valle, nella collezione «Colori sull'Acqua»."
+    "slug": "attestato-aib-1999",
+    "title": "Attestato — 21st Watercolour Exhibition, AIB Mol 1999",
+    "tipologia": "Attestati",
+    "date": "marzo 1999",
+    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1777652620/pyartist/web/uncategorized/partecipazione-alla-21st-watercolour-exhibition-27.jpg",
+    "excerpt": "Attestato di partecipazione alla 21ª edizione del salone internazionale dell'acquerello AIB, Mol, Belgio, marzo 1999."
   }
 ]

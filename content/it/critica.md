@@ -3,30 +3,13 @@ Voci autorevoli del panorama artistico italiano che ne hanno riconosciuto e cele
 
 ---
 
-## «Uno dei migliori acquarellisti d’Italia»
+## «Uno dei migliori acquarellisti d'Italia»
 
 _1982 · Lettera autografa · Pietro Annigoni_
 
-![Lettera autografa di Pietro Annigoni ad Antonio Occhipinti, 1982](https://res.cloudinary.com/ds8hmzyom/image/upload/v1776512977/pyartist/web/personalit/lettera-autografa-p-annigoni-1982-20.jpg)
+> Credo di poter dire con tutta tranquillità che Lei è uno dei migliori acquarellisti d'Italia.
 
-```
-XVI · VII · LXXXII
-PIETRO ANNIGONI
-BORGO ALBIZI, 8 — TELEF. 212.438
-50122 FIRENZE
-```
-
-> Caro Occhipinti,
->
-> serbo un gradito ricordo del nostro incontro, un ricordo che d’altronde si materializza nel bel ritratto che mi ha fatto e del quale generosamente ha voluto farmi omaggio, aggiungendogli il bellissimo acquarello di Gela.
->
-> Guardando queste Sue due opere, a mio agio, noto che Lei alle trasparenze atmosferiche vibranti di luce sa unire una rara solidità e, specie nel ritratto, una corporeità tanto difficilmente ottenibile in questa tecnica. Credo di poter dire con tutta tranquillità che Lei è uno dei migliori acquarellisti d’Italia.
->
-> Ancora La ringrazio e Le auguro molto e buon lavoro!
->
->Cordialmente Suo, **Pietro Annigoni**
-
-
+[Leggi la scheda completa →](/it/docs/lettera-annigoni-1982.html)
 
 ---
 
@@ -34,14 +17,9 @@ BORGO ALBIZI, 8 — TELEF. 212.438
 
 _Milano_
 
-> Vorrei anzitutto esprimere la mia soddisfazione nell'avere visto i lavori di Antonio Occhipinti, il quale, ho potuto constatare è orgoglioso di essere un acquerellista, in quanto l'acquerello è l'espressione pittorica più preziosa che si possa immaginare, e nel mondo è difficile trovare acquerellisti veri poiché l'acquerello è una tecnica molto difficile, più di ogni altra tecnica, più di ogni altra espressione pittorica e non è per tutti, bisogna essere privilegiati dalla natura, proprio come lo è Occhipinti che rappresenta molto bene questa categoria.
->
 > Fondamentale è la sua capacità di concepire le sue opere col cervello e di conoscerne il risultato ancora prima di eseguirle.
->
-> Osservando i suoi lavori si evince infatti che lui è già in possesso del principio che governa l'arte dell'acquerello, cioè: «Fermarsi a tempo», non lasciarsi dunque trasportare dai rifacimenti o complicazioni che andrebbero a discapito della freschezza, che è tutta la preziosità dell'acquerello.
 
-_**Aldo Raimondi**, Milano_
-
+[Leggi la scheda completa →](/it/docs/critica-aldo-raimondi.html)
 
 ---
 
@@ -49,18 +27,6 @@ _**Aldo Raimondi**, Milano_
 
 _Mitreo, agosto 1991_
 
-![Testo critico di Aldo Riso su Antonio Occhipinti, 1991](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777660547/pyartist/web/uncategorized/critica-aldo-riso-1991-28.jpg)
+> Ha soprattutto una stupenda mano leggera condotta da un animo pervaso di poesia che rende l'opera vera opera d'arte.
 
-> L'acquerello è tecnica difficile, dai risultati, se trattato con magistero, stupendi che nessun altro metodo può ottenere.
->
-> Ma non solo è la pratica, non solo è la grande abilità del pittore, né la tecnica, né la trasparenza del colore, occorre via via il trasporto, il sentimento di sentire il colore, di avvertire il tratto leggero e la trasparente lucidità della pennellatura.
->
-> Una carezza sulla carta, un gesto d'amore, come la lettera di un innamorato alla sua amata, questo è l'acquerello, questo è il risultato di una tecnica sposa all'anelito artistico.
->
-> Ed Antonio Occhipinti è pittore, certo ha tecnica, certo ha misura e senso delle proporzioni, ha l'istinto del colore ed il tratto veloce del disegno, ma ha soprattutto una stupenda mano leggera condotta da un animo pervaso di poesia che rende l'opera vera opera d'arte.
->
-> Antonio ha al suo attivo tutto ciò, vive nella realtà del suo figurativo, ma lo trasmette più un ricordo che una realtà visiva, più una poetica che un ritratto.
->
-> Vero artista a cui va il mio pieno plauso di acquerellista, ma soprattutto il mio più sentito rispetto per l'uomo e per il pittore.
-
-_**Aldo Riso**, Mitreo, agosto 1991_
+[Leggi la scheda completa →](/it/docs/critica-aldo-riso-1991.html)

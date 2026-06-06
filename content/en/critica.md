@@ -7,6 +7,34 @@ Authoritative voices from the Italian art world who recognised and celebrated hi
 
 _1982 · Autograph letter · Pietro Annigoni_
 
+> I feel I can say with complete confidence that you are one of the finest watercolourists in Italy.
+
+[Read the full document →](/it/docs/lettera-annigoni-1982.html)
+
+---
+
+## Occhipinti as seen by Maestro Aldo Raimondi
+
+_Milan_
+
+> Fundamental is his ability to conceive his works in his mind and to know their outcome even before executing them.
+
+[Read the full document →](/it/docs/critica-aldo-raimondi.html)
+
+---
+
+## Occhipinti as seen by Aldo Riso
+
+_Mitreo, August 1991_
+
+> Above all he has a wonderfully light hand guided by a soul steeped in poetry, and that is what makes his work true art.
+
+[Read the full document →](/it/docs/critica-aldo-riso-1991.html)
+
+## «One of the finest watercolourists in Italy»
+
+_1982 · Autograph letter · Pietro Annigoni_
+
 ![Autograph letter by Pietro Annigoni to Antonio Occhipinti, 1982](https://res.cloudinary.com/ds8hmzyom/image/upload/v1776512977/pyartist/web/personalit/lettera-autografa-p-annigoni-1982-20.jpg)
 
 ```
