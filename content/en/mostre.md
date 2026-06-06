@@ -2,7 +2,77 @@
 
 Solo shows, group exhibitions and awards received throughout his artistic career.
 
----
+# International Exhibitions
+
+## 1978
+- Group exhibition "34 Vence", Cannes (France).
+
+## 1986
+- **International Award "Fabriano" *(1st place)*, Fabriano (AN).**
+- **International Award "La Sciara di Stromboli" *(1st place)*, Aeolian Islands (ME).**
+
+## 1989
+- Exhibition, Galerie Jacqueline Nioncel, Paris (France).
+- International Watercolour Award "La Sciara di Stromboli", Aeolian Islands (ME).
+
+## 1994
+- International Award Rome Fiat Watercolour, Rome.
+
+## 1995
+- International Watercolour Review (Ireland–Italy–Hungary), Cremona.
+- International Watercolour Award "Roma Fiat", Rome.
+- Exhibition of the Associazione Italiana di Acquerellisti (50 works), Museo Nacional de la Acuarela "Alfredo Guati Rojo", Mexico City (Mexico) — work presented: *"Omaggio a Fresquet" / Homenaje a Fresquet*.
+
+## 1996
+- International Watercolour Review, Belluno.
+
+## 1998
+- Watercolour Exhibition "Arte antiguo... Arte nuevo", Museo Nacional de la Acuarela, Arona (NO). *(collaboration between the Associazione Italiana Acquerellisti and the Sociedad Mexicana de Acuarelistas)*
+- **Presentation of portrait to H.H. Pope John Paul II**, Vatican City.
+- Watercolour Biennial, Sala Cultural Caja Madrid, Barcelona (Spain).
+
+## 1999
+- Group show of Italian and International Watercolourists, Belgium.
+- 21st Edition of the International Watercolour Salon, Aquarel Instituut van België, Belgium.
+
+## 2000
+- International Watercolour Review, Palazzo della Regione, Cannobio Verbano (Lake Maggiore).
+- **IV International Watercolour Biennial, Museo Nacional de la Acuarela "Alfredo Guati Rojo", Mexico City (Mexico) — work presented: *"El regreso" / The Return*, 40 × 60 cm.**
+
+## 2001
+- Watercolour Without Borders (Texas–Italy), Southwestern Watercolor Society.
+- Watercolour Without Borders (Italy–Texas), A.I.A.
+- **"At the Borders of Europe" — European Art Review with France, Hungary, Ireland, Italy, Portugal, Spain, International Association of Watercolors, Ireland.**
+
+## 2002
+- Museo de la Acuarela di Llançà (Spain) — Group exhibition.
+
+## 2003
+- European Watercolour Exhibition "Colori sull'Acqua" — with Italy, Catalonia, Belgium, Denmark, Finland, Iceland, Norway, Sweden. Civico Museo Parisi Valle, Maccagno (VA).
+
+## 2004
+- "Thirty Years of Watercolour" 1974–2004 — with Italy, Austria, Belgium, Brazil, Colombia, Ireland, Mexico, Denmark, Finland, Iceland, Norway, Sweden, Russia, Spain. Museo Civico d'Arte Moderna e Contemporanea, Arezzo.
+
+## 2005
+- **International Watercolour Exhibition, Antwerp (Belgium).**
+
+## 2006
+- **International Watercolour Exhibition, Milan.**
+- **International Watercolour Exhibition, Bilbao (Spain).**
+- International Exhibition "Note d'Acquerello", Cremona.
+- "International Watercolour Exhibition" — Italy–Spain Biennial 2006, Cremona.
+
+## 2007
+- International Watercolour Review, Vicenza.
+
+## 2008
+- International Biennial Exhibition "Note d'Acquerello", Cremona.
+
+## 2009
+- International Watercolour Festival, Bellagio (CO).
+- International Group Exhibition, Galleria L'Androne, Scicli (RG).
+
+# National Exhibitions
 
 ## 1956
 - Solo exhibition at the Circolo S. Agostino, Gela.
@@ -54,7 +124,6 @@ Solo shows, group exhibitions and awards received throughout his artistic career
 
 ## 1978
 - 2nd Painting and Sculpture Review "Aquarius", Castello Ursino, Catania.
-- Group exhibition "34 Vence", Cannes (France).
 - Gran Premio Europa 2000, Milan.
 - Exhibition, Cultural Centre "Hobelix", Messina.
 
@@ -95,8 +164,6 @@ Solo shows, group exhibitions and awards received throughout his artistic career
 
 ## 1986
 - I Maestri dell'Acquerello, Galleria d'Arte "Presenze", Rieti.
-- International Award "Fabriano" *(1st place)*, Fabriano (AN).
-- International Award "La Sciara di Stromboli" *(1st place)*, Aeolian Islands (ME).
 - National Biennial of Sacred Art, Palazzo Vescovile, Rieti.
 - "100 Watercolourists in Rome", Banca d'Italia, Rome.
 
@@ -106,9 +173,7 @@ Solo shows, group exhibitions and awards received throughout his artistic career
 - "100 Watercolourists in Rome", Banca d'Italia, Rome.
 
 ## 1989
-- Exhibition, Galerie Jacqueline Nioncel, Paris (France).
 - Italian and International Watercolourists, Castello Aragonese, Taranto.
-- International Watercolour Award "La Sciara di Stromboli", Aeolian Islands (ME).
 - Italian and International Artists for the Aeolian Islands, Aeolian Islands (ME).
 - "100 Watercolourists in Rome", Banca d'Italia, Rome.
 
@@ -133,20 +198,15 @@ Solo shows, group exhibitions and awards received throughout his artistic career
 - "100 Watercolourists in Rome", Banca d'Italia, Rome.
 - Italian and International Artists for the Aeolian Islands, Aeolian Islands (ME).
 - Watercolour Review, Campagna Sight First 1994, Melegnano (MI).
-- International Award Rome Fiat Watercolour, Rome.
 - 1st Biennial of Sicilian Art, Ed. Scri.Ba Arte 1994, Vittoria (RG).
 
 ## 1995
 - National Watercolour Review, Biblioteca Comunale, Olgiate Comasco.
-- International Watercolour Review (Ireland–Italy–Hungary), Cremona.
-- International Watercolour Award "Roma Fiat", Rome.
 - Art Exhibition, Cultural Association Vitaliano Brancati, Zafferana Etnea (CT).
-- Exhibition at the Museo del Acquerello, Mexico City (Mexico).
 
 ## 1996
 - Group show, Galleria Velasquez (in memory of Anna Pavesi), Milan.
 - "Fregene in watercolours by Antonio Occhipinti", Gilda on the Beach, Fregene (Rome).
-- International Watercolour Review, Belluno.
 - Watercolour Without Borders, Feltre (Belluno).
 
 ## 1997
@@ -154,71 +214,47 @@ Solo shows, group exhibitions and awards received throughout his artistic career
 - Exhibition "Omaggio alle Cattedrali", Palazzo Ducale del Duomo di Milano, Milan.
 
 ## 1998
-- Watercolour Exhibition "Arte antiguo... Arte nuevo", Museo Nacional de la Acuarela, Arona (NO). *(collaboration between the Associazione Italiana Acquerellisti and the Sociedad Mexicana de Acuarelistas)*
 - Maggio Artistico Catanese (XXIV Edition), Catania.
 - Third National Exhibition of Contemporary Art — Award Province of Agrigento, Licata (AG).
 - Omaggio alle Cattedrali in the Duomo di Siena, Siena.
-- **Presentation of portrait to H.H. Pope John Paul II**, Vatican City.
-- Watercolour Biennial, Sala Cultural Caja Madrid, Barcelona (Spain).
 
 ## 1999
-- Group show of Italian and International Watercolourists, Belgium.
 - "Acqua Colori Emozioni" — Tribute to Aldo Raimondi, Palazzo Kursaal, Loano (GE).
 
 ## 2000
 - Omaggio alle Cattedrali, Feltre.
-- International Watercolour Review, Palazzo della Regione, Cannobio Verbano (Lake Maggiore).
 
 ## 2001
 - Tribute to St. Luke, Caltanissetta — Exhibition of the Via Crucis panels.
 - Solo exhibition curated by Piero Guccione "Espressioni Poetiche nell'Acquerello", Galleria d'Arte L'Androne, Scicli.
-- Watercolour Without Borders (Texas–Italy), Southwestern Watercolor Society.
-- Watercolour Without Borders (Italy–Texas), A.I.A.
-- "At the Borders of Europe" — European Art Review with France, Hungary, Ireland, Italy, Portugal, Spain, International Association of Watercolors, Ireland.
 
 ## 2002
 - Maggio Artistico Catanese, Catania.
-- Museo de la Acuarela di Llançà (Spain) — Group exhibition.
-
-## 2003
-- European Watercolour Exhibition "Colori sull'Acqua" — with Italy, Catalonia, Belgium, Denmark, Finland, Iceland, Norway, Sweden. Civico Museo Parisi Valle, Maccagno (VA).
-
-## 2004
-- "Thirty Years of Watercolour" 1974–2004 — with Italy, Austria, Belgium, Brazil, Colombia, Ireland, Mexico, Denmark, Finland, Iceland, Norway, Sweden, Russia, Spain. Museo Civico d'Arte Moderna e Contemporanea, Arezzo.
 
 ## 2005
 - Group show "Acquerelli in Villa", Nova Milanese (MI).
 - Solo exhibition "Scicli e le sue marine", Galleria d'Arte L'Androne, Donnalucata (RG).
-- International Watercolour Exhibition, Antwerp (Belgium).
 - Exhibition at Villa Vertua, Nova Milanese (MI).
 - Charity exhibition at the Palazzo delle Stelline, Milan.
 - World Watercolour Day, Milan.
 
 ## 2006
 - Maggio Artistico Catanese, Catania.
-- International Watercolour Exhibition, Milan.
 - Art Review at Lo Sperone, Gela (CL).
 - Exhibition in Rigomagno (SI) and Watercolour Courses.
-- International Watercolour Exhibition, Bilbao (Spain).
-- International Exhibition "Note d'Acquerello", Cremona.
 - World Watercolour Day, Milan.
-- "International Watercolour Exhibition" — Italy–Spain Biennial 2006, Cremona.
 
 ## 2007
 - Art Review at Lo Sperone, Gela (CL).
-- International Watercolour Review, Vicenza.
 - Maggio Artistico Catanese, Catania.
 - Charity exhibition, Palazzo Ducale, Genoa.
 - World Watercolour Day, Milan.
 
 ## 2008
-- International Biennial Exhibition "Note d'Acquerello", Cremona.
 - Exhibition at the Castello dei Vicari-Lari, Pisa.
 - Solo exhibition "Allegoria Barocca Siciliana", Galleria d'Arte L'Androne, Donnalucata (RG).
 - World Watercolour Day, A.I.A. Headquarters Gallery, Milan.
 
 ## 2009
-- International Watercolour Festival, Bellagio (CO).
-- International Group Exhibition, Galleria L'Androne, Scicli (RG).
 - "Forme e Luce" — Oils, Pastels, Watercolours, Galleria d'Arte L'Androne, Scicli (RG).
 - "Thirty Years of Art", Galleria d'Arte L'Androne, Scicli (RG).

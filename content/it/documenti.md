@@ -95,7 +95,7 @@ _Mol, Belgio · Marzo 1999_
 
 ![Attestato di partecipazione alla 21st Watercolour Exhibition, Mol 1999](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777652620/pyartist/web/uncategorized/partecipazione-alla-21st-watercolour-exhibition-27.jpg)
 
-Partecipazione alla 21ª edizione del salone internazionale dell'acquerello organizzato dall'**Aquarel Instituut van België** (AIB), già *Kempische Aquarelvereniging* (fondata nel 1976). La manifestazione si tenne presso *'t Kristallijn*, Blauwe Keidreef 3, Mol. Proprio nel 1999 l'istituto assunse la denominazione internazionale AIB con l'obiettivo di ampliare la propria proiezione europea.
+Partecipazione alla 21ª edizione del salone internazionale dell'acquerello organizzato dall'**Aquarel Instituut van België** (AIB), già Kempische Aquarelvereniging (fondata nel 1976). La manifestazione si tenne presso 't Kristallijn, Blauwe Keidreef 3, Mol. Proprio nel 1999 l'istituto assunse la denominazione internazionale AIB con l'obiettivo di ampliare la propria proiezione europea.
 
 ---
 
