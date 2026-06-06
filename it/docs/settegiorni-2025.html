@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>«Per Antonio, geniale costruttore della bellezza» — Settegiorni 2025 — Antonio Occhipinti</title>
+  <meta name="description" content="Articolo dedicato ad Antonio Occhipinti pubblicato su Settegiorni, settembre 2025." />
+  <meta name="author" content="Antonio Occhipinti" />
+  <link rel="canonical" href="https://occhipintiantonio.com/it/docs/settegiorni-2025.html" />
+
+  <link rel="alternate" hreflang="it"        href="https://occhipintiantonio.com/it/docs/settegiorni-2025.html" />
+  <link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/settegiorni-2025.html" />
+
+  <meta property="og:type"        content="article" />
+  <meta property="og:url"         content="https://occhipintiantonio.com/it/docs/settegiorni-2025.html" />
+  <meta property="og:title"       content="«Per Antonio, geniale costruttore della bellezza» — Settegiorni 2025" />
+  <meta property="og:description" content="Articolo dedicato ad Antonio Occhipinti pubblicato su Settegiorni, settembre 2025." />
+  <meta property="og:image"       content="https://occhipintiantonio.com/img/og-image.jpg" />
+
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="«Per Antonio, geniale costruttore della bellezza» — Settegiorni 2025" />
+  <meta name="twitter:description" content="Articolo dedicato ad Antonio Occhipinti pubblicato su Settegiorni, settembre 2025." />
+  <meta name="twitter:image"       content="https://occhipintiantonio.com/img/og-image.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/js/tailwind.config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%23C44027'/><text x='50' y='68' font-family='Georgia,serif' font-size='46' font-weight='bold' text-anchor='middle' fill='%23FCFCFC'>AO</text></svg>" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+
+<body class="font-sans bg-canvas text-ink min-h-screen flex flex-col">
+
+  <div x-data="schadaPage('settegiorni-2025')" x-init="init(); load()" class="flex flex-col flex-1">
+
+    <header class="px-6 pt-10 pb-6 border-b border-ink/5">
+      <nav aria-label="Breadcrumb">
+        <p class="text-xs tracking-[0.25em] uppercase text-powder">
+          <a href="/" class="hover:text-ink/60 transition-colors duration-200">Antonio Occhipinti</a>
+          <span class="mx-2 text-ink/20" aria-hidden="true">/</span>
+          <a href="/elenco_documenti.html"
+             class="hover:text-ink/60 transition-colors duration-200"
+             x-text="$store.i18n.lang === 'it' ? 'Documenti' : 'Documents'">Documenti</a>
+        </p>
+      </nav>
+
+      <h1 class="font-serif text-3xl md:text-4xl tracking-tight mt-4"
+          x-text="meta.title || '«Per Antonio, geniale costruttore della bellezza»'">«Per Antonio, geniale costruttore della bellezza»</h1>
+
+      <p x-show="meta.tipologia"
+         class="mt-2 text-xs tracking-widest uppercase text-powder/80"
+         x-text="meta.tipologia + (meta.date ? ' · ' + meta.date : '')"></p>
+
+      <div class="mt-5 flex items-center gap-3 text-xs tracking-widest uppercase">
+        <button @click="$store.i18n.setLang('it')"
+                :class="$store.i18n.lang === 'it' ? 'text-powder font-medium border-b border-powder' : 'text-ink/30 hover:text-ink/60'"
+                class="pb-0.5 transition-colors duration-200 focus:outline-none">IT</button>
+        <span class="text-ink/20 select-none">|</span>
+        <button @click="$store.i18n.setLang('en')"
+                :class="$store.i18n.lang === 'en' ? 'text-powder font-medium border-b border-powder' : 'text-ink/30 hover:text-ink/60'"
+                class="pb-0.5 transition-colors duration-200 focus:outline-none">EN</button>
+      </div>
+    </header>
+
+    <main class="flex-1 px-6 md:px-12 lg:px-20 py-12 max-w-3xl mx-auto w-full">
+      <p x-show="loading"
+         class="text-ink/30 text-sm animate-pulse"
+         x-text="$store.i18n.lang === 'it' ? 'Caricamento…' : 'Loading…'"></p>
+      <p x-show="!!error"
+         class="text-ink/40 text-sm" x-text="error" role="alert"></p>
+
+      <div x-show="!loading && !error">
+        <figure x-show="meta.image" class="mb-10">
+          <img :src="meta.image"
+               :alt="meta.title"
+               class="w-full max-h-[520px] object-contain border border-ink/10 rounded-sm shadow-sm" />
+        </figure>
+
+        <div class="critica-content markdown-content text-ink/70 leading-relaxed font-light"
+             x-html="content"></div>
+      </div>
+
+      <div class="mt-14 pt-8 border-t border-ink/10">
+        <a href="/elenco_documenti.html"
+           class="text-xs tracking-widest uppercase text-powder hover:text-powder/70 transition-colors duration-200"
+           x-text="$store.i18n.lang === 'it' ? '← Torna ai documenti' : '← Back to documents'">← Torna ai documenti</a>
+      </div>
+    </main>
+
+    <footer class="px-6 py-8 text-center text-xs text-ink/25 font-light border-t border-ink/5 mt-8">
+      <p>&copy; <span x-text="new Date().getFullYear()"></span> Antonio Occhipinti — Tutti i diritti riservati</p>
+      <p class="mt-1">
+        <a href="/" class="hover:text-ink/60 transition-colors duration-200 underline underline-offset-2"
+           x-text="$store.i18n.lang === 'it' ? 'Torna al sito' : 'Back to site'">Torna al sito</a>
+      </p>
+      <p class="mt-1">Made with Love &amp; AI by
+        <a href="https://francescodidio.com" target="_blank" rel="noopener noreferrer"
+           class="hover:text-ink/60 transition-colors duration-200 underline underline-offset-2">francescodidio.com</a>
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- Cookie Banner -->
+  <div x-data
+       x-show="$store.cookies.showBanner"
+       x-transition:enter="transition ease-out duration-300"
+       x-transition:enter-start="opacity-0 translate-y-4"
+       x-transition:enter-end="opacity-100 translate-y-0"
+       class="fixed bottom-0 inset-x-0 z-40 p-4 md:p-6 bg-ink/95 backdrop-blur-sm border-t border-white/10"
+       role="alertdialog"
+       aria-live="polite"
+       aria-label="Informativa cookie">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-4">
+      <p class="text-white/70 text-xs font-light leading-relaxed flex-1">
+        Utilizziamo cookie analitici (Google Analytics 4) per migliorare il sito, solo previo tuo consenso.
+        <a href="/privacy.html" class="text-powder hover:underline ml-1">Privacy Policy</a>
+      </p>
+      <div class="flex gap-3 shrink-0">
+        <button @click="$store.cookies.reject()"
+                class="px-4 py-2 text-xs tracking-widest uppercase text-white/50 border border-white/20 hover:border-white/40 hover:text-white/80 transition-colors duration-200 focus:outline-none">Rifiuta</button>
+        <button @click="$store.cookies.accept()"
+                class="px-4 py-2 text-xs tracking-widest uppercase bg-powder text-white hover:bg-powder/80 transition-colors duration-200 focus:outline-none">Accetta</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const CONTENT_VERSION = '20260606a'
+
+    document.addEventListener('alpine:init', () => {
+      Alpine.store('i18n', {
+        lang: localStorage.getItem('lang') || 'it',
+        setLang(l) {
+          this.lang = l
+          localStorage.setItem('lang', l)
+          window.dispatchEvent(new CustomEvent('lang-changed', { detail: l }))
+        },
+      })
+    })
+
+    function parseFrontmatter(text) {
+      const m = text.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)([\s\S]*)$/)
+      if (!m) return { meta: {}, body: text }
+      const meta = {}
+      m[1].split('\n').forEach(line => {
+        const sep = line.indexOf(':')
+        if (sep === -1) return
+        const key = line.slice(0, sep).trim()
+        let val   = line.slice(sep + 1).trim()
+        if (val.length >= 2 && val[0] === '"' && val[val.length - 1] === '"') val = val.slice(1, -1)
+        if (val.length >= 2 && val[0] === "'" && val[val.length - 1] === "'") val = val.slice(1, -1)
+        meta[key] = val
+      })
+      return { meta, body: m[2] }
+    }
+
+    function schadaPage(slug) {
+      return {
+        meta:    { title: '', tipologia: '', date: '', image: '', excerpt: '' },
+        content: '',
+        loading: true,
+        error:   null,
+
+        async load() {
+          this.loading = true
+          this.error   = null
+          const lang = Alpine.store('i18n').lang
+          if (!await this._tryLoad(lang) && lang !== 'it') {
+            if (!await this._tryLoad('it')) {
+              this.error = Alpine.store('i18n').lang === 'it'
+                ? 'Contenuto non disponibile.'
+                : 'Content not available.'
+            }
+          }
+          this.loading = false
+        },
+
+        async _tryLoad(lang) {
+          try {
+            const res = await fetch(`/content/${lang}/docs/${slug}.md?v=${CONTENT_VERSION}`)
+            if (!res.ok) return false
+            const text = await res.text()
+            const { meta, body } = parseFrontmatter(text)
+            this.meta    = { ...this.meta, ...meta }
+            this.content = marked.parse(body)
+            return true
+          } catch { return false }
+        },
+
+        init() {
+          window.addEventListener('lang-changed', () => this.load())
+        },
+      }
+    }
+  </script>
+  <script src="/js/cookie.js"></script>
+
+</body>
+</html>
