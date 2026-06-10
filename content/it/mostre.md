@@ -8,8 +8,8 @@ Esposizioni personali, collettive e premi ottenuti nel corso della carriera arti
 - Mostra collettiva "34 Vence", Cannes (Francia).
 
 ## 1986
-- **Premio Internazionale "Fabriano" *(1° classificato)*, Fabriano (AN).**
-- **Premio Internazionale "La Sciara di Stromboli" *(1° classificato)*, Eolie (ME).**
+- **Premio Internazionale "Fabriano" (1° classificato)*, Fabriano (AN).**
+- **Premio Internazionale "La Sciara di Stromboli" (1° classificato)*, Eolie (ME).**
 
 ## 1989
 - Esposizione Galerie Jacqueline Nioncel, Parigi (Francia).
@@ -27,7 +27,7 @@ Esposizioni personali, collettive e premi ottenuti nel corso della carriera arti
 - Rassegna Internazionale dell'Acquerello, Belluno.
 
 ## 1998
-- Mostra dell'Acquerello "Arte antiguo... Arte nuevo", Museo Nacional de la Acuarela, Arona (NO). *(collaborazione tra Associazione Italiana Acquerellisti e Sociedad Mexicana de Acuarelistas)*
+- **Mostra dell'Acquerello "Arte antiguo... Arte nuevo", Museo Nacional de la Acuarela, Arona (NO). (collaborazione tra Associazione Italiana Acquerellisti e Sociedad Mexicana de Acuarelistas)**
 - **Consegna del ritratto a S.S. Giovanni Paolo II**, Città del Vaticano.
 - Biennale dell'Acquerello, Sala Cultural Caja Madrid, Barcellona (Spagna).
 
@@ -48,7 +48,7 @@ Esposizioni personali, collettive e premi ottenuti nel corso della carriera arti
 - Museo de la Acuarela di Llançà (Spagna) — Collettiva d'Arte.
 
 ## 2003
-- Mostra Europea dell'Acquerello "Colori sull'Acqua" — con Italia, Catalunya, Belgio, Danimarca, Finlandia, Islanda, Norvegia, Svezia. Civico Museo Parisi Valle, Maccagno (VA).
+- Mostra Europea dell'Acquerello "Colori sull'Acqua" — con Italia, Catalunya, Belgio, Danimarca, Finlandia, Islanda, Norvegia, Svezia. [Civico Museo Parisi Valle](https://www.museoparisivalle.it/), Maccagno (VA).
 
 ## 2004
 - "Trent'anni per l'Acquerello" 1974–2004 — con Italia, Austria, Belgio, Brasile, Colombia, Irlanda, Messico, Danimarca, Finlandia, Islanda, Norvegia, Svezia, Russia, Spagna. Museo Civico d'Arte Moderna e Contemporanea, Arezzo.
@@ -219,14 +219,14 @@ Esposizioni personali, collettive e premi ottenuti nel corso della carriera arti
 - Omaggio alle Cattedrali nel Duomo di Siena, Siena.
 
 ## 1999
-- "Acqua Colori Emozioni" — Omaggio ad Aldo Raimondi, Palazzo Kursaal, Loano (GE).
+- "Acqua Colori Emozioni" — Omaggio ad [Aldo Raimondi](https://it.wikipedia.org/wiki/Aldo_Raimondi_(pittore)), Palazzo Kursaal, Loano (GE).
 
 ## 2000
 - Omaggio alle Cattedrali, Feltre.
 
 ## 2001
 - Omaggio a San Luca, Caltanissetta — Esposizione delle tavole della Via Crucis.
-- Personale curata da Piero Guccione "Espressioni Poetiche nell'Acquerello", Galleria d'Arte L'Androne, Scicli.
+- Personale curata da [Piero Guccione](https://it.wikipedia.org/wiki/Piero_Guccione) "Espressioni Poetiche nell'Acquerello", Galleria d'Arte L'Androne, Scicli.
 
 ## 2002
 - Maggio Artistico Catanese, Catania.

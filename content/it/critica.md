@@ -5,7 +5,7 @@ Voci autorevoli del panorama artistico italiano che ne hanno riconosciuto e cele
 
 ## «Uno dei migliori acquarellisti d'Italia»
 
-_1982 · Lettera autografa · Pietro Annigoni_
+_1982 · Lettera autografa · [Pietro Annigoni](https://it.wikipedia.org/wiki/Pietro_Annigoni)_
 
 > Credo di poter dire con tutta tranquillità che Lei è uno dei migliori acquarellisti d'Italia.
 
@@ -13,7 +13,7 @@ _1982 · Lettera autografa · Pietro Annigoni_
 
 ---
 
-## Occhipinti visto dal Maestro Aldo Raimondi
+## Occhipinti visto dal Maestro [Aldo Raimondi](https://it.wikipedia.org/wiki/Aldo_Raimondi_(pittore))
 
 _Milano_
 

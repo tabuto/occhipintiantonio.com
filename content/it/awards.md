@@ -47,7 +47,7 @@ Socio onorario dell'**Associazione Italiana Acquerellisti** fino alla morte.
 ### «Uno dei migliori acquarellisti d'Italia» [8]
 *Pietro Annigoni, 1982*
 
-Definito *"uno dei migliori acquarellisti d'Italia"* dal pittore Pietro Annigoni nella [lettera autografa del 1982](https://occhipintiantonio.com/critica.html).
+Definito *"uno dei migliori acquarellisti d'Italia"* dal pittore [Pietro Annigoni](https://it.wikipedia.org/wiki/Pietro_Annigoni) nella [lettera autografa del 1982](https://occhipintiantonio.com/critica.html).
 
 ## Altre fonti e riconoscimenti
 

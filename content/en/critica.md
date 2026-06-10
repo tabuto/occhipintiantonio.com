@@ -5,7 +5,7 @@ Authoritative voices from the Italian art world who recognised and celebrated hi
 
 ## «One of the finest watercolourists in Italy»
 
-_1982 · Autograph letter · Pietro Annigoni_
+_1982 · Autograph letter · [Pietro Annigoni](https://en.wikipedia.org/wiki/Pietro_Annigoni)_
 
 > I feel I can say with complete confidence that you are one of the finest watercolourists in Italy.
 
@@ -13,7 +13,7 @@ _1982 · Autograph letter · Pietro Annigoni_
 
 ---
 
-## Occhipinti as seen by Maestro Aldo Raimondi
+## Occhipinti as seen by Maestro [Aldo Raimondi](https://it.wikipedia.org/wiki/Aldo_Raimondi_(pittore))
 
 _Milan_
 

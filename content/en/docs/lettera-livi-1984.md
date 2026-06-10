@@ -7,7 +7,7 @@ image: "https://res.cloudinary.com/ds8hmzyom/image/upload/v1777651226/pyartist/w
 excerpt: "The Prior of the Basilica of S. Lorenzo in Florence thanks Antonio Occhipinti for the gift of a watercolour and praises his skill, July 1984."
 ---
 
-The Prior of the Basilica of San Lorenzo in Florence, Monsignor Angelo Livi, wrote this autograph letter on 25 July 1984 to thank Antonio Occhipinti for the gift of a watercolour, praising his technique just as master Pietro Annigoni had done.
+The Prior of the Basilica of San Lorenzo in Florence, Monsignor Angelo Livi, wrote this autograph letter on 25 July 1984 to thank Antonio Occhipinti for the gift of a watercolour, praising his technique just as master [Pietro Annigoni](https://en.wikipedia.org/wiki/Pietro_Annigoni) had done.
 
 ![Autograph letter from the Prior of the Basilica of S. Lorenzo, Florence, 1984](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777651226/pyartist/web/varie/lettera-basilica-slorenzo-firenze-1994-26.jpg)
 

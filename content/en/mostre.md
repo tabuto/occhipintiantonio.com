@@ -48,7 +48,7 @@ Solo shows, group exhibitions and awards received throughout his artistic career
 - Museo de la Acuarela di Llançà (Spain) — Group exhibition.
 
 ## 2003
-- European Watercolour Exhibition "Colori sull'Acqua" — with Italy, Catalonia, Belgium, Denmark, Finland, Iceland, Norway, Sweden. Civico Museo Parisi Valle, Maccagno (VA).
+- European Watercolour Exhibition "Colori sull'Acqua" — with Italy, Catalonia, Belgium, Denmark, Finland, Iceland, Norway, Sweden. [Civico Museo Parisi Valle](https://www.museoparisivalle.it/), Maccagno (VA).
 
 ## 2004
 - "Thirty Years of Watercolour" 1974–2004 — with Italy, Austria, Belgium, Brazil, Colombia, Ireland, Mexico, Denmark, Finland, Iceland, Norway, Sweden, Russia, Spain. Museo Civico d'Arte Moderna e Contemporanea, Arezzo.
@@ -219,14 +219,14 @@ Solo shows, group exhibitions and awards received throughout his artistic career
 - Omaggio alle Cattedrali in the Duomo di Siena, Siena.
 
 ## 1999
-- "Acqua Colori Emozioni" — Tribute to Aldo Raimondi, Palazzo Kursaal, Loano (GE).
+- "Acqua Colori Emozioni" — Tribute to [Aldo Raimondi](https://it.wikipedia.org/wiki/Aldo_Raimondi_(pittore)), Palazzo Kursaal, Loano (GE).
 
 ## 2000
 - Omaggio alle Cattedrali, Feltre.
 
 ## 2001
 - Tribute to St. Luke, Caltanissetta — Exhibition of the Via Crucis panels.
-- Solo exhibition curated by Piero Guccione "Espressioni Poetiche nell'Acquerello", Galleria d'Arte L'Androne, Scicli.
+- Solo exhibition curated by [Piero Guccione](https://en.wikipedia.org/wiki/Piero_Guccione) "Espressioni Poetiche nell'Acquerello", Galleria d'Arte L'Androne, Scicli.
 
 ## 2002
 - Maggio Artistico Catanese, Catania.

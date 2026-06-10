@@ -7,7 +7,7 @@ image: "https://res.cloudinary.com/ds8hmzyom/image/upload/v1776512977/pyartist/w
 excerpt: "Autograph letter in which Pietro Annigoni recognises Antonio Occhipinti as «one of the finest watercolourists in Italy», having admired the portrait and the watercolour of Gela gifted to him."
 ---
 
-Pietro Annigoni (1910–1988), one of the greatest masters of twentieth-century Italian Realism, wrote this autograph letter to Antonio Occhipinti on 16 July 1982 from Borgo Albizi, Florence, at the close of their meeting and as a mark of deep admiration for the works donated to him.
+[Pietro Annigoni](https://en.wikipedia.org/wiki/Pietro_Annigoni) (1910–1988), one of the greatest masters of twentieth-century Italian Realism, wrote this autograph letter to Antonio Occhipinti on 16 July 1982 from Borgo Albizi, Florence, at the close of their meeting and as a mark of deep admiration for the works donated to him.
 
 ```
 XVI · VII · LXXXII

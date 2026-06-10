@@ -1,4 +1,4 @@
-**Antonio Occhipinti** (Gela, 1937 – Gela, July 2024) was an Italian painter, watercolourist, sculptor and portrait artist. Regarded as one of the most refined Italian watercolourists of the twentieth century, he devoted over sixty years to watercolour painting, taking part in hundreds of exhibitions in Italy and abroad and receiving prestigious national and international awards. The painter Pietro Annigoni described him as *"one of the best watercolourists in Italy"*.
+**Antonio Occhipinti** (Gela, 1937 – Gela, July 2024) was an Italian painter, watercolourist, sculptor and portrait artist. Regarded as one of the most refined Italian watercolourists of the twentieth century, he devoted over sixty years to watercolour painting, taking part in hundreds of exhibitions in Italy and abroad and receiving prestigious national and international awards. The painter [Pietro Annigoni](https://en.wikipedia.org/wiki/Pietro_Annigoni) described him as *"one of the best watercolourists in Italy"*.
 
 ---
 
@@ -42,9 +42,9 @@ In **1998**, during an exhibition in Vatican City, he personally presented his p
 
 ### International activity and mature years (2000–2009)
 
-In the early 2000s Occhipinti took part in pan-European reviews, including *"Colori sull'Acqua"* (2003, Civico Museo Parisi Valle, Maccagno) with artists from Italy, Catalonia, Belgium, Denmark, Finland, Iceland, Norway and Sweden, and *"Thirty Years of Watercolour"* (2004, Museo Civico d'Arte Moderna e Contemporanea, Arezzo) with artists from fifteen nations.
+In the early 2000s Occhipinti took part in pan-European reviews, including *"Colori sull'Acqua"* (2003, [Civico Museo Parisi Valle](https://www.museoparisivalle.it/), Maccagno) with artists from Italy, Catalonia, Belgium, Denmark, Finland, Iceland, Norway and Sweden, and *"Thirty Years of Watercolour"* (2004, Museo Civico d'Arte Moderna e Contemporanea, Arezzo) with artists from fifteen nations.
 
-In 2001 he held a solo exhibition curated by the painter **Piero Guccione** at the Galleria L'Androne in Scicli, entitled *"Espressioni Poetiche nell'Acquerello"* — a significant critical recognition of his work.
+In 2001 he held a solo exhibition curated by the painter **[Piero Guccione](https://en.wikipedia.org/wiki/Piero_Guccione)** at the Galleria L'Androne in Scicli, entitled *"Espressioni Poetiche nell'Acquerello"* — a significant critical recognition of his work.
 
 ---
 

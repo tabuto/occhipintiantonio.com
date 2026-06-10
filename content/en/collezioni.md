@@ -6,13 +6,13 @@ Works by Antonio Occhipinti held in public and private collections.
 
 ## Bagheria
 
-**Aspra, Casa Ignazio Buttitta** — Portrait of the Poet, watercolour
+**Aspra, Casa [Ignazio Buttitta](https://en.wikipedia.org/wiki/Ignazio_Buttitta)** — Portrait of the Poet, watercolour
 
 ---
 
 ## Florence
 
-**Museo P. Annigoni** — Portrait of the Maestro, watercolour
+**Museo [P. Annigoni](https://en.wikipedia.org/wiki/Pietro_Annigoni)** — Portrait of the Maestro, watercolour
 
 **Basilica of S. Lorenzo** — Figure and Landscape, watercolour
 
@@ -102,7 +102,7 @@ Mural, 200 × 250 cm
 
 **Casa Berlusconi** — Portrait of Hon. Berlusconi, watercolour
 
-**Casa Aldo Raimondi** — *Aspects of Taormina*, watercolour
+**Casa [Aldo Raimondi](https://it.wikipedia.org/wiki/Aldo_Raimondi_(pittore))** — *Aspects of Taormina*, watercolour
 
 ---
 
@@ -146,7 +146,7 @@ Portrait of Pope John Paul II
 
 ## Scicli
 
-**Casa Piero Guccione** — Portrait and Landscape of Scicli, watercolours
+**Casa [Piero Guccione](https://en.wikipedia.org/wiki/Piero_Guccione)** — Portrait and Landscape of Scicli, watercolours
 
 ---
 

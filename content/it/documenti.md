@@ -6,7 +6,7 @@ Articoli di giornale, lettere autografe, cataloghi e testimonianze che documenta
 
 _Corrispondenza e testimonianze scritte di personalità del mondo dell'arte._
 
-### Lettera autografa di Pietro Annigoni
+### Lettera autografa di [Pietro Annigoni](https://it.wikipedia.org/wiki/Pietro_Annigoni)
 _16 luglio 1982 · Borgo Albizi, Firenze_
 
 Vedi la trascrizione completa nella sezione [Critica](https://occhipintiantonio.com/critica.html).
@@ -24,7 +24,7 @@ _**Pietro Annigoni**, 11-1982_
 
 ---
 
-### Dedica autografa di Ignazio Buttitta
+### Dedica autografa di [Ignazio Buttitta](https://it.wikipedia.org/wiki/Ignazio_Buttitta)
 _23 marzo 1981_
 
 Ignazio Buttitta (1899–1997), la voce poetica più autentica e civile della Sicilia del XX secolo, dedicò ad Antonio Occhipinti questa lirica autografa in dialetto siciliano, riconoscendolo come pittore che dipinge con intelletto, cuore e mano.

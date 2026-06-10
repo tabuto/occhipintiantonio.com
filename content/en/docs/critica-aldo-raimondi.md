@@ -7,7 +7,7 @@ image: "https://res.cloudinary.com/ds8hmzyom/image/upload/v1778948660/pyartist/w
 excerpt: "Maestro Aldo Raimondi recognises in Occhipinti the rare possession of the governing principle of watercolour — «Stop in time» — and the ability to conceive his works in his mind before executing them."
 ---
 
-Critical contribution by Maestro Aldo Raimondi, Milan.
+Critical contribution by Maestro [Aldo Raimondi](https://it.wikipedia.org/wiki/Aldo_Raimondi_(pittore)), Milan.
 
 > I would first like to express my satisfaction at having seen the works of Antonio Occhipinti, whom I have found to be proud of being a watercolourist — and rightly so, for watercolour is the most precious pictorial expression one can imagine. In the world it is difficult to find true watercolourists, since watercolour is a very demanding technique, more so than any other, more so than any other pictorial expression: it is not for everyone; one must be gifted by nature, just as Occhipinti is, and he represents this category very well.
 >

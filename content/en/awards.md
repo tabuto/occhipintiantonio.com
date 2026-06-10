@@ -47,7 +47,7 @@ Honorary member of the **Italian Watercolour Association** until his death.
 ### «One of the finest watercolourists in Italy» [8]
 *Pietro Annigoni, 1982*
 
-Described as *"one of the finest watercolourists in Italy"* by the painter Pietro Annigoni in his [autograph letter of 1982](https://occhipintiantonio.com/critica.html).
+Described as *"one of the finest watercolourists in Italy"* by the painter [Pietro Annigoni](https://en.wikipedia.org/wiki/Pietro_Annigoni) in his [autograph letter of 1982](https://occhipintiantonio.com/critica.html).
 
 ## Other sources and recognitions
 

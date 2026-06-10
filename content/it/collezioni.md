@@ -6,13 +6,13 @@ Opere di Antonio Occhipinti presenti in collezioni pubbliche e private.
 
 ## Bagheria
 
-**Aspra, Casa Ignazio Buttitta** — Ritratto al Poeta, acquerello
+**Aspra, Casa [Ignazio Buttitta](https://it.wikipedia.org/wiki/Ignazio_Buttitta)** — Ritratto al Poeta, acquerello
 
 ---
 
 ## Firenze
 
-**Museo P. Annigoni** — Ritratto al Maestro, acquerello
+**Museo [P. Annigoni](https://it.wikipedia.org/wiki/Pietro_Annigoni)** — Ritratto al Maestro, acquerello
 
 **Basilica di S. Lorenzo** — Figura e paesaggio, acquerello
 
@@ -102,7 +102,7 @@ Murales, cm 200 × 250
 
 **Casa Berlusconi** — Ritratto dell'on. Berlusconi, acquerello
 
-**Casa Aldo Raimondi** — *Aspetti di Taormina*, acquerello
+**Casa [Aldo Raimondi](https://it.wikipedia.org/wiki/Aldo_Raimondi_(pittore))** — *Aspetti di Taormina*, acquerello
 
 ---
 
@@ -146,7 +146,7 @@ Ritratto di Papa Giovanni Paolo II
 
 ## Scicli
 
-**Casa Piero Guccione** — Ritratto e Paesaggio di Scicli, acquerelli
+**Casa [Piero Guccione](https://it.wikipedia.org/wiki/Piero_Guccione)** — Ritratto e Paesaggio di Scicli, acquerelli
 
 ---
 

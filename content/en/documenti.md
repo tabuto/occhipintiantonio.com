@@ -6,7 +6,7 @@ Newspaper articles, autograph letters, catalogues and testimonies documenting th
 
 _Correspondence and written testimonies from figures of the art world._
 
-### Autograph letter by Pietro Annigoni
+### Autograph letter by [Pietro Annigoni](https://en.wikipedia.org/wiki/Pietro_Annigoni)
 _16 July 1982 · Borgo Albizi, Florence_
 
 See the full transcription in the [Critical Reviews](https://occhipintiantonio.com/critica.html) section.
@@ -24,7 +24,7 @@ _**Pietro Annigoni**, 11-1982_
 
 ---
 
-### Autograph dedication by Ignazio Buttitta
+### Autograph dedication by [Ignazio Buttitta](https://en.wikipedia.org/wiki/Ignazio_Buttitta)
 _23 March 1981_
 
 Ignazio Buttitta (1899–1997), the most authentic and civic poetic voice of 20th-century Sicily, dedicated this autograph poem in Sicilian dialect to Antonio Occhipinti, recognising him as a painter who paints with mind, heart and hand.

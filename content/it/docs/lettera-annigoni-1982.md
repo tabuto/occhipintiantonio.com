@@ -7,7 +7,7 @@ image: "https://res.cloudinary.com/ds8hmzyom/image/upload/v1776512977/pyartist/w
 excerpt: "Lettera autografa in cui Pietro Annigoni riconosce in Antonio Occhipinti «uno dei migliori acquarellisti d'Italia», dopo aver ammirato il ritratto e l'acquarello di Gela donatigli."
 ---
 
-Pietro Annigoni (1910–1988), tra i più grandi maestri del Realismo italiano del Novecento, scrisse questa lettera autografa ad Antonio Occhipinti il 16 luglio 1982 da Borgo Albizi, Firenze, al termine del loro incontro e in segno di profonda stima per le opere donate.
+[Pietro Annigoni](https://it.wikipedia.org/wiki/Pietro_Annigoni) (1910–1988), tra i più grandi maestri del Realismo italiano del Novecento, scrisse questa lettera autografa ad Antonio Occhipinti il 16 luglio 1982 da Borgo Albizi, Firenze, al termine del loro incontro e in segno di profonda stima per le opere donate.
 
 ```
 XVI · VII · LXXXII

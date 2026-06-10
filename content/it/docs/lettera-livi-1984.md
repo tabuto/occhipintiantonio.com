@@ -7,7 +7,7 @@ image: "https://res.cloudinary.com/ds8hmzyom/image/upload/v1777651226/pyartist/w
 excerpt: "Il Priore della Basilica di S. Lorenzo di Firenze ringrazia Antonio Occhipinti per il dono di un acquerello e ne elogia la bravura, luglio 1984."
 ---
 
-Il Priore della Basilica di San Lorenzo di Firenze, Monsignor Angelo Livi, scrisse questa lettera autografa il 25 luglio 1984 per ringraziare Antonio Occhipinti del dono di un acquerello, elogiandone la tecnica così come aveva fatto il maestro Pietro Annigoni.
+Il Priore della Basilica di San Lorenzo di Firenze, Monsignor Angelo Livi, scrisse questa lettera autografa il 25 luglio 1984 per ringraziare Antonio Occhipinti del dono di un acquerello, elogiandone la tecnica così come aveva fatto il maestro [Pietro Annigoni](https://it.wikipedia.org/wiki/Pietro_Annigoni).
 
 ![Lettera autografa del Priore della Basilica di S. Lorenzo, Firenze, 1984](https://res.cloudinary.com/ds8hmzyom/image/upload/v1777651226/pyartist/web/varie/lettera-basilica-slorenzo-firenze-1994-26.jpg)
 
