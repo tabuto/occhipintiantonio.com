@@ -39,7 +39,7 @@
 
   <div x-data="schadaPage('attestato-aib-1999')" x-init="init(); load()" class="flex flex-col flex-1">
 
-    <header class="px-6 pt-10 pb-6 border-b border-ink/5">
+    <header class="px-6 pt-10 pb-6 border-b border-ink/5 text-center">
       <nav aria-label="Breadcrumb">
         <p class="text-xs tracking-[0.25em] uppercase text-powder">
           <a href="/" class="hover:text-ink/60 transition-colors duration-200">Antonio Occhipinti</a>
@@ -57,7 +57,7 @@
          class="mt-2 text-xs tracking-widest uppercase text-powder/80"
          x-text="meta.tipologia + (meta.date ? ' · ' + meta.date : '')"></p>
 
-      <div class="mt-5 flex items-center gap-3 text-xs tracking-widest uppercase">
+      <div class="mt-5 flex justify-center items-center gap-3 text-xs tracking-widest uppercase">
         <button @click="$store.i18n.setLang('it')"
                 :class="$store.i18n.lang === 'it' ? 'text-powder font-medium border-b border-powder' : 'text-ink/30 hover:text-ink/60'"
                 class="pb-0.5 transition-colors duration-200 focus:outline-none">IT</button>

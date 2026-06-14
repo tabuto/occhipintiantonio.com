@@ -4,7 +4,7 @@
 |Cognome = Occhipinti
 |Sesso = M
 |LuogoNascita = Gela
-|GiornoMeseNascita = 
+|GiornoMeseNascita = 8 Gennaio
 |AnnoNascita = 1936
 |LuogoMorte = Gela
 |GiornoMeseMorte = 18 luglio
@@ -24,12 +24,24 @@ Nato a Gela nel 1936, si formò nel disegno fin da giovane, affiancando l'intere
 
 Fondamentale per il suo percorso fu il legame con [[Pietro Annigoni]], testimoniato da un rapporto epistolare e di stima reciproca.<ref>In una lettera autografa indirizzata a Occhipinti, Annigoni definì l'artista «uno dei migliori acquerellisti d'Italia». Cfr. riproduzione del documento originale su [https://occhipintiantonio.com/ occhipintiantonio.com].</ref> In seguito, ricevette l'attenzione di [[Piero Guccione]], che nel 2001 curò la sua mostra personale ''Espressioni Poetiche nell'Acquerello'' a [[Scicli]].<ref name=":0" />
 
-È scomparso a Gela nel luglio 2024.<ref>{{Cita web|url=https://acquerello-aia.it/il-socio-onorario-antonio-occhipinti-ci-ha-lasciato/|titolo=Il socio onorario Antonio Occhipinti ci ha lasciato|editore=Associazione Italiana Acquerellisti}}</ref>
+È scomparso a Gela il 18 Luglio 2024.<ref>{{Cita web|url=https://acquerello-aia.it/il-socio-onorario-antonio-occhipinti-ci-ha-lasciato/|titolo=Il socio onorario Antonio Occhipinti ci ha lasciato|editore=Associazione Italiana Acquerellisti}}</ref>
 
 == Attività artistica ==
-La sua attività espositiva ha incluso rassegne internazionali in Francia (Galerie Jacqueline Nioncel, Parigi, 1989), Messico (Museo dell'Acquerello di [[Città del Messico]], 1995) e Stati Uniti (Southwestern Watercolor Society, Texas).
+La sua attività espositiva ha incluso rassegne internazionali in Francia (Galerie Jacqueline Nioncel, Parigi, 1989), Messico (Museo dell'Acquerello di [[Città del Messico]], 1995) e Stati Uniti (Southwestern Watercolor Society, Texas), nel 1999 ha preso parte alla 21ª edizione della mostra di acquerello (''21st Watercolour Exhibition'') organizzata dall'Aquarel Instituut van België.<ref>{{Cita web |url=https://occhipintiantonio.com/documenti.html |titolo=Documentazione e attestati |sito=occhipintiantonio.com |accesso=1 maggio 2026}}</ref>
 
 Occhipinti si è distinto anche come ritrattista, realizzando opere per diversi pontefici. Nel 1998 ha consegnato un ritratto ufficiale a [[Papa Giovanni Paolo II]]; sue opere sono conservate presso le Gallerie Vaticane e in vari edifici di culto, tra cui pale d'altare in diverse chiese della Sicilia.<ref name=":1" />
+
+== Opere ==
+Tra le opere d'arte sacra, ha realizzato un affresco raffigurante l'''Ultima Cena'', situato all'interno della [[Chiesa di San Giovanni Apostolo ed Evangelista (Gela)|chiesa di San Giovanni Apostolo ed Evangelista]] a [[Gela]].<ref>{{Cita web |url=https://it.wikipedia.org/wiki/Chiesa_di_San_Giovanni_Apostolo_ed_Evangelista_(Gela) |titolo=Chiesa di San Giovanni Apostolo ed Evangelista (Gela) |sito=it.wikipedia.org |accesso=1 maggio 2026}}</ref>
+
+Opere in collezioni pubbliche:
+* '''Pinacoteca Comunale "Antonio Occhipinti" (Gela):''' nucleo permanente di 22 acquerelli storici.
+* '''Museo Civico di Arezzo:''' Opere nella sezione dedicata all'acquerello contemporaneo.
+* '''Civico Museo Parisi Valle (Maccagno):''' Collezione "Colori sull'Acqua".
+
+
+== Critica ==
+[[Aldo Raimondi]] ha analizzato la produzione di Occhipinti, riconoscendone il valore nell'ambito della tecnica dell'acquerello.<ref>{{Cita web |url=https://occhipintiantonio.com/critica.html |titolo=Critica di Aldo Raimondi |sito=occhipintiantonio.com |accesso=1 maggio 2026}}</ref>
 
 == Premi e riconoscimenti ==
 * 1983: Premio Nazionale G.B. Tiepolo, Venezia.
@@ -38,10 +50,18 @@ Occhipinti si è distinto anche come ritrattista, realizzando opere per diversi 
 * 2019: Premio Telamone per i meriti culturali.<ref>{{Cita web|url=https://www.premiotelamone.com/news/premiotelamone/2019/12/3/dje839k7uwhvvaghjokmhjoc8yogii|titolo=43ª Edizione del Premio Telamone — Cerimonia di premiazione 2019|sito=premiotelamone.com|data=3 dicembre 2019|urlarchivio=https://web.archive.org/web/20260406134306/https://www.premiotelamone.com/news/premiotelamone/2019/12/3/dje839k7uwhvvaghjokmhjoc8yogii|dataarchivio=6 aprile 2026|urlmorto=no}}</ref>
 * 2025: Il comune di Gela ha deliberato l'intitolazione a suo nome della Pinacoteca Comunale.<ref>{{Cita news|url=https://quotidianodigela.it/gela-dedica-la-pinacoteca-comunale-ad-antonio-occhipinti|titolo=Gela dedica la pinacoteca comunale ad Antonio Occhipinti|pubblicazione=Quotidiano di Gela|data=19 aprile 2026|urlarchivio=https://web.archive.org/web/20260419074651/https://quotidianodigela.it/gela-dedica-la-pinacoteca-comunale-ad-antonio-occhipinti|dataarchivio=19 aprile 2026|urlmorto=no}}</ref>
 
-== Opere in collezioni pubbliche ==
-* '''Pinacoteca Comunale "Antonio Occhipinti" (Gela):''' nucleo permanente di 22 acquerelli storici.
-* '''Museo Civico di Arezzo:''' Opere nella sezione dedicata all'acquerello contemporaneo.
-* '''Civico Museo Parisi Valle (Maccagno):''' Collezione "Colori sull'Acqua".
+== Mostre internazionali ==
+
+Nel 1995 Occhipinti partecipò all'esposizione collettiva dell'[[Associazione Italiana Acquerellisti]] 
+presso il [[Alfredo Guati Rojo National Watercolor Museum|Museo Nacional de la Acuarela "Alfredo Guati Rojo"]] 
+di [[Città del Messico]], presentando l'opera ''Omaggio a Fresquet''.<ref>''50 Obras de la 
+Asociación Italiana de Acuarelistas'', catalogo della mostra, Museo Nacional de la Acuarela 
+"Alfredo Guati Rojo" A.C. (MUNACUA), Città del Messico, Messico, 1995, p. 16.</ref>
+
+Nel 2000 fu incluso nella ''IV Bienal Internacional de Acuarela'' presso lo stesso museo, 
+con l'opera ''El regreso'' (''Il ritorno''), acquerello, 40 × 60 cm.<ref>''IV Bienal Internacional 
+de Acuarela'', catalogo della mostra, Museo Nacional de la Acuarela "Alfredo Guati Rojo" A.C. 
+(MUNACUA), Città del Messico, Messico, 2000, p. 30.</ref>
 
 == Bibliografia ==
 * ''Antonio Occhipinti: cinquant'anni di pittura'', catalogo della mostra, Gela, 2006.

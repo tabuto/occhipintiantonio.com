@@ -182,6 +182,69 @@ Requisiti tecnico-funzionali del sito. Ogni requisito è formulato in modo da co
 
 ---
 
+## REQ-12 — Sezione Documenti: elenco e schede
+
+**Contesto:** Il sito necessitava di una sezione archivio per documenti storici dell'artista (lettere autografe, cataloghi, attestati, articoli di stampa). I contenuti esistevano parzialmente in `content/it/documenti.md` come testo monolitico, ma non erano navigabili né individualmente indicizzabili dai motori di ricerca.
+
+**Requisiti funzionali:**
+- Creare la pagina `elenco_documenti.html` che mostra tutti i documenti raggruppati per tipologia (Critica e testimonianze, Lettere autografe, Pubblicazioni e cataloghi, Musei e collezioni, Articoli di stampa, Attestati).
+- Ogni documento è rappresentato da una card con thumbnail, titolo, data ed estratto.
+- La pagina include un campo di ricerca client-side che filtra in tempo reale su titolo, tipologia ed excerpt.
+- Ogni card linka alla scheda individuale del documento (`/it/docs/<slug>.html`).
+- Ogni scheda individuale mostra: breadcrumb di navigazione, immagine principale, metadati (tipologia e data), corpo testuale convertito da Markdown, link di ritorno all'elenco.
+- Supporto bilingue IT/EN con toggle lingua coerente con il resto del sito.
+
+**Soluzione tecnica adottata:**
+
+*Architettura a tre livelli:*
+
+1. **Index JSON** — `data/documenti-index.json`: file statico mantenuto a mano che aggrega i metadati di tutti i documenti (`slug`, `title`, `tipologia`, `date`, `image`, `excerpt`). La pagina elenco esegue un unico `fetch()` su questo file invece di N fetch paralleli sui singoli `.md`, ottimizzando le performance di caricamento. Le immagini sono URL Cloudinary (CDN esterno).
+
+2. **Pagina elenco** — `elenco_documenti.html`: Alpine.js component `elencoDoc()` che:
+   - Carica `data/documenti-index.json` con `fetch()` e query-string di versioning (`?v=CONTENT_VERSION`) per invalidare la cache CDN.
+   - Raggruppa i documenti per `tipologia` mantenendo l'ordine di prima apparizione (`reduce`-like con array `order` + map).
+   - Esegue il filtraggio client-side con `$watch('query', ...)` su titolo, excerpt e tipologia.
+   - Render: una `<section>` per gruppo con `<template x-for>` nidificati (gruppi → card).
+
+3. **Schede individuali** — `it/docs/<slug>.html`: un file HTML statico per documento (opzione B rispetto alla singola pagina parametrica), con Alpine.js component `schadaPage(slug)` che:
+   - Legge il file `content/{lang}/docs/<slug>.md` via `fetch()` con fallback automatico a `it` se la versione EN non è disponibile.
+   - Esegue il parsing client-side del frontmatter YAML tramite la funzione `parseFrontmatter(text)` (regex su blocco `---`), estraendo `title`, `tipologia`, `date`, `image`, `excerpt`.
+   - Converte il corpo Markdown in HTML con `marked.parse()` e lo inietta con `x-html`.
+   - Gestisce il cambio lingua via evento `lang-changed` (CustomEvent).
+
+*Struttura dei file sorgente:*
+- `content/it/docs/<slug>.md` — contenuto in italiano con frontmatter YAML (title, tipologia, slug, date, image, excerpt)
+- `content/en/docs/<slug>.md` — versione inglese speculare (con fallback a `it` se assente)
+- `it/docs/<slug>.html` — pagina HTML statica per ogni scheda
+
+*SEO:* ogni scheda ha canonical URL univoco, Open Graph `og:type=article`, Twitter Card e hreflang propri.
+
+**File coinvolti:** `elenco_documenti.html`, `it/docs/*.html`, `data/documenti-index.json`, `content/it/docs/*.md`, `content/en/docs/*.md`
+
+---
+
+## REQ-13 — Link Wikipedia/web nei contenuti documenti
+
+**Contesto:** I contenuti delle schede documento (`content/it/docs/*.md` e `content/en/docs/*.md`) citano personalità di rilievo (Pietro Annigoni, Ignazio Buttitta, Aldo Raimondi) e istituzioni (Museo Parisi Valle) senza alcun collegamento esterno, privando il lettore di approfondimento e il sito di valore SEO tramite link a fonti autorevoli.
+
+**Requisiti:**
+- Inserire link ipertestuali Markdown alle personalità citate nei file `.md` IT, usando la voce Wikipedia italiana corrispondente.
+- Inserire i medesimi link nei file `.md` EN usando la voce Wikipedia inglese (dove disponibile).
+- Per le istituzioni senza voce Wikipedia (es. Museo Parisi Valle), usare il sito ufficiale dell'ente.
+- I link devono essere integrati nel testo corrente senza aggiungere note a piè di pagina o sezioni separate.
+
+**Link inseriti:**
+| Personalità / Ente | IT | EN |
+|---|---|---|
+| Pietro Annigoni | `https://it.wikipedia.org/wiki/Pietro_Annigoni` | `https://en.wikipedia.org/wiki/Pietro_Annigoni` |
+| Ignazio Buttitta | `https://it.wikipedia.org/wiki/Ignazio_Buttitta` | `https://en.wikipedia.org/wiki/Ignazio_Buttitta` |
+| Aldo Raimondi | `https://it.wikipedia.org/wiki/Aldo_Raimondi_(pittore)` | `https://en.wikipedia.org/wiki/Aldo_Raimondi` |
+| Museo Parisi Valle | `https://www.museoparisivalle.it/` | `https://www.museoparisivalle.it/` |
+
+**File coinvolti:** `content/it/docs/*.md`, `content/en/docs/*.md`
+
+---
+
 ## Note trasversali
 
 - **Nessun bundler**: non introdurre dipendenze npm o build step. Tutte le librerie via CDN o file locali in `js/`.
