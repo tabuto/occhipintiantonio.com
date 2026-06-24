@@ -99,6 +99,16 @@ Partecipazione alla 21ª edizione del salone internazionale dell'acquerello orga
 
 ---
 
+### Esposizioni al Museo Nacional de la Acuarela «Alfredo Guati Rojo» — Città del Messico
+_Coyoacán, Città del Messico · 1995 e 2000_
+
+La Dott.ssa Scarlet Galindo Monteagudo, Direttrice del [Museo Nacional de la Acuarela «Alfredo Guati Rojo»](https://www.acuarela.org.mx), ha confermato la partecipazione di Antonio Occhipinti a due esposizioni internazionali:
+
+- **1995** — Esposizione dell'Associazione Italiana di Acquerellisti (50 opere): *"Omaggio a Fresquet"* / *Homenaje a Fresquet*. Catalogo p. 16.
+- **2000** — IV Biennale Internazionale dell'Acquerello: *"El regreso"* / *The Return*, 40 × 60 cm. Catalogo p. 30, sez. Italia.
+
+---
+
 ## Articoli di stampa
 
 _Ritagli e articoli di giornali e riviste dedicati all'opera di Antonio Occhipinti._

@@ -101,6 +101,16 @@ Participation in the 21st edition of the international watercolour salon organis
 
 ---
 
+### Exhibitions at the Museo Nacional de la Acuarela «Alfredo Guati Rojo» — Mexico City
+_Coyoacán, Mexico City · 1995 and 2000_
+
+Dr Scarlet Galindo Monteagudo, Director of the [Museo Nacional de la Acuarela «Alfredo Guati Rojo»](https://www.acuarela.org.mx), confirmed Antonio Occhipinti's participation in two international exhibitions at the museum:
+
+- **1995** — Exhibition of the Italian Association of Watercolourists (50 works): *"Omaggio a Fresquet"* / *Homenaje a Fresquet*. Catalogue p. 16.
+- **2000** — IV International Watercolour Biennial: *"El regreso"* / *The Return*, 40 × 60 cm. Catalogue p. 30, Italy section.
+
+---
+
 ## Press articles
 
 _Clippings and articles from newspapers and magazines dedicated to the work of Antonio Occhipinti._
