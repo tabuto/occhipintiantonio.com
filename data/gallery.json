@@ -8,16 +8,22 @@
         {
           "title": "Porto di Gela",
           "category": "marine",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1774985081/pyartist/web/marine/porto-di-gela-2.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1774985081/pyartist/thumbs/marine/thumb_porto-di-gela-2.jpg",
-          "details": "2024, Acquerello su carta"
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1774985081/pyartist/web/marine/porto-di-gela-2.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1774985081/pyartist/thumbs/marine/thumb_porto-di-gela-2.jpg",
+          "details": "2024, Acquerello su carta",
+          "formato": "",
+          "tecnica": "",
+          "descrizione": ""
         },
         {
           "title": "Marina",
           "category": "marine",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032088/pyartist/web/marine/marina-3.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032089/pyartist/thumbs/marine/thumb_marina-3.jpg",
-          "details": "2008, Acquerello su carta"
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032088/pyartist/web/marine/marina-3.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032089/pyartist/thumbs/marine/thumb_marina-3.jpg",
+          "details": "2008, Acquerello su carta",
+          "formato": "",
+          "tecnica": "",
+          "descrizione": ""
         }
       ]
     },
@@ -28,16 +34,48 @@
         {
           "title": "Contadino",
           "category": "figure",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032222/pyartist/web/figure/contadino-5.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032223/pyartist/thumbs/figure/thumb_contadino-5.jpg",
-          "details": "2008, Acquerello su carta"
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032222/pyartist/web/figure/contadino-5.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032223/pyartist/thumbs/figure/thumb_contadino-5.jpg",
+          "details": "2008, Acquerello su carta",
+          "formato": "",
+          "tecnica": "",
+          "descrizione": ""
         },
         {
           "title": "Figura",
           "category": "figure",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032155/pyartist/web/figure/figura-4.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032156/pyartist/thumbs/figure/thumb_figura-4.jpg",
-          "details": "2008, Acquerello su carta"
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032155/pyartist/web/figure/figura-4.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032156/pyartist/thumbs/figure/thumb_figura-4.jpg",
+          "details": "2008, Acquerello su carta",
+          "formato": "",
+          "tecnica": "",
+          "descrizione": ""
+        },
+        {
+          "title": "Figura Matita",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775146829/pyartist/web/figure/figura-matita-6.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775146829/pyartist/thumbs/figure/thumb_figura-matita-6.jpg",
+          "details": "2019, None",
+          "formato": "40x50",
+          "tecnica": "matita",
+          "descrizione": ""
+        }
+      ]
+    },
+    {
+      "name": "arte-sacra",
+      "slug": "arte-sacra",
+      "items": [
+        {
+          "title": "Il sacrificio di isacco",
+          "category": "arte-sacra",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319360/pyartist/web/arte-sacra/il-sacrificio-di-isacco-14.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319362/pyartist/thumbs/arte-sacra/thumb_il-sacrificio-di-isacco-14.jpg",
+          "details": "Acquerello su carta",
+          "formato": "50x70",
+          "tecnica": "acquerello",
+          "descrizione": "Il sacrificio di isacco"
         }
       ]
     }

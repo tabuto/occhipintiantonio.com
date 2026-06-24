@@ -19,7 +19,10 @@ Aggiorna **sempre** i tre file seguenti a fine operazione:
 Aggiungi una voce nella sezione appropriata per ogni nuova pagina o scheda.
 Formato: `- [Titolo](URL): Descrizione breve.`
 
-### 2. `sitemap.xml`
+### 2. `it/docs/[slug].html` — bump `CONTENT_VERSION`
+Ogni volta che modifichi un file `content/*/docs/[slug].md`, aggiorna la costante `CONTENT_VERSION` nel corrispondente `it/docs/[slug].html` con la data odierna nel formato `YYYYMMDD` (es. `'20260624'`). Questo forza il browser a scaricare il nuovo `.md` invece di usare la versione in cache.
+
+### 3. `sitemap.xml`
 Aggiungi un blocco `<url>` per ogni nuova pagina HTML sotto la sezione di categoria corretta.
 Schede documenti: `<priority>0.6</priority>`, `<changefreq>yearly</changefreq>`.
 

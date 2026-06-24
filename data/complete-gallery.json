@@ -8,8 +8,8 @@
         {
           "title": "Porto di Gela",
           "category": "marine",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1774985081/pyartist/web/marine/porto-di-gela-2.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1774985081/pyartist/thumbs/marine/thumb_porto-di-gela-2.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1774985081/pyartist/web/marine/porto-di-gela-2.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1774985081/pyartist/thumbs/marine/thumb_porto-di-gela-2.jpg",
           "details": "2024, Acquerello su carta",
           "formato": "",
           "tecnica": "",
@@ -18,12 +18,38 @@
         {
           "title": "Marina",
           "category": "marine",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032088/pyartist/web/marine/marina-3.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032089/pyartist/thumbs/marine/thumb_marina-3.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032088/pyartist/web/marine/marina-3.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032089/pyartist/thumbs/marine/thumb_marina-3.jpg",
           "details": "2008, Acquerello su carta",
           "formato": "",
           "tecnica": "",
           "descrizione": ""
+        },
+        {
+          "title": "L'Attesa",
+          "category": "marine",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319448/pyartist/web/marine/lattesa-16.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319448/pyartist/thumbs/marine/thumb_lattesa-16.jpg",
+          "details": "Acquerello su carta",
+          "formato": "40x50",
+          "tecnica": "acquerello",
+          "descrizione": "Marina - L'Attesa"
+        }
+      ]
+    },
+    {
+      "name": "paesaggi",
+      "slug": "paesaggi",
+      "items": [
+        {
+          "title": "Cava d'Alica",
+          "category": "paesaggi",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319401/pyartist/web/paesaggi/cava-dalica-15.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319402/pyartist/thumbs/paesaggi/thumb_cava-dalica-15.jpg",
+          "details": "Acquerello su carta",
+          "formato": "40x50",
+          "tecnica": "acquerello",
+          "descrizione": "Cava d'Alica"
         }
       ]
     },
@@ -34,8 +60,8 @@
         {
           "title": "Papa Giovanni XXIII",
           "category": "ritratti",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147107/pyartist/web/ritratti/papa-giovanni-xxiii-9.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147108/pyartist/thumbs/ritratti/thumb_papa-giovanni-xxiii-9.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775147107/pyartist/web/ritratti/papa-giovanni-xxiii-9.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775147108/pyartist/thumbs/ritratti/thumb_papa-giovanni-xxiii-9.jpg",
           "details": "Acquerello su carta",
           "formato": "40x50",
           "tecnica": "acquerello",
@@ -44,22 +70,52 @@
         {
           "title": "Padre Pio",
           "category": "ritratti",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147178/pyartist/web/ritratti/padre-pio-10.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147179/pyartist/thumbs/ritratti/thumb_padre-pio-10.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775147178/pyartist/web/ritratti/padre-pio-10.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775147179/pyartist/thumbs/ritratti/thumb_padre-pio-10.jpg",
           "details": "Acquerello su carta",
           "formato": "",
           "tecnica": "acquerello",
           "descrizione": ""
         },
         {
-          "title": "Santa Caterina",
+          "title": "Autoritratto",
           "category": "ritratti",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147226/pyartist/web/ritratti/santa-caterina-11.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147226/pyartist/thumbs/ritratti/thumb_santa-caterina-11.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775289727/pyartist/web/ritratti/autoritratto-12.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775289728/pyartist/thumbs/ritratti/thumb_autoritratto-12.jpg",
           "details": "Acquerello su carta",
           "formato": "40x50",
           "tecnica": "acquerello",
-          "descrizione": ""
+          "descrizione": "autoritratto"
+        },
+        {
+          "title": "Van Gogh",
+          "category": "ritratti",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948206/pyartist/web/ritratti/van-gogh-31.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948207/pyartist/thumbs/ritratti/thumb_van-gogh-31.jpg",
+          "details": "2015, Acquerello su carta",
+          "formato": "50x70",
+          "tecnica": "acquerello",
+          "descrizione": "Omaggio a Van Gogh"
+        },
+        {
+          "title": "Pietro Annigoni",
+          "category": "ritratti",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948525/pyartist/web/ritratti/pietro-annigoni-33.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948526/pyartist/thumbs/ritratti/thumb_pietro-annigoni-33.jpg",
+          "details": "1982, Acquerello su carta",
+          "formato": "50x70",
+          "tecnica": "acquerello",
+          "descrizione": "Ritratto di P. Annigoni donato da Occhipinti al maestro, con dedica"
+        },
+        {
+          "title": "Aldo Raimondi",
+          "category": "ritratti",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948660/pyartist/web/ritratti/aldo-raimondi-34.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948661/pyartist/thumbs/ritratti/thumb_aldo-raimondi-34.jpg",
+          "details": "Acquerello su carta",
+          "formato": "50x70",
+          "tecnica": "acquerello",
+          "descrizione": "Ritratto del maestro Aldo Raimondi"
         }
       ]
     },
@@ -70,8 +126,8 @@
         {
           "title": "Figura",
           "category": "figure",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032155/pyartist/web/figure/figura-4.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032156/pyartist/thumbs/figure/thumb_figura-4.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032155/pyartist/web/figure/figura-4.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032156/pyartist/thumbs/figure/thumb_figura-4.jpg",
           "details": "2008, Acquerello su carta",
           "formato": "",
           "tecnica": "",
@@ -80,8 +136,8 @@
         {
           "title": "Contadino",
           "category": "figure",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032222/pyartist/web/figure/contadino-5.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775032223/pyartist/thumbs/figure/thumb_contadino-5.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032222/pyartist/web/figure/contadino-5.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775032223/pyartist/thumbs/figure/thumb_contadino-5.jpg",
           "details": "2008, Acquerello su carta",
           "formato": "",
           "tecnica": "",
@@ -90,8 +146,8 @@
         {
           "title": "Figura Matita",
           "category": "figure",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775146829/pyartist/web/figure/figura-matita-6.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775146829/pyartist/thumbs/figure/thumb_figura-matita-6.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775146829/pyartist/web/figure/figura-matita-6.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775146829/pyartist/thumbs/figure/thumb_figura-matita-6.jpg",
           "details": "2019, None",
           "formato": "40x50",
           "tecnica": "matita",
@@ -100,8 +156,8 @@
         {
           "title": "Figura",
           "category": "figure",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775146916/pyartist/web/figure/figura-7.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775146917/pyartist/thumbs/figure/thumb_figura-7.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775146916/pyartist/web/figure/figura-7.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775146917/pyartist/thumbs/figure/thumb_figura-7.jpg",
           "details": "Acquerello su carta",
           "formato": "40x50",
           "tecnica": "acquerello",
@@ -110,12 +166,78 @@
         {
           "title": "Zeffirelli",
           "category": "figure",
-          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147020/pyartist/web/figure/zeffirelli-8.jpg",
-          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1775147021/pyartist/thumbs/figure/thumb_zeffirelli-8.jpg",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775147020/pyartist/web/figure/zeffirelli-8.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775147021/pyartist/thumbs/figure/thumb_zeffirelli-8.jpg",
           "details": "Acquerello su carta",
           "formato": "",
           "tecnica": "acquerello",
           "descrizione": ""
+        },
+        {
+          "title": "Figura Barocca",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319332/pyartist/web/figure/figura-barocca-13.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319332/pyartist/thumbs/figure/thumb_figura-barocca-13.jpg",
+          "details": "Acquerello su carta",
+          "formato": "40x50",
+          "tecnica": "acquerello",
+          "descrizione": "Figura Barocca"
+        },
+        {
+          "title": "Figura Barocca",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319483/pyartist/web/figure/figura-barocca-17.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319484/pyartist/thumbs/figure/thumb_figura-barocca-17.jpg",
+          "details": "Acquerello su carta",
+          "formato": "50x70",
+          "tecnica": "",
+          "descrizione": "Figura di Donna Barocca"
+        },
+        {
+          "title": "Figura",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948807/pyartist/web/figure/figura-36.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948807/pyartist/thumbs/figure/thumb_figura-36.jpg",
+          "details": "2009, Acquerello su carta",
+          "formato": "40x50",
+          "tecnica": "acquerello",
+          "descrizione": "Figura Barocca"
+        },
+        {
+          "title": "Senza titolo",
+          "category": "figure",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1779372796/pyartist/web/figure/senza-titolo-37.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1779372797/pyartist/thumbs/figure/thumb_senza-titolo-37.jpg",
+          "details": "2009, Acquerello su carta",
+          "formato": "50x70",
+          "tecnica": "acquerello",
+          "descrizione": "Figura su somaro - Collezione Museo Parisi Valle - Maccagno"
+        }
+      ]
+    },
+    {
+      "name": "arte-sacra",
+      "slug": "arte-sacra",
+      "items": [
+        {
+          "title": "Il sacrificio di isacco",
+          "category": "arte-sacra",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319360/pyartist/web/arte-sacra/il-sacrificio-di-isacco-14.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1775319362/pyartist/thumbs/arte-sacra/thumb_il-sacrificio-di-isacco-14.jpg",
+          "details": "Acquerello su carta",
+          "formato": "50x70",
+          "tecnica": "acquerello",
+          "descrizione": "Il sacrificio di isacco"
+        },
+        {
+          "title": "Santa Faustina",
+          "category": "arte-sacra",
+          "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948344/pyartist/web/arte-sacra/santa-faustina-32.jpg",
+          "thumb": "https://res.cloudinary.com/ds8hmzyom/image/upload/f_auto,q_auto/v1778948345/pyartist/thumbs/arte-sacra/thumb_santa-faustina-32.jpg",
+          "details": "2013, Acquerello su carta",
+          "formato": "50x70",
+          "tecnica": "acquerello",
+          "descrizione": "Ritratto di Santa Faustina"
         }
       ]
     }

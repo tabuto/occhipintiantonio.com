@@ -142,6 +142,18 @@ content/
 
 ---
 
+## Cache-busting dei contenuti Markdown
+
+Ogni scheda HTML carica il proprio `.md` tramite `fetch` con un query parameter `?v=CONTENT_VERSION`. La costante è definita in fondo a ciascun file HTML:
+
+```js
+const CONTENT_VERSION = 'YYYYMMDD'
+```
+
+**Regola:** ogni volta che si modifica un file `content/*/docs/[slug].md`, aggiornare la `CONTENT_VERSION` nel corrispondente `it/docs/[slug].html` con la data del giorno (`YYYYMMDD`). Senza questo aggiornamento il browser potrebbe mostrare il vecchio contenuto dalla cache.
+
+---
+
 ## Note per gli agenti
 
 - **Non modificare `gallery.json` direttamente** in produzione: viene sovrascritto dal sync del backoffice.
