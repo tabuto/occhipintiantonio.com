@@ -1,6 +1,8 @@
-# website/ — Modulo Frontend
+# AGENT.md — Documentazione tecnica del sito
 
-Sito statico del portfolio. Viene servito direttamente da un web server o via CDN; non richiede runtime server-side.
+> **Protocollo operativo:** prima di ogni operazione leggi questo file. Dopo ogni modifica aggiorna `llms.txt`, `sitemap.xml` e questo file se necessario. Le istruzioni complete sono in `CLAUDE.md`.
+
+Sito statico del portfolio di Antonio Occhipinti. Viene servito direttamente da un web server o via CDN; non richiede runtime server-side.
 
 ---
 
@@ -39,7 +41,7 @@ Single-page con quattro sezioni ancorate: `#gallery`, `#about`, `#contact` e il 
 colors: {
   canvas:  '#FCFCFC',   // sfondo pagina
   ink:     '#1A1A1A',   // testo principale
-  powder:  '#7A9EB1',   // accento (tab attivi, link, separatori)
+  powder:  '#C44027',   // accento rosso terracotta (tab attivi, link, separatori)
 }
 ```
 
