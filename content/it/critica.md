@@ -30,3 +30,13 @@ _Mitreo, agosto 1991_
 > Ha soprattutto una stupenda mano leggera condotta da un animo pervaso di poesia che rende l'opera vera opera d'arte.
 
 [Leggi la scheda completa →](/it/docs/critica-aldo-riso-1991.html)
+
+---
+
+## Occhipinti visto da Piero Guccione
+
+_Settembre 2001 · Testo critico autografo · [Piero Guccione](https://it.wikipedia.org/wiki/Piero_Guccione)_
+
+> Gli acquerelli di Antonio Occhipinti hanno la freschezza delle cose semplici: ma semplice non è il loro percorso anche dal punto di vista tecnico.
+
+[Leggi la scheda completa →](/it/docs/critica-guccione-2001.html)

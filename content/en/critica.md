@@ -31,6 +31,16 @@ _Mitreo, August 1991_
 
 [Read the full document →](/it/docs/critica-aldo-riso-1991.html)
 
+---
+
+## Occhipinti as seen by Piero Guccione
+
+_September 2001 · Autograph critical text · [Piero Guccione](https://it.wikipedia.org/wiki/Piero_Guccione)_
+
+> Antonio Occhipinti's watercolours have the freshness of simple things: yet their path is far from simple, even from a technical point of view.
+
+[Read the full document →](/it/docs/critica-guccione-2001.html)
+
 ## «One of the finest watercolourists in Italy»
 
 _1982 · Autograph letter · Pietro Annigoni_
