@@ -41,6 +41,16 @@ _September 2001 · Autograph critical text · [Piero Guccione](https://it.wikipe
 
 [Read the full document →](/it/docs/critica-guccione-2001.html)
 
+---
+
+## Occhipinti as seen by Luigi Tallarico
+
+_31 December 1987 · Secolo d'Italia · [Luigi Tallarico](https://en.wikipedia.org/wiki/Luigi_Tallarico)_
+
+> In truth, when light exalts form from within, its content is altered by that exuberance of spiritual and lyrical restlessness, as we have also noted in a fine Sicilian watercolourist. We refer to Antonio Occhipinti, born in and working from Gela.
+
+[Read the full document →](/it/docs/critica-tallarico-1987.html)
+
 ## «One of the finest watercolourists in Italy»
 
 _1982 · Autograph letter · Pietro Annigoni_

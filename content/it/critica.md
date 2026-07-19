@@ -40,3 +40,13 @@ _Settembre 2001 · Testo critico autografo · [Piero Guccione](https://it.wikipe
 > Gli acquerelli di Antonio Occhipinti hanno la freschezza delle cose semplici: ma semplice non è il loro percorso anche dal punto di vista tecnico.
 
 [Leggi la scheda completa →](/it/docs/critica-guccione-2001.html)
+
+---
+
+## Occhipinti visto da Luigi Tallarico
+
+_31 dicembre 1987 · Secolo d'Italia · [Luigi Tallarico](https://it.wikipedia.org/wiki/Luigi_Tallarico)_
+
+> In verità, quando la luce esalta dal di dentro la forma, i contenuti vengono alterati da quel tripudio di irrequietezze spirituali e liriche, come abbiamo anche notato in un valoroso acquarellista siciliano. Alludiamo ad Antonio Occhipinti, nativo di Gela ed ivi operante.
+
+[Leggi la scheda completa →](/it/docs/critica-tallarico-1987.html)

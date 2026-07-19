@@ -122,4 +122,13 @@ _Settegiorni · September 2025_
 
 ---
 
+### Secolo d'Italia — Occhipinti as seen by [Luigi Tallarico](https://en.wikipedia.org/wiki/Luigi_Tallarico)
+_Secolo d'Italia · 31 December 1987_
+
+Critical article by Luigi Tallarico on Antonio Occhipinti's watercolours, referencing Annigoni's judgement.
+
+[Read the full document →](/it/docs/critica-tallarico-1987.html)
+
+---
+
 _This section is being updated. Further documents will be added progressively._

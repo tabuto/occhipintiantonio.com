@@ -26,9 +26,11 @@ La Pinacoteca Comunale di Gela è stata ufficialmente intitolata ad Antonio Occh
 ---
 
 ### Premio Internazionale Fabriano [2][6]
-*1986 · 1º Premio*
+*1987 · 1º Premio*
 
 1º Premio nella sezione acquerelli — riconoscimento internazionale dedicato all'acquerello.
+
+[Leggi la scheda completa →](https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html)
 
 ---
 

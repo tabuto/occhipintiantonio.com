@@ -3,24 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catalogo Premio internazionale Fabriano 1987 — Documenti — Antonio Occhipinti</title>
-  <meta name="description" content="Catalogo della mostra Premio internazionale Fabriano, sezione acquerelli ed incisione, Oratorio del Gonfalone, Fabriano 1987. SBN: ANA0010998." />
+  <title>Occhipinti visto da Luigi Tallarico — Antonio Occhipinti</title>
+  <meta name="description" content="Articolo critico di Luigi Tallarico su Secolo d'Italia, 31 dicembre 1987: le trasparenze luministiche e la solidità dell'impianto negli acquerelli di Antonio Occhipinti." />
   <meta name="author" content="Antonio Occhipinti" />
-  <link rel="canonical" href="https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html" />
+  <link rel="canonical" href="https://occhipintiantonio.com/it/docs/critica-tallarico-1987.html" />
 
-  <link rel="alternate" hreflang="it"        href="https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html" />
-  <link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html" />
+  <link rel="alternate" hreflang="it"        href="https://occhipintiantonio.com/it/docs/critica-tallarico-1987.html" />
+  <link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/critica-tallarico-1987.html" />
 
   <meta property="og:type"        content="article" />
-  <meta property="og:url"         content="https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html" />
-  <meta property="og:title"       content="Catalogo Premio internazionale Fabriano 1987 — Antonio Occhipinti" />
-  <meta property="og:description" content="Catalogo della mostra Premio internazionale Fabriano, sezione acquerelli ed incisione, Fabriano 1987." />
-  <meta property="og:image"       content="https://res.cloudinary.com/ds8hmzyom/image/upload/v1784492965/pyartist/web/uncategorized/articolo-premio-fabriano-42.jpg" />
+  <meta property="og:url"         content="https://occhipintiantonio.com/it/docs/critica-tallarico-1987.html" />
+  <meta property="og:title"       content="Occhipinti visto da Luigi Tallarico — Antonio Occhipinti" />
+  <meta property="og:description" content="Articolo critico di Luigi Tallarico su Secolo d'Italia, 31 dicembre 1987: le trasparenze luministiche e la solidità dell'impianto negli acquerelli di Antonio Occhipinti." />
+  <meta property="og:image"       content="https://res.cloudinary.com/ds8hmzyom/image/upload/v1784488327/pyartist/web/uncategorized/occhipinti-visto-da-tallarico-41.jpg" />
 
   <meta name="twitter:card"        content="summary_large_image" />
-  <meta name="twitter:title"       content="Catalogo Premio internazionale Fabriano 1987 — Antonio Occhipinti" />
-  <meta name="twitter:description" content="Catalogo della mostra Premio internazionale Fabriano, sezione acquerelli ed incisione, Fabriano 1987." />
-  <meta name="twitter:image"       content="https://res.cloudinary.com/ds8hmzyom/image/upload/v1784492965/pyartist/web/uncategorized/articolo-premio-fabriano-42.jpg" />
+  <meta name="twitter:title"       content="Occhipinti visto da Luigi Tallarico — Antonio Occhipinti" />
+  <meta name="twitter:description" content="Articolo critico di Luigi Tallarico su Secolo d'Italia, 31 dicembre 1987: le trasparenze luministiche e la solidità dell'impianto negli acquerelli di Antonio Occhipinti." />
+  <meta name="twitter:image"       content="https://res.cloudinary.com/ds8hmzyom/image/upload/v1784488327/pyartist/web/uncategorized/occhipinti-visto-da-tallarico-41.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,12 +37,16 @@
 
 <body class="font-sans bg-canvas text-ink min-h-screen flex flex-col">
 
-  <div x-data="schadaPage('catalogo-fabriano-1987')" x-init="init(); load()" class="flex flex-col flex-1">
+  <div x-data="schadaPage('critica-tallarico-1987')" x-init="init(); load()" class="flex flex-col flex-1">
 
     <header class="px-6 pt-10 pb-6 border-b border-ink/5 text-center">
       <nav aria-label="Breadcrumb">
         <p class="text-xs tracking-[0.25em] uppercase text-powder">
           <a href="/" class="hover:text-ink/60 transition-colors duration-200">Antonio Occhipinti</a>
+          <span class="mx-2 text-ink/20" aria-hidden="true">/</span>
+          <a href="/critica.html"
+             class="hover:text-ink/60 transition-colors duration-200"
+             x-text="$store.i18n.lang === 'it' ? 'Critica' : 'Critical Reviews'">Critica</a>
           <span class="mx-2 text-ink/20" aria-hidden="true">/</span>
           <a href="/elenco_documenti.html"
              class="hover:text-ink/60 transition-colors duration-200"
@@ -51,7 +55,7 @@
       </nav>
 
       <h1 class="font-serif text-3xl md:text-4xl tracking-tight mt-4"
-          x-text="meta.title || 'Catalogo Premio internazionale Fabriano 1987'">Catalogo Premio internazionale Fabriano 1987</h1>
+          x-text="meta.title || 'Occhipinti visto da Luigi Tallarico'">Occhipinti visto da Luigi Tallarico</h1>
 
       <p x-show="meta.tipologia"
          class="mt-2 text-xs tracking-widest uppercase text-powder/80"
@@ -86,10 +90,13 @@
              x-html="content"></div>
       </div>
 
-      <div class="mt-14 pt-8 border-t border-ink/10">
-        <a href="/elenco_documenti.html"
+      <div class="mt-14 pt-8 border-t border-ink/10 flex flex-wrap gap-6">
+        <a href="/critica.html"
            class="text-xs tracking-widest uppercase text-powder hover:text-powder/70 transition-colors duration-200"
-           x-text="$store.i18n.lang === 'it' ? '← Torna ai documenti' : '← Back to documents'">← Torna ai documenti</a>
+           x-text="$store.i18n.lang === 'it' ? '← Critica' : '← Critical Reviews'">← Critica</a>
+        <a href="/elenco_documenti.html"
+           class="text-xs tracking-widest uppercase text-ink/40 hover:text-ink/70 transition-colors duration-200"
+           x-text="$store.i18n.lang === 'it' ? '← Tutti i documenti' : '← All documents'">← Tutti i documenti</a>
       </div>
     </main>
 

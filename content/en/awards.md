@@ -26,9 +26,11 @@ The Gela Municipal Art Gallery was officially named after Antonio Occhipinti.
 ---
 
 ### Premio Internazionale Fabriano [2][6]
-*1986 · 1st Prize*
+*1987 · 1st Prize*
 
 1st Prize in the watercolour section — international award dedicated to watercolour painting.
+
+[Read the full document →](https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html)
 
 ---
 

@@ -120,4 +120,13 @@ _Settegiorni · Settembre 2025_
 
 ---
 
+### Secolo d'Italia — Occhipinti visto da [Luigi Tallarico](https://it.wikipedia.org/wiki/Luigi_Tallarico)
+_Secolo d'Italia · 31 dicembre 1987_
+
+Articolo critico di Luigi Tallarico dedicato agli acquerelli di Antonio Occhipinti, con riferimento al giudizio di Annigoni.
+
+[Leggi la scheda completa →](/it/docs/critica-tallarico-1987.html)
+
+---
+
 _Questa sezione è in aggiornamento. Ulteriori documenti verranno aggiunti progressivamente._

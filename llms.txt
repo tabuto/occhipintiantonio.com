@@ -12,9 +12,9 @@
 
 - [Mostre](https://occhipintiantonio.com/mostre.html): Elenco delle mostre personali e collettive in Italia e all'estero.
 
-- [Premi e riconoscimenti](https://occhipintiantonio.com/awards.html): Premio Giombattista Tiepolo (1983, 1° Premio Venezia), Premio Internazionale Fabriano (1986), Premio Roma-Fiat (1995), Premio Telamone (2019), Intitolazione Pinacoteca Comunale di Gela (2025). Definito da Pietro Annigoni "uno dei migliori acquarellisti d'Italia" (1982).
+- [Premi e riconoscimenti](https://occhipintiantonio.com/awards.html): Premio Giombattista Tiepolo (1983, 1° Premio Venezia), Premio Internazionale Fabriano (1987), Premio Roma-Fiat (1995), Premio Telamone (2019), Intitolazione Pinacoteca Comunale di Gela (2025). Definito da Pietro Annigoni "uno dei migliori acquarellisti d'Italia" (1982).
 
-- [Critica](https://occhipintiantonio.com/critica.html): Indice dei testi critici e testimonianze, con estratti e link alle schede complete. Include la lettera autografa di Pietro Annigoni (1982), il contributo di Aldo Raimondi, il testo critico di Aldo Riso (1991) e il testo critico di Piero Guccione (2001).
+- [Critica](https://occhipintiantonio.com/critica.html): Indice dei testi critici e testimonianze, con estratti e link alle schede complete. Include la lettera autografa di Pietro Annigoni (1982), il contributo di Aldo Raimondi, il testo critico di Aldo Riso (1991), il testo critico di Piero Guccione (2001) e l'articolo di Luigi Tallarico su Secolo d'Italia (1987).
 
 - [Documenti](https://occhipintiantonio.com/elenco_documenti.html): Archivio strutturato di lettere autografe, cataloghi, attestati, articoli di stampa e testimonianze critiche. I documenti sono raggruppati per tipologia e ogni voce ha una scheda dedicata.
 
@@ -36,7 +36,7 @@
 
 - [Lettera di Mons. Angelo Livi, 1984](https://occhipintiantonio.com/it/docs/lettera-livi-1984.html): Il Priore della Basilica di S. Lorenzo di Firenze ringrazia Occhipinti per il dono di un acquerello, luglio 1984.
 
-- [Catalogo Premio Fabriano, 1987](https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html): Catalogo della mostra Premio internazionale Fabriano, sezione acquerelli ed incisione, Oratorio del Gonfalone. SBN: ANA0010998.
+- [Catalogo Premio Fabriano, 1987](https://occhipintiantonio.com/it/docs/catalogo-fabriano-1987.html): Catalogo della mostra Premio internazionale Fabriano, sezione acquerelli ed incisione, Oratorio del Gonfalone. SBN: ANA0010998. Include la cronaca del Secolo d'Italia (19 giugno 1987) sulla Giuria, presieduta dall'ing. Mario Tommasini, che assegnò ad Antonio Occhipinti il «Trofeo Fabriano 1987» per la sezione acquerello.
 
 - [Catalogo Premio Roma-Fiat, 1995](https://occhipintiantonio.com/it/docs/catalogo-roma-fiat-1995.html): Catalogo della 2ª Mostra nazionale dell'acquerello, Premio Roma-Fiat, Roma. SBN: BVE0096964.
 
@@ -47,3 +47,5 @@
 - [Attestato AIB, Mol 1999](https://occhipintiantonio.com/it/docs/attestato-aib-1999.html): Attestato di partecipazione alla 21ª edizione del salone internazionale dell'acquerello, Aquarel Instituut van België, Mol (Belgio).
 
 - [Museo Nacional de la Acuarela «Alfredo Guati Rojo», Città del Messico 1995·2000](https://occhipintiantonio.com/it/docs/museo-acuarela-messico-1995-2000.html): La Dott.ssa Scarlet Galindo Monteagudo, Direttrice del museo, conferma la partecipazione di Antonio Occhipinti a due esposizioni internazionali: nel 1995 con «Omaggio a Fresquet» (Esposizione A.I.A.) e nel 2000 con «El regreso / The Return» (IV Biennale Internazionale). Include testo originale e traduzione della comunicazione ufficiale del museo.
+
+- [Critica di Luigi Tallarico, 1987](https://occhipintiantonio.com/it/docs/critica-tallarico-1987.html): Articolo critico pubblicato su Secolo d'Italia (31 dicembre 1987), in cui Luigi Tallarico analizza gli acquerelli di Antonio Occhipinti riconoscendo «le trasparenze luministiche e la solidità dell'impianto».

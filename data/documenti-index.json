@@ -60,7 +60,7 @@
     "title": "Catalogo — Premio internazionale Fabriano 1987",
     "tipologia": "Pubblicazioni e cataloghi",
     "date": "1987",
-    "image": "",
+    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1784492965/pyartist/web/uncategorized/articolo-premio-fabriano-42.jpg",
     "excerpt": "Catalogo della mostra Premio internazionale Fabriano, sezione acquerelli ed incisione, Oratorio del Gonfalone, Fabriano 1987. SBN: ANA0010998."
   },
   {
@@ -102,5 +102,13 @@
     "date": "1995 · 2000",
     "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1782296300/pyartist/web/varie/email-fwdinformacionsobreantonioocchipinti-20260514-39.jpg",
     "excerpt": "La Dott.ssa Scarlet Galindo Monteagudo, Direttrice del Museo Nacional de la Acuarela «Alfredo Guati Rojo» di Città del Messico, conferma la partecipazione di Antonio Occhipinti a due esposizioni internazionali del museo nel 1995 e nel 2000."
+  },
+  {
+    "slug": "critica-tallarico-1987",
+    "title": "Occhipinti visto da Luigi Tallarico",
+    "tipologia": "Critica e testimonianze",
+    "date": "31 dicembre 1987",
+    "image": "https://res.cloudinary.com/ds8hmzyom/image/upload/v1784488327/pyartist/web/uncategorized/occhipinti-visto-da-tallarico-41.jpg",
+    "excerpt": "Sulle pagine del Secolo d'Italia, Luigi Tallarico analizza gli acquerelli di Antonio Occhipinti riconoscendo «le trasparenze luministiche e la solidità dell'impianto», l'invenzione poetica e l'aderenza alla realtà."
   }
 ]
