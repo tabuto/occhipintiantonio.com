@@ -10,6 +10,10 @@ on:
         description: "Simula senza caricare"
         type: boolean
         default: true
+      server_dir:
+        description: "Cartella remota di destinazione (deve finire con /). Lasciare _deploytest/ per provare senza toccare il sito; './' pubblica sul sito reale"
+        type: string
+        default: "_deploytest/"
 
 # evita due deploy sovrapposti
 concurrency:
@@ -30,7 +34,10 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps            # usa "ftp" se l'hosting non supporta FTPS
           local-dir: ./
-          server-dir: ./            # oppure es. public_html/ (deve finire con /)
+          # push su master -> sito reale; run manuale -> la cartella scelta negli input
+          # (se il campo viene svuotato si ricade su ./; cambiare './' qui sotto
+          #  in es. public_html/ se la document root non e' la home FTP)
+          server-dir: ${{ github.event_name == 'workflow_dispatch' && inputs.server_dir || './' }}
           dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
           # file di sviluppo da non pubblicare
           # (specificare exclude sostituisce i default, quindi vanno ripetuti)
