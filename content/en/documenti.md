@@ -88,6 +88,15 @@ Exhibition catalogue. SBN: BVE0096964
 
 ---
 
+### «Colori sull'acqua» — International and European Watercolour Exhibition
+_Maccagno · 2003_
+
+Catalogue of the exhibition curated by the Associazione Italiana Acquerellisti (A.I.A.) in collaboration with the Pro Loco di Maccagno. It publishes the **Preparatory study for the head of Saint Matthew** (watercolour on paper, 50×35 cm, 1996), on p. 89.
+
+[Read the full entry →](/it/docs/catalogo-maccagno-2003.html)
+
+---
+
 ## International certificates and participations
 
 _Certificates and participation records for international exhibitions and events._

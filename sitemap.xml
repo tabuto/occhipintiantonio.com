@@ -164,6 +164,14 @@
     <priority>0.5</priority>
   </url>
 
+  <url>
+    <loc>https://occhipintiantonio.com/it/docs/catalogo-maccagno-2003.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://occhipintiantonio.com/it/docs/catalogo-maccagno-2003.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://occhipintiantonio.com/it/docs/catalogo-maccagno-2003.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
   <!-- ═══ Schede — Musei e collezioni ═══ -->
 
   <url>

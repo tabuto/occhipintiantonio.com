@@ -86,6 +86,15 @@ Catalogo della mostra. SBN: BVE0096964
 
 ---
 
+### «Colori sull'acqua» — Mostra internazionale ed europea dell'acquerello
+_Maccagno · 2003_
+
+Catalogo della rassegna curata dall'Associazione Italiana Acquerellisti (A.I.A.) in collaborazione con la Pro Loco di Maccagno. Vi è pubblicato lo **Studio preparatorio per la testa di San Matteo** (acquerello su carta, 50×35 cm, 1996), a p. 89.
+
+[Leggi la scheda completa →](/it/docs/catalogo-maccagno-2003.html)
+
+---
+
 ## Attestati e partecipazioni internazionali
 
 _Certificati e attestati di partecipazione a mostre ed eventi internazionali._
