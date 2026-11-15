@@ -14,6 +14,16 @@ on:
         description: "Cartella remota di destinazione (deve finire con /). Lasciare _deploytest/ per provare senza toccare il sito; './' pubblica sul sito reale"
         type: string
         default: "_deploytest/"
+      protocol:
+        description: "Protocollo: ftps (cifrato) oppure ftp (in chiaro, se l'hosting resetta il canale dati)"
+        type: choice
+        options: [ftps, ftp]
+        default: ftps
+      log_level:
+        description: "Verbosita del log: verbose mostra il dialogo FTP comando per comando"
+        type: choice
+        options: [standard, verbose, minimal]
+        default: standard
 
 # evita due deploy sovrapposti
 concurrency:
@@ -32,13 +42,16 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps            # usa "ftp" se l'hosting non supporta FTPS
+          # push su master -> ftps; run manuale -> il protocollo scelto negli input
+          protocol: ${{ github.event_name == 'workflow_dispatch' && inputs.protocol || 'ftps' }}
           local-dir: ./
           # push su master -> sito reale; run manuale -> la cartella scelta negli input
           # (se il campo viene svuotato si ricade su ./; cambiare './' qui sotto
           #  in es. public_html/ se la document root non e' la home FTP)
           server-dir: ${{ github.event_name == 'workflow_dispatch' && inputs.server_dir || './' }}
           dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+          log-level: ${{ github.event_name == 'workflow_dispatch' && inputs.log_level || 'standard' }}
+          timeout: 60000            # 60s: hosting condivisi a volte sono lenti ad aprire il canale dati
           # file di sviluppo da non pubblicare
           # (specificare exclude sostituisce i default, quindi vanno ripetuti)
           exclude: |
