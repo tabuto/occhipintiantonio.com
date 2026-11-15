@@ -1,0 +1,48 @@
+# Deploy incrementale via FTP dei file modificati su master
+name: Deploy FTP
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:          # avvio manuale dalla tab Actions
+    inputs:
+      dry_run:
+        description: "Simula senza caricare"
+        type: boolean
+        default: true
+
+# evita due deploy sovrapposti
+concurrency:
+  group: ftp-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload FTP (solo file cambiati)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps            # usa "ftp" se l'hosting non supporta FTPS
+          local-dir: ./
+          server-dir: ./            # oppure es. public_html/ (deve finire con /)
+          dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+          # file di sviluppo da non pubblicare
+          # (specificare exclude sostituisce i default, quindi vanno ripetuti)
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            .claude/**
+            backlog/**
+            CLAUDE.md
+            AGENT.md
+            SPECS.md
+            server.py
+            server_start.sh
+            server_stop.sh
