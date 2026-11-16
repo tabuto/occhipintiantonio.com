@@ -57,3 +57,9 @@ canvas:  '#FCFCFC'   // sfondo
 ink:     '#1A1A1A'   // testo
 powder:  '#C44027'   // accento (rosso terracotta)
 ```
+
+<!-- fact-reflect:start -->
+## Learned rules (fact-reflect)
+
+- Nel repo occhipintiantonio.com ogni commit che non deve far partire la pubblicazione sul sito va marcato con [skip ci] nel messaggio, perché un push su master innesca il deploy FTP.
+<!-- fact-reflect:end -->
