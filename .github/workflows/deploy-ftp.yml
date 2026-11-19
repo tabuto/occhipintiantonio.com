@@ -19,6 +19,11 @@ on:
         type: choice
         options: [ftps, ftp]
         default: ftps
+      security:
+        description: "Verifica del certificato TLS: strict la pretende valida (richiede che FTP_SERVER sia web.marte.vhosting-it.com, l'hostname del certificato, non l'IP ne' occhipintiantonio.com); loose la ignora"
+        type: choice
+        options: [strict, loose]
+        default: strict
       log_level:
         description: "Verbosita del log: verbose mostra il dialogo FTP comando per comando"
         type: choice
@@ -49,6 +54,13 @@ jobs:
           # (se il campo viene svuotato si ricade su ./; cambiare './' qui sotto
           #  in es. public_html/ se la document root non e' la home FTP)
           server-dir: ${{ github.event_name == 'workflow_dispatch' && inputs.server_dir || './' }}
+          # ATTENZIONE: il default dell'action e' 'loose', cioe' rejectUnauthorized: false:
+          # il traffico e' cifrato ma il server NON e' autenticato, quindi un intercettatore
+          # puo' presentare un certificato qualunque e leggere la password FTP. 'strict' lo
+          # impedisce, ma pretende che FTP_SERVER sia l'hostname del certificato
+          # (web.marte.vhosting-it.com, stesso IP del sito). Il fallback del push resta
+          # 'loose' finche' un run non-dry con 'strict' non e' stato verificato: vedi AGENT.md.
+          security: ${{ github.event_name == 'workflow_dispatch' && inputs.security || 'loose' }}
           dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
           log-level: ${{ github.event_name == 'workflow_dispatch' && inputs.log_level || 'standard' }}
           timeout: 60000            # 60s: hosting condivisi a volte sono lenti ad aprire il canale dati

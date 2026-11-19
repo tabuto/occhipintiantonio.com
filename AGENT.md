@@ -170,6 +170,7 @@ Input del run manuale:
 - **`dry_run`** (boolean, default `true`) — simula senza caricare nulla. Un run in dry run dura pochi secondi: se un run "riuscito" è durato 2-3 secondi, non ha pubblicato niente.
 - **`server_dir`** (string, default `_deploytest/`) — cartella remota di destinazione, deve finire con `/`. `./` pubblica sul sito reale.
 - **`protocol`** (choice, default `ftps`) — `ftp` invia **la password in chiaro**: usarlo solo come diagnostica e cambiare la password dopo.
+- **`security`** (choice, default `strict`) — verifica del certificato TLS. Il default dell'action, se non si passa nulla, e' `loose`: cifrato ma **non** autenticato. Vedi la sezione *TLS: cifrato non vuol dire verificato*.
 - **`log_level`** (choice, default `standard`) — `verbose` stampa il dialogo FTP comando per comando, indispensabile per diagnosticare i fallimenti.
 
 Gli input valgono solo per il run manuale: nel workflow ogni valore è protetto da `github.event_name == 'workflow_dispatch' && inputs.x || '<default>'`, così un push usa sempre i default di produzione.
@@ -192,30 +193,84 @@ Per committare senza innescare un deploy, includere **`[skip ci]`** nel messaggi
 - Se manca, l'action entra in modalità "prima pubblicazione" e tenta di caricare *tutti* i file creando *tutte* le cartelle — vedi il punto aperto sotto.
 - È servito via HTTP come qualunque altro file della root: non contiene credenziali, ma espone l'elenco dei file con dimensioni e hash. Conviene negarne l'accesso via `.htaccess` (il deploy continua a funzionare perché l'action lo legge via FTP).
 
-### ⚠️ Punto aperto — prima pubblicazione e creazione di nuove cartelle
+### ✅ Risolto — perché la "prima pubblicazione" fallisce sempre
 
-**Stato: non risolto.** Sull'hosting (Plesk + ProFTPD) la modalità "prima pubblicazione" sulla root del sito **ha sempre fallito**, con `Error: Client is closed because read ECONNRESET (data socket)` al primo `creating folder "…"`. Evidenza raccolta il 15-16 novembre 2026:
+**Causa accertata il 19 novembre 2026** diagnosticandola sul repository gemello
+`francescodidio.com`, che gira sullo stesso provider con la stessa action e ha prodotto uno
+stack trace identico frame per frame.
 
-| Scenario | Esito |
-|---|---|
-| Sync incrementale con file di stato presente (`ftps` e `ftp`) | ✅ sempre riuscito |
-| Prima pubblicazione in `_deploytest/` (cartelle inesistenti), `ftp` | ✅ unico caso riuscito, 98 file in ~50 s |
-| Prima pubblicazione in `_deploytest/`, `ftps` | ❌ |
-| Prima pubblicazione nella root `./` (cartelle già esistenti), `ftps` e `ftp` | ❌ 4 tentativi su 4 |
+Il colpevole **non è la creazione delle cartelle**. È il `RETR` del manifest assente. La sequenza
+reale:
 
-Il canale di controllo è sano in tutti i casi (`220 ProFTPD`, `230 User logged in`, `MKD .` → `257`, `CWD .` → `250`, `EPSV` → `229`): muore solo il canale dati. Le ipotesi scartate con prove alla mano: non è un ban IP o un Fail2Ban (il login riesce in ~2 s anche nei run falliti), non è il riuso della sessione TLS (fallisce anche in `ftp` in chiaro), non è la directory di destinazione sbagliata (`./` è `httpdocs`).
+1. l'action apre l'`EPSV` **prima** di mandare il `RETR`, quindi il socket dati è già aperto;
+2. il file non esiste, il server risponde `550` e resetta quel socket dati;
+3. basic-ftp considera fatale qualunque errore sul socket dati e **chiude l'intero client**;
+4. l'eccezione salta fuori sul primo comando di controllo successivo, che è `ensureDir` →
+   `creating folder "content/"`. La cartella è una vittima, non la causa.
 
-**Conseguenza pratica:** aggiungere una **cartella nuova** al repo e fare push non è un'operazione provata. La creazione di cartelle di per sé funziona (l'ha fatto la pubblicazione completa in `_deploytest/`), ma nella root non è mai stata verificata.
+Lo si vede nello stack trace dei run falliti (`Client.ensureDir` → `Client._openDir` →
+`Client.sendIgnoringError`) e nel fatto che il messaggio arriva **dopo** la riga
+`No file exists on the server "./.ftp-deploy-sync-state.json"`.
 
-Procedura consigliata la prima volta che si aggiunge una cartella:
+È una **corsa**, non un guasto deterministico: a volte il `550` arriva pulito e il run prosegue.
+Questo spiega l'unico successo della tabella storica (prima pubblicazione in `_deploytest/` in
+`ftp`) senza bisogno di invocare il protocollo: su `francescodidio.com` il 19 novembre la stessa
+corsa è stata persa 4 volte su 5, in `ftps` **e in `ftp` in chiaro**.
 
-1. commit e push con `[skip ci]`;
-2. run manuale con `dry_run` spuntato e `server_dir: ./`, controllando che il diff mostri la riga `📁 Creating folder: …`;
-3. run vero con `log_level: verbose`, così in caso di errore si ha il dialogo FTP completo.
+**Procedura per pubblicare in una directory senza manifest** (è il rimedio che qui era già stato
+trovato per tentativi, ora con la spiegazione giusta): caricare a mano il manifest nella root di
+destinazione, col nome esatto `.ftp-deploy-sync-state.json` — col punto iniziale. Un seed minimo
+basta:
 
-Se fallisce: creare la cartella a mano da Plesk e rilanciare. Una cartella preesistente non è un ostacolo — la libreria sottostante ignora l'errore del `MKD` ed entra con `CWD`, come avviene a ogni run incrementale che scrive in `it/docs/` o `content/it/`.
+```json
+{"description": "DO NOT DELETE THIS FILE...", "version": "1.0.0", "generatedTime": 1795021221078, "data": []}
+```
 
-**Rimedio noto se il file di stato va perso** (ha sbloccato la pubblicazione del 16 novembre 2026): invece di affidarsi alla "prima pubblicazione", si ricostruisce un file di stato veritiero e lo si carica a mano nella root. Il sito è statico e pubblico, quindi si può scaricare via HTTP ogni file elencato nel manifest, confrontarne lo sha256 con quello locale e generare un `.ftp-deploy-sync-state.json` che contenga **tutte le cartelle** e **solo i file già allineati**, omettendo quelli da pubblicare. Al run successivo l'action vede le cartelle come esistenti (nessun `MKD`), carica esattamente i file omessi e a fine sync riscrive da sé lo stato corretto.
+Con `data: []` l'action considera il server vuoto, ripubblica tutto e a fine sync riscrive da sé
+il manifest veritiero. Su `francescodidio.com` questo ha trasformato 4 fallimenti su 5 in una
+pubblicazione completa: 32 voci in 17,3 secondi, 28 file su 28 verificati identici via sha256.
+
+**Attenzione al nome.** Su `francescodidio.com` il seed era stato caricato come
+`.ftp-deploy-seed-state.json` — *seed* invece di *sync* — e ogni `RETR` riceveva un `550`
+legittimo. Il messaggio `No file exists on the server` **non distingue** fra file assente e
+canale dati rotto, perché l'action inghiotte l'errore vero in un `catch`. Per sapere quale dei
+due, interroga il server con `SIZE` o `MLSD`, che viaggiano sul canale di controllo.
+
+#### Ipotesi da non riesumare
+
+Scartate con prove alla mano, sui due siti insieme:
+
+- **ban IP o Fail2Ban**: il login riesce in ~2 s anche nei run falliti.
+- **un firewall o un ALG FTP che gatekeepa le porte passive**: dal runner GitHub i trasferimenti
+  cifrati passano.
+- **i file da 0 byte**: pubblicati senza problemi sul canale cifrato.
+- **una protezione anti-flood scattata dopo un picco di connessioni**: dedotta da una
+  coincidenza temporale su `francescodidio.com` e smentita — era il nome del file sbagliato.
+
+### TLS: cifrato non vuol dire verificato
+
+Il deploy usa `protocol: ftps` (TLS esplicito sulla 21) e funziona, ma l'input `security`
+dell'action vale **`loose`** per default, cioè `rejectUnauthorized: false`: il certificato del
+server non viene verificato. Il traffico è cifrato e **non** autenticato, quindi un
+intercettatore sulla rete può presentare un certificato qualunque, terminare il TLS e leggere la
+password FTP in chiaro.
+
+Il certificato di questo hosting è emesso da Let's Encrypt per **`web.marte.vhosting-it.com`**
+(`185.116.60.13`, lo stesso indirizzo del sito) e quel nome è l'unico SAN presente: non
+`occhipintiantonio.com`, non l'IP. Per passare a `security: strict` servono quindi due cose
+insieme:
+
+1. il secret `FTP_SERVER` impostato a `web.marte.vhosting-it.com`;
+2. il fallback di `security` nel workflow portato da `loose` a `strict`.
+
+Cambiarne una sola rompe il deploy: con l'IP o col nome del sito nessun certificato può validare.
+
+Nota sul server gemello: su `francescodidio.com` (`web.ariel.vhosting-it.com`) `security: loose`
+**impediva del tutto** i trasferimenti cifrati, perché l'action gira su Node 24 e il fix di
+CVE-2026-48934 vincola il riuso della sessione TLS a un host autenticato, che senza verifica non
+c'è; quel ProFTPD scarta la connessione dati non ripresa. Qui `loose` funziona, quindi questo
+server accetta sessioni dati non riprese: è una differenza di configurazione fra i due server,
+non una differenza di versione della libreria.
 
 ---
 
