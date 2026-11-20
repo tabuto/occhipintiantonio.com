@@ -265,6 +265,24 @@ insieme:
 
 Cambiarne una sola rompe il deploy: con l'IP o col nome del sito nessun certificato può validare.
 
+**Fatto il 20 novembre 2026.** Entrambe le modifiche sono in esercizio e verificate dal run
+`44780177941`: `230 User logged in` con verifica del certificato superata, canale di controllo in
+`TLSv1.2`, e il manifest riscritto con `Uploading to 185.116.60.13:56096 (TLSv1.3)`, cioè una
+`STOR` sul canale dati cifrato **e** autenticato. 98 voci in pari, 88 file `doing nothing`, zero
+upload di contenuto, 489 ms.
+
+Nota diagnostica utile: il canale dati negozia `TLSv1.3` mentre il controllo è in `TLSv1.2`,
+quindi la sessione **non** viene ripresa — e il trasferimento riesce comunque. È la conferma
+diretta che questo server accetta connessioni dati con sessione TLS nuova, al contrario di
+`web.ariel.vhosting-it.com`.
+
+Attenzione a un falso indizio incontrato per strada: il primo tentativo con `strict` è fallito
+con `530 Login incorrect`, e la tentazione è attribuirlo a `strict`. Non era così — un run
+identico con `loose` dava lo stesso `530`. La password nel secret era stata riscritta il 16
+novembre alle 20:13:13Z, sei minuti **dopo** l'ultimo deploy riuscito (20:06:40Z), quindi quel
+valore non era mai stato usato e non corrispondeva all'account. Il `530` arriva dopo il `331` e
+dopo un handshake TLS andato a buon fine: è autenticazione, non TLS.
+
 Nota sul server gemello: su `francescodidio.com` (`web.ariel.vhosting-it.com`) `security: loose`
 **impediva del tutto** i trasferimenti cifrati, perché l'action gira su Node 24 e il fix di
 CVE-2026-48934 vincola il riuso della sessione TLS a un host autenticato, che senza verifica non

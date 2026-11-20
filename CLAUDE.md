@@ -62,6 +62,6 @@ powder:  '#C44027'   // accento (rosso terracotta)
 ## Learned rules (fact-reflect)
 
 - Nel repo occhipintiantonio.com ogni commit che non deve far partire la pubblicazione sul sito va marcato con [skip ci] nel messaggio, perché un push su master innesca il deploy FTP.
-- Il deploy pubblica in FTPS, ma l'input `security` dell'action vale `loose` per default: cifrato e **non** autenticato. Per renderlo verificato servono due cambi insieme — il secret `FTP_SERVER` a `web.marte.vhosting-it.com` (l'hostname del certificato) e il fallback di `security` a `strict`. Cambiarne uno solo rompe il deploy.
+- Il deploy pubblica in FTPS. Dal 20 novembre 2026 pubblica in **FTPS verificato**: `security: strict` nel workflow e il secret `FTP_SERVER` impostato a `web.marte.vhosting-it.com`, l'hostname del certificato. Le due impostazioni reggono insieme: se qualcuno rimette l'IP o `occhipintiantonio.com` nel secret, il deploy si rompe.
 - Prima di pubblicare in una **directory senza manifest** carica a mano `.ftp-deploy-sync-state.json` (col punto, e con `sync` non `seed` nel nome): senza, il `RETR` del file assente resetta il socket dati e il run muore con `ECONNRESET` su `creating folder`. Il dettaglio è in AGENT.md.
 <!-- fact-reflect:end -->

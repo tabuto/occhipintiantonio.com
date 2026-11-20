@@ -54,13 +54,13 @@ jobs:
           # (se il campo viene svuotato si ricade su ./; cambiare './' qui sotto
           #  in es. public_html/ se la document root non e' la home FTP)
           server-dir: ${{ github.event_name == 'workflow_dispatch' && inputs.server_dir || './' }}
-          # ATTENZIONE: il default dell'action e' 'loose', cioe' rejectUnauthorized: false:
-          # il traffico e' cifrato ma il server NON e' autenticato, quindi un intercettatore
-          # puo' presentare un certificato qualunque e leggere la password FTP. 'strict' lo
-          # impedisce, ma pretende che FTP_SERVER sia l'hostname del certificato
-          # (web.marte.vhosting-it.com, stesso IP del sito). Il fallback del push resta
-          # 'loose' finche' un run non-dry con 'strict' non e' stato verificato: vedi AGENT.md.
-          security: ${{ github.event_name == 'workflow_dispatch' && inputs.security || 'loose' }}
+          # 'strict' = rejectUnauthorized: true. Il default dell'action e' 'loose', che cifra
+          # ma NON autentica il server: un intercettatore potrebbe presentare un certificato
+          # qualunque e leggere la password FTP. 'strict' lo impedisce, ma pretende che
+          # FTP_SERVER sia l'hostname del certificato, web.marte.vhosting-it.com (stesso IP
+          # del sito): con l'IP o con occhipintiantonio.com la verifica non puo' passare e il
+          # deploy si rompe. I due valori vanno cambiati insieme. Vedi AGENT.md.
+          security: ${{ github.event_name == 'workflow_dispatch' && inputs.security || 'strict' }}
           dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
           log-level: ${{ github.event_name == 'workflow_dispatch' && inputs.log_level || 'standard' }}
           timeout: 60000            # 60s: hosting condivisi a volte sono lenti ad aprire il canale dati
